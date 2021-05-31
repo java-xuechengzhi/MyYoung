@@ -3,8 +3,16 @@ project(KaoYan)
 
 set(CMAKE_CXX_STANDARD 14)
 
-
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -fexec-charset=GBK")
 add_executable(InsertSort Sort/InsertSort.cpp)
 add_executable(BubbleSort Sort/BubbleSort.cpp)
 add_executable(QuickSort Sort/QuickSort.cpp)
 add_executable(SelectSort Sort/SelectSort.cpp)
+add_executable(MergeSort Sort/MergeSort.cpp)
+add_executable(BucketSort Sort/BucketSort.cpp)
+add_executable(HeapSort Sort/HeapSort.cpp)
+add_executable(ShellSort Sort/ShellSort.cpp)
+add_executable(BinarySearch Search/BinarySearch.cpp)
+add_executable(KMP Search/KMP.cpp)
+add_executable(SqSearch Search/SqSearch.cpp)
+add_executable(deleteRep Array/deleteRep.cpp)

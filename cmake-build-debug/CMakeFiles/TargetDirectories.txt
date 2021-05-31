@@ -1,6 +1,14 @@
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/InsertSort.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/HeapSort.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/BucketSort.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/MergeSort.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/BubbleSort.dir
-E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/QuickSort.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/SelectSort.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/ShellSort.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/BinarySearch.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/KMP.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/SqSearch.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/deleteRep.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/rebuild_cache.dir

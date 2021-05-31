@@ -142,6 +142,45 @@ InsertSort/fast:
 .PHONY : InsertSort/fast
 
 #=============================================================================
+# Target rules for targets named HeapSort
+
+# Build rule for target.
+HeapSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 HeapSort
+.PHONY : HeapSort
+
+# fast build rule for target.
+HeapSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSort.dir\build.make CMakeFiles/HeapSort.dir/build
+.PHONY : HeapSort/fast
+
+#=============================================================================
+# Target rules for targets named BucketSort
+
+# Build rule for target.
+BucketSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BucketSort
+.PHONY : BucketSort
+
+# fast build rule for target.
+BucketSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BucketSort.dir\build.make CMakeFiles/BucketSort.dir/build
+.PHONY : BucketSort/fast
+
+#=============================================================================
+# Target rules for targets named MergeSort
+
+# Build rule for target.
+MergeSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MergeSort
+.PHONY : MergeSort
+
+# fast build rule for target.
+MergeSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MergeSort.dir\build.make CMakeFiles/MergeSort.dir/build
+.PHONY : MergeSort/fast
+
+#=============================================================================
 # Target rules for targets named BubbleSort
 
 # Build rule for target.
@@ -180,6 +219,179 @@ SelectSort/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SelectSort.dir\build.make CMakeFiles/SelectSort.dir/build
 .PHONY : SelectSort/fast
 
+#=============================================================================
+# Target rules for targets named ShellSort
+
+# Build rule for target.
+ShellSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ShellSort
+.PHONY : ShellSort
+
+# fast build rule for target.
+ShellSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShellSort.dir\build.make CMakeFiles/ShellSort.dir/build
+.PHONY : ShellSort/fast
+
+#=============================================================================
+# Target rules for targets named BinarySearch
+
+# Build rule for target.
+BinarySearch: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BinarySearch
+.PHONY : BinarySearch
+
+# fast build rule for target.
+BinarySearch/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinarySearch.dir\build.make CMakeFiles/BinarySearch.dir/build
+.PHONY : BinarySearch/fast
+
+#=============================================================================
+# Target rules for targets named KMP
+
+# Build rule for target.
+KMP: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 KMP
+.PHONY : KMP
+
+# fast build rule for target.
+KMP/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KMP.dir\build.make CMakeFiles/KMP.dir/build
+.PHONY : KMP/fast
+
+#=============================================================================
+# Target rules for targets named SqSearch
+
+# Build rule for target.
+SqSearch: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SqSearch
+.PHONY : SqSearch
+
+# fast build rule for target.
+SqSearch/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SqSearch.dir\build.make CMakeFiles/SqSearch.dir/build
+.PHONY : SqSearch/fast
+
+#=============================================================================
+# Target rules for targets named deleteRep
+
+# Build rule for target.
+deleteRep: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 deleteRep
+.PHONY : deleteRep
+
+# fast build rule for target.
+deleteRep/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deleteRep.dir\build.make CMakeFiles/deleteRep.dir/build
+.PHONY : deleteRep/fast
+
+Array/deleteRep.obj: Array/deleteRep.cpp.obj
+
+.PHONY : Array/deleteRep.obj
+
+# target to build an object file
+Array/deleteRep.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deleteRep.dir\build.make CMakeFiles/deleteRep.dir/Array/deleteRep.cpp.obj
+.PHONY : Array/deleteRep.cpp.obj
+
+Array/deleteRep.i: Array/deleteRep.cpp.i
+
+.PHONY : Array/deleteRep.i
+
+# target to preprocess a source file
+Array/deleteRep.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deleteRep.dir\build.make CMakeFiles/deleteRep.dir/Array/deleteRep.cpp.i
+.PHONY : Array/deleteRep.cpp.i
+
+Array/deleteRep.s: Array/deleteRep.cpp.s
+
+.PHONY : Array/deleteRep.s
+
+# target to generate assembly for a file
+Array/deleteRep.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\deleteRep.dir\build.make CMakeFiles/deleteRep.dir/Array/deleteRep.cpp.s
+.PHONY : Array/deleteRep.cpp.s
+
+Search/BinarySearch.obj: Search/BinarySearch.cpp.obj
+
+.PHONY : Search/BinarySearch.obj
+
+# target to build an object file
+Search/BinarySearch.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinarySearch.dir\build.make CMakeFiles/BinarySearch.dir/Search/BinarySearch.cpp.obj
+.PHONY : Search/BinarySearch.cpp.obj
+
+Search/BinarySearch.i: Search/BinarySearch.cpp.i
+
+.PHONY : Search/BinarySearch.i
+
+# target to preprocess a source file
+Search/BinarySearch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinarySearch.dir\build.make CMakeFiles/BinarySearch.dir/Search/BinarySearch.cpp.i
+.PHONY : Search/BinarySearch.cpp.i
+
+Search/BinarySearch.s: Search/BinarySearch.cpp.s
+
+.PHONY : Search/BinarySearch.s
+
+# target to generate assembly for a file
+Search/BinarySearch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinarySearch.dir\build.make CMakeFiles/BinarySearch.dir/Search/BinarySearch.cpp.s
+.PHONY : Search/BinarySearch.cpp.s
+
+Search/KMP.obj: Search/KMP.cpp.obj
+
+.PHONY : Search/KMP.obj
+
+# target to build an object file
+Search/KMP.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KMP.dir\build.make CMakeFiles/KMP.dir/Search/KMP.cpp.obj
+.PHONY : Search/KMP.cpp.obj
+
+Search/KMP.i: Search/KMP.cpp.i
+
+.PHONY : Search/KMP.i
+
+# target to preprocess a source file
+Search/KMP.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KMP.dir\build.make CMakeFiles/KMP.dir/Search/KMP.cpp.i
+.PHONY : Search/KMP.cpp.i
+
+Search/KMP.s: Search/KMP.cpp.s
+
+.PHONY : Search/KMP.s
+
+# target to generate assembly for a file
+Search/KMP.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KMP.dir\build.make CMakeFiles/KMP.dir/Search/KMP.cpp.s
+.PHONY : Search/KMP.cpp.s
+
+Search/SqSearch.obj: Search/SqSearch.cpp.obj
+
+.PHONY : Search/SqSearch.obj
+
+# target to build an object file
+Search/SqSearch.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SqSearch.dir\build.make CMakeFiles/SqSearch.dir/Search/SqSearch.cpp.obj
+.PHONY : Search/SqSearch.cpp.obj
+
+Search/SqSearch.i: Search/SqSearch.cpp.i
+
+.PHONY : Search/SqSearch.i
+
+# target to preprocess a source file
+Search/SqSearch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SqSearch.dir\build.make CMakeFiles/SqSearch.dir/Search/SqSearch.cpp.i
+.PHONY : Search/SqSearch.cpp.i
+
+Search/SqSearch.s: Search/SqSearch.cpp.s
+
+.PHONY : Search/SqSearch.s
+
+# target to generate assembly for a file
+Search/SqSearch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SqSearch.dir\build.make CMakeFiles/SqSearch.dir/Search/SqSearch.cpp.s
+.PHONY : Search/SqSearch.cpp.s
+
 Sort/BubbleSort.obj: Sort/BubbleSort.cpp.obj
 
 .PHONY : Sort/BubbleSort.obj
@@ -207,6 +419,60 @@ Sort/BubbleSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/Sort/BubbleSort.cpp.s
 .PHONY : Sort/BubbleSort.cpp.s
 
+Sort/BucketSort.obj: Sort/BucketSort.cpp.obj
+
+.PHONY : Sort/BucketSort.obj
+
+# target to build an object file
+Sort/BucketSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BucketSort.dir\build.make CMakeFiles/BucketSort.dir/Sort/BucketSort.cpp.obj
+.PHONY : Sort/BucketSort.cpp.obj
+
+Sort/BucketSort.i: Sort/BucketSort.cpp.i
+
+.PHONY : Sort/BucketSort.i
+
+# target to preprocess a source file
+Sort/BucketSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BucketSort.dir\build.make CMakeFiles/BucketSort.dir/Sort/BucketSort.cpp.i
+.PHONY : Sort/BucketSort.cpp.i
+
+Sort/BucketSort.s: Sort/BucketSort.cpp.s
+
+.PHONY : Sort/BucketSort.s
+
+# target to generate assembly for a file
+Sort/BucketSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BucketSort.dir\build.make CMakeFiles/BucketSort.dir/Sort/BucketSort.cpp.s
+.PHONY : Sort/BucketSort.cpp.s
+
+Sort/HeapSort.obj: Sort/HeapSort.cpp.obj
+
+.PHONY : Sort/HeapSort.obj
+
+# target to build an object file
+Sort/HeapSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSort.dir\build.make CMakeFiles/HeapSort.dir/Sort/HeapSort.cpp.obj
+.PHONY : Sort/HeapSort.cpp.obj
+
+Sort/HeapSort.i: Sort/HeapSort.cpp.i
+
+.PHONY : Sort/HeapSort.i
+
+# target to preprocess a source file
+Sort/HeapSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSort.dir\build.make CMakeFiles/HeapSort.dir/Sort/HeapSort.cpp.i
+.PHONY : Sort/HeapSort.cpp.i
+
+Sort/HeapSort.s: Sort/HeapSort.cpp.s
+
+.PHONY : Sort/HeapSort.s
+
+# target to generate assembly for a file
+Sort/HeapSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSort.dir\build.make CMakeFiles/HeapSort.dir/Sort/HeapSort.cpp.s
+.PHONY : Sort/HeapSort.cpp.s
+
 Sort/InsertSort.obj: Sort/InsertSort.cpp.obj
 
 .PHONY : Sort/InsertSort.obj
@@ -233,6 +499,33 @@ Sort/InsertSort.s: Sort/InsertSort.cpp.s
 Sort/InsertSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InsertSort.dir\build.make CMakeFiles/InsertSort.dir/Sort/InsertSort.cpp.s
 .PHONY : Sort/InsertSort.cpp.s
+
+Sort/MergeSort.obj: Sort/MergeSort.cpp.obj
+
+.PHONY : Sort/MergeSort.obj
+
+# target to build an object file
+Sort/MergeSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MergeSort.dir\build.make CMakeFiles/MergeSort.dir/Sort/MergeSort.cpp.obj
+.PHONY : Sort/MergeSort.cpp.obj
+
+Sort/MergeSort.i: Sort/MergeSort.cpp.i
+
+.PHONY : Sort/MergeSort.i
+
+# target to preprocess a source file
+Sort/MergeSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MergeSort.dir\build.make CMakeFiles/MergeSort.dir/Sort/MergeSort.cpp.i
+.PHONY : Sort/MergeSort.cpp.i
+
+Sort/MergeSort.s: Sort/MergeSort.cpp.s
+
+.PHONY : Sort/MergeSort.s
+
+# target to generate assembly for a file
+Sort/MergeSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MergeSort.dir\build.make CMakeFiles/MergeSort.dir/Sort/MergeSort.cpp.s
+.PHONY : Sort/MergeSort.cpp.s
 
 Sort/QuickSort.obj: Sort/QuickSort.cpp.obj
 
@@ -288,6 +581,33 @@ Sort/SelectSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SelectSort.dir\build.make CMakeFiles/SelectSort.dir/Sort/SelectSort.cpp.s
 .PHONY : Sort/SelectSort.cpp.s
 
+Sort/ShellSort.obj: Sort/ShellSort.cpp.obj
+
+.PHONY : Sort/ShellSort.obj
+
+# target to build an object file
+Sort/ShellSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShellSort.dir\build.make CMakeFiles/ShellSort.dir/Sort/ShellSort.cpp.obj
+.PHONY : Sort/ShellSort.cpp.obj
+
+Sort/ShellSort.i: Sort/ShellSort.cpp.i
+
+.PHONY : Sort/ShellSort.i
+
+# target to preprocess a source file
+Sort/ShellSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShellSort.dir\build.make CMakeFiles/ShellSort.dir/Sort/ShellSort.cpp.i
+.PHONY : Sort/ShellSort.cpp.i
+
+Sort/ShellSort.s: Sort/ShellSort.cpp.s
+
+.PHONY : Sort/ShellSort.s
+
+# target to generate assembly for a file
+Sort/ShellSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShellSort.dir\build.make CMakeFiles/ShellSort.dir/Sort/ShellSort.cpp.s
+.PHONY : Sort/ShellSort.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -296,22 +616,54 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... BinarySearch
 	@echo ... BubbleSort
+	@echo ... BucketSort
+	@echo ... HeapSort
 	@echo ... InsertSort
+	@echo ... KMP
+	@echo ... MergeSort
 	@echo ... QuickSort
 	@echo ... SelectSort
+	@echo ... ShellSort
+	@echo ... SqSearch
+	@echo ... deleteRep
+	@echo ... Array/deleteRep.obj
+	@echo ... Array/deleteRep.i
+	@echo ... Array/deleteRep.s
+	@echo ... Search/BinarySearch.obj
+	@echo ... Search/BinarySearch.i
+	@echo ... Search/BinarySearch.s
+	@echo ... Search/KMP.obj
+	@echo ... Search/KMP.i
+	@echo ... Search/KMP.s
+	@echo ... Search/SqSearch.obj
+	@echo ... Search/SqSearch.i
+	@echo ... Search/SqSearch.s
 	@echo ... Sort/BubbleSort.obj
 	@echo ... Sort/BubbleSort.i
 	@echo ... Sort/BubbleSort.s
+	@echo ... Sort/BucketSort.obj
+	@echo ... Sort/BucketSort.i
+	@echo ... Sort/BucketSort.s
+	@echo ... Sort/HeapSort.obj
+	@echo ... Sort/HeapSort.i
+	@echo ... Sort/HeapSort.s
 	@echo ... Sort/InsertSort.obj
 	@echo ... Sort/InsertSort.i
 	@echo ... Sort/InsertSort.s
+	@echo ... Sort/MergeSort.obj
+	@echo ... Sort/MergeSort.i
+	@echo ... Sort/MergeSort.s
 	@echo ... Sort/QuickSort.obj
 	@echo ... Sort/QuickSort.i
 	@echo ... Sort/QuickSort.s
 	@echo ... Sort/SelectSort.obj
 	@echo ... Sort/SelectSort.i
 	@echo ... Sort/SelectSort.s
+	@echo ... Sort/ShellSort.obj
+	@echo ... Sort/ShellSort.i
+	@echo ... Sort/ShellSort.s
 .PHONY : help
 
 
