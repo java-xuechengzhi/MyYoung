@@ -1,0 +1,3 @@
+"D:\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\KaoYan.dir/objects.a
+D:\environment\mingw64\bin\ar.exe cr CMakeFiles\KaoYan.dir/objects.a @CMakeFiles\KaoYan.dir\objects1.rsp
+D:\environment\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\KaoYan.dir/objects.a -Wl,--no-whole-archive -o KaoYan.exe -Wl,--out-implib,libKaoYan.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\KaoYan.dir\linklibs.rsp
