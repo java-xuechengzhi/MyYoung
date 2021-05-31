@@ -167,6 +167,19 @@ QuickSort/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuickSort.dir\build.make CMakeFiles/QuickSort.dir/build
 .PHONY : QuickSort/fast
 
+#=============================================================================
+# Target rules for targets named SelectSort
+
+# Build rule for target.
+SelectSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SelectSort
+.PHONY : SelectSort
+
+# fast build rule for target.
+SelectSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SelectSort.dir\build.make CMakeFiles/SelectSort.dir/build
+.PHONY : SelectSort/fast
+
 Sort/BubbleSort.obj: Sort/BubbleSort.cpp.obj
 
 .PHONY : Sort/BubbleSort.obj
@@ -248,6 +261,33 @@ Sort/QuickSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuickSort.dir\build.make CMakeFiles/QuickSort.dir/Sort/QuickSort.cpp.s
 .PHONY : Sort/QuickSort.cpp.s
 
+Sort/SelectSort.obj: Sort/SelectSort.cpp.obj
+
+.PHONY : Sort/SelectSort.obj
+
+# target to build an object file
+Sort/SelectSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SelectSort.dir\build.make CMakeFiles/SelectSort.dir/Sort/SelectSort.cpp.obj
+.PHONY : Sort/SelectSort.cpp.obj
+
+Sort/SelectSort.i: Sort/SelectSort.cpp.i
+
+.PHONY : Sort/SelectSort.i
+
+# target to preprocess a source file
+Sort/SelectSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SelectSort.dir\build.make CMakeFiles/SelectSort.dir/Sort/SelectSort.cpp.i
+.PHONY : Sort/SelectSort.cpp.i
+
+Sort/SelectSort.s: Sort/SelectSort.cpp.s
+
+.PHONY : Sort/SelectSort.s
+
+# target to generate assembly for a file
+Sort/SelectSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SelectSort.dir\build.make CMakeFiles/SelectSort.dir/Sort/SelectSort.cpp.s
+.PHONY : Sort/SelectSort.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -259,6 +299,7 @@ help:
 	@echo ... BubbleSort
 	@echo ... InsertSort
 	@echo ... QuickSort
+	@echo ... SelectSort
 	@echo ... Sort/BubbleSort.obj
 	@echo ... Sort/BubbleSort.i
 	@echo ... Sort/BubbleSort.s
@@ -268,6 +309,9 @@ help:
 	@echo ... Sort/QuickSort.obj
 	@echo ... Sort/QuickSort.i
 	@echo ... Sort/QuickSort.s
+	@echo ... Sort/SelectSort.obj
+	@echo ... Sort/SelectSort.i
+	@echo ... Sort/SelectSort.s
 .PHONY : help
 
 

@@ -2,4 +2,5 @@ E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/InsertSort.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/BubbleSort.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/QuickSort.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/SelectSort.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/rebuild_cache.dir

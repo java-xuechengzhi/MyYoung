@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Cpp/KaoYan/Sort/SelectSort.cpp
+bits/stdc++.h
+E:/Cpp/KaoYan/Sort/bits/stdc++.h
+

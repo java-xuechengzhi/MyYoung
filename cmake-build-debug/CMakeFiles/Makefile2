@@ -74,6 +74,7 @@ CMAKE_BINARY_DIR = E:\Cpp\KaoYan\cmake-build-debug
 all: CMakeFiles/InsertSort.dir/all
 all: CMakeFiles/BubbleSort.dir/all
 all: CMakeFiles/QuickSort.dir/all
+all: CMakeFiles/SelectSort.dir/all
 
 .PHONY : all
 
@@ -86,6 +87,7 @@ preinstall:
 clean: CMakeFiles/InsertSort.dir/clean
 clean: CMakeFiles/BubbleSort.dir/clean
 clean: CMakeFiles/QuickSort.dir/clean
+clean: CMakeFiles/SelectSort.dir/clean
 
 .PHONY : clean
 
@@ -169,6 +171,33 @@ QuickSort: CMakeFiles/QuickSort.dir/rule
 CMakeFiles/QuickSort.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuickSort.dir\build.make CMakeFiles/QuickSort.dir/clean
 .PHONY : CMakeFiles/QuickSort.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/SelectSort.dir
+
+# All Build rule for target.
+CMakeFiles/SelectSort.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SelectSort.dir\build.make CMakeFiles/SelectSort.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SelectSort.dir\build.make CMakeFiles/SelectSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target SelectSort"
+.PHONY : CMakeFiles/SelectSort.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/SelectSort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/SelectSort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/SelectSort.dir/rule
+
+# Convenience name for target.
+SelectSort: CMakeFiles/SelectSort.dir/rule
+
+.PHONY : SelectSort
+
+# clean rule for target.
+CMakeFiles/SelectSort.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SelectSort.dir\build.make CMakeFiles/SelectSort.dir/clean
+.PHONY : CMakeFiles/SelectSort.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
