@@ -1,0 +1,3 @@
+"D:\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\malloc2.dir/objects.a
+D:\environment\mingw64\bin\ar.exe cr CMakeFiles\malloc2.dir/objects.a @CMakeFiles\malloc2.dir\objects1.rsp
+D:\environment\mingw64\bin\g++.exe  -Wall -fexec-charset=GBK -g -Wl,--whole-archive CMakeFiles\malloc2.dir/objects.a -Wl,--no-whole-archive -o malloc2.exe -Wl,--out-implib,libmalloc2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\malloc2.dir\linklibs.rsp

@@ -1,0 +1,3 @@
+"D:\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\isPowerOfFour.dir/objects.a
+D:\environment\mingw64\bin\ar.exe cr CMakeFiles\isPowerOfFour.dir/objects.a @CMakeFiles\isPowerOfFour.dir\objects1.rsp
+D:\environment\mingw64\bin\g++.exe  -Wall -fexec-charset=GBK -g -Wl,--whole-archive CMakeFiles\isPowerOfFour.dir/objects.a -Wl,--no-whole-archive -o isPowerOfFour.exe -Wl,--out-implib,libisPowerOfFour.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\isPowerOfFour.dir\linklibs.rsp

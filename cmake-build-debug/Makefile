@@ -220,6 +220,19 @@ SelectSort/fast:
 .PHONY : SelectSort/fast
 
 #=============================================================================
+# Target rules for targets named Matrix3
+
+# Build rule for target.
+Matrix3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Matrix3
+.PHONY : Matrix3
+
+# fast build rule for target.
+Matrix3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Matrix3.dir\build.make CMakeFiles/Matrix3.dir/build
+.PHONY : Matrix3/fast
+
+#=============================================================================
 # Target rules for targets named ShellSort
 
 # Build rule for target.
@@ -284,6 +297,227 @@ deleteRep/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\deleteRep.dir\build.make CMakeFiles/deleteRep.dir/build
 .PHONY : deleteRep/fast
 
+#=============================================================================
+# Target rules for targets named strPointer
+
+# Build rule for target.
+strPointer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 strPointer
+.PHONY : strPointer
+
+# fast build rule for target.
+strPointer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strPointer.dir\build.make CMakeFiles/strPointer.dir/build
+.PHONY : strPointer/fast
+
+#=============================================================================
+# Target rules for targets named Hash
+
+# Build rule for target.
+Hash: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hash
+.PHONY : Hash
+
+# fast build rule for target.
+Hash/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hash.dir\build.make CMakeFiles/Hash.dir/build
+.PHONY : Hash/fast
+
+#=============================================================================
+# Target rules for targets named RadixSort
+
+# Build rule for target.
+RadixSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RadixSort
+.PHONY : RadixSort
+
+# fast build rule for target.
+RadixSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RadixSort.dir\build.make CMakeFiles/RadixSort.dir/build
+.PHONY : RadixSort/fast
+
+#=============================================================================
+# Target rules for targets named Matrix
+
+# Build rule for target.
+Matrix: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Matrix
+.PHONY : Matrix
+
+# fast build rule for target.
+Matrix/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Matrix.dir\build.make CMakeFiles/Matrix.dir/build
+.PHONY : Matrix/fast
+
+#=============================================================================
+# Target rules for targets named Matrix2
+
+# Build rule for target.
+Matrix2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Matrix2
+.PHONY : Matrix2
+
+# fast build rule for target.
+Matrix2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Matrix2.dir\build.make CMakeFiles/Matrix2.dir/build
+.PHONY : Matrix2/fast
+
+#=============================================================================
+# Target rules for targets named strlen
+
+# Build rule for target.
+strlen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 strlen
+.PHONY : strlen
+
+# fast build rule for target.
+strlen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strlen.dir\build.make CMakeFiles/strlen.dir/build
+.PHONY : strlen/fast
+
+#=============================================================================
+# Target rules for targets named strPointer2
+
+# Build rule for target.
+strPointer2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 strPointer2
+.PHONY : strPointer2
+
+# fast build rule for target.
+strPointer2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strPointer2.dir\build.make CMakeFiles/strPointer2.dir/build
+.PHONY : strPointer2/fast
+
+#=============================================================================
+# Target rules for targets named qsort
+
+# Build rule for target.
+qsort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 qsort
+.PHONY : qsort
+
+# fast build rule for target.
+qsort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qsort.dir\build.make CMakeFiles/qsort.dir/build
+.PHONY : qsort/fast
+
+#=============================================================================
+# Target rules for targets named isPowerOfFour
+
+# Build rule for target.
+isPowerOfFour: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 isPowerOfFour
+.PHONY : isPowerOfFour
+
+# fast build rule for target.
+isPowerOfFour/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isPowerOfFour.dir\build.make CMakeFiles/isPowerOfFour.dir/build
+.PHONY : isPowerOfFour/fast
+
+#=============================================================================
+# Target rules for targets named FunctionPointer
+
+# Build rule for target.
+FunctionPointer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FunctionPointer
+.PHONY : FunctionPointer
+
+# fast build rule for target.
+FunctionPointer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FunctionPointer.dir\build.make CMakeFiles/FunctionPointer.dir/build
+.PHONY : FunctionPointer/fast
+
+#=============================================================================
+# Target rules for targets named SecondPointer
+
+# Build rule for target.
+SecondPointer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SecondPointer
+.PHONY : SecondPointer
+
+# fast build rule for target.
+SecondPointer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SecondPointer.dir\build.make CMakeFiles/SecondPointer.dir/build
+.PHONY : SecondPointer/fast
+
+#=============================================================================
+# Target rules for targets named enum
+
+# Build rule for target.
+enum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 enum
+.PHONY : enum
+
+# fast build rule for target.
+enum/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\enum.dir\build.make CMakeFiles/enum.dir/build
+.PHONY : enum/fast
+
+#=============================================================================
+# Target rules for targets named calloc
+
+# Build rule for target.
+calloc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 calloc
+.PHONY : calloc
+
+# fast build rule for target.
+calloc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calloc.dir\build.make CMakeFiles/calloc.dir/build
+.PHONY : calloc/fast
+
+#=============================================================================
+# Target rules for targets named malloc2
+
+# Build rule for target.
+malloc2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 malloc2
+.PHONY : malloc2
+
+# fast build rule for target.
+malloc2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\malloc2.dir\build.make CMakeFiles/malloc2.dir/build
+.PHONY : malloc2/fast
+
+#=============================================================================
+# Target rules for targets named malloc
+
+# Build rule for target.
+malloc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 malloc
+.PHONY : malloc
+
+# fast build rule for target.
+malloc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\malloc.dir\build.make CMakeFiles/malloc.dir/build
+.PHONY : malloc/fast
+
+#=============================================================================
+# Target rules for targets named realloc
+
+# Build rule for target.
+realloc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 realloc
+.PHONY : realloc
+
+# fast build rule for target.
+realloc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\realloc.dir\build.make CMakeFiles/realloc.dir/build
+.PHONY : realloc/fast
+
+#=============================================================================
+# Target rules for targets named free
+
+# Build rule for target.
+free: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 free
+.PHONY : free
+
+# fast build rule for target.
+free/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\free.dir\build.make CMakeFiles/free.dir/build
+.PHONY : free/fast
+
 Array/deleteRep.obj: Array/deleteRep.cpp.obj
 
 .PHONY : Array/deleteRep.obj
@@ -310,6 +544,438 @@ Array/deleteRep.s: Array/deleteRep.cpp.s
 Array/deleteRep.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\deleteRep.dir\build.make CMakeFiles/deleteRep.dir/Array/deleteRep.cpp.s
 .PHONY : Array/deleteRep.cpp.s
+
+C/FunctionPointer.obj: C/FunctionPointer.c.obj
+
+.PHONY : C/FunctionPointer.obj
+
+# target to build an object file
+C/FunctionPointer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FunctionPointer.dir\build.make CMakeFiles/FunctionPointer.dir/C/FunctionPointer.c.obj
+.PHONY : C/FunctionPointer.c.obj
+
+C/FunctionPointer.i: C/FunctionPointer.c.i
+
+.PHONY : C/FunctionPointer.i
+
+# target to preprocess a source file
+C/FunctionPointer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FunctionPointer.dir\build.make CMakeFiles/FunctionPointer.dir/C/FunctionPointer.c.i
+.PHONY : C/FunctionPointer.c.i
+
+C/FunctionPointer.s: C/FunctionPointer.c.s
+
+.PHONY : C/FunctionPointer.s
+
+# target to generate assembly for a file
+C/FunctionPointer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FunctionPointer.dir\build.make CMakeFiles/FunctionPointer.dir/C/FunctionPointer.c.s
+.PHONY : C/FunctionPointer.c.s
+
+C/Matrix.obj: C/Matrix.c.obj
+
+.PHONY : C/Matrix.obj
+
+# target to build an object file
+C/Matrix.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Matrix.dir\build.make CMakeFiles/Matrix.dir/C/Matrix.c.obj
+.PHONY : C/Matrix.c.obj
+
+C/Matrix.i: C/Matrix.c.i
+
+.PHONY : C/Matrix.i
+
+# target to preprocess a source file
+C/Matrix.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Matrix.dir\build.make CMakeFiles/Matrix.dir/C/Matrix.c.i
+.PHONY : C/Matrix.c.i
+
+C/Matrix.s: C/Matrix.c.s
+
+.PHONY : C/Matrix.s
+
+# target to generate assembly for a file
+C/Matrix.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Matrix.dir\build.make CMakeFiles/Matrix.dir/C/Matrix.c.s
+.PHONY : C/Matrix.c.s
+
+C/Matrix2.obj: C/Matrix2.c.obj
+
+.PHONY : C/Matrix2.obj
+
+# target to build an object file
+C/Matrix2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Matrix2.dir\build.make CMakeFiles/Matrix2.dir/C/Matrix2.c.obj
+.PHONY : C/Matrix2.c.obj
+
+C/Matrix2.i: C/Matrix2.c.i
+
+.PHONY : C/Matrix2.i
+
+# target to preprocess a source file
+C/Matrix2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Matrix2.dir\build.make CMakeFiles/Matrix2.dir/C/Matrix2.c.i
+.PHONY : C/Matrix2.c.i
+
+C/Matrix2.s: C/Matrix2.c.s
+
+.PHONY : C/Matrix2.s
+
+# target to generate assembly for a file
+C/Matrix2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Matrix2.dir\build.make CMakeFiles/Matrix2.dir/C/Matrix2.c.s
+.PHONY : C/Matrix2.c.s
+
+C/Matrix3.obj: C/Matrix3.c.obj
+
+.PHONY : C/Matrix3.obj
+
+# target to build an object file
+C/Matrix3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Matrix3.dir\build.make CMakeFiles/Matrix3.dir/C/Matrix3.c.obj
+.PHONY : C/Matrix3.c.obj
+
+C/Matrix3.i: C/Matrix3.c.i
+
+.PHONY : C/Matrix3.i
+
+# target to preprocess a source file
+C/Matrix3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Matrix3.dir\build.make CMakeFiles/Matrix3.dir/C/Matrix3.c.i
+.PHONY : C/Matrix3.c.i
+
+C/Matrix3.s: C/Matrix3.c.s
+
+.PHONY : C/Matrix3.s
+
+# target to generate assembly for a file
+C/Matrix3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Matrix3.dir\build.make CMakeFiles/Matrix3.dir/C/Matrix3.c.s
+.PHONY : C/Matrix3.c.s
+
+C/SecondPointer.obj: C/SecondPointer.c.obj
+
+.PHONY : C/SecondPointer.obj
+
+# target to build an object file
+C/SecondPointer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SecondPointer.dir\build.make CMakeFiles/SecondPointer.dir/C/SecondPointer.c.obj
+.PHONY : C/SecondPointer.c.obj
+
+C/SecondPointer.i: C/SecondPointer.c.i
+
+.PHONY : C/SecondPointer.i
+
+# target to preprocess a source file
+C/SecondPointer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SecondPointer.dir\build.make CMakeFiles/SecondPointer.dir/C/SecondPointer.c.i
+.PHONY : C/SecondPointer.c.i
+
+C/SecondPointer.s: C/SecondPointer.c.s
+
+.PHONY : C/SecondPointer.s
+
+# target to generate assembly for a file
+C/SecondPointer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SecondPointer.dir\build.make CMakeFiles/SecondPointer.dir/C/SecondPointer.c.s
+.PHONY : C/SecondPointer.c.s
+
+C/calloc.obj: C/calloc.cpp.obj
+
+.PHONY : C/calloc.obj
+
+# target to build an object file
+C/calloc.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calloc.dir\build.make CMakeFiles/calloc.dir/C/calloc.cpp.obj
+.PHONY : C/calloc.cpp.obj
+
+C/calloc.i: C/calloc.cpp.i
+
+.PHONY : C/calloc.i
+
+# target to preprocess a source file
+C/calloc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calloc.dir\build.make CMakeFiles/calloc.dir/C/calloc.cpp.i
+.PHONY : C/calloc.cpp.i
+
+C/calloc.s: C/calloc.cpp.s
+
+.PHONY : C/calloc.s
+
+# target to generate assembly for a file
+C/calloc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calloc.dir\build.make CMakeFiles/calloc.dir/C/calloc.cpp.s
+.PHONY : C/calloc.cpp.s
+
+C/enum.obj: C/enum.c.obj
+
+.PHONY : C/enum.obj
+
+# target to build an object file
+C/enum.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\enum.dir\build.make CMakeFiles/enum.dir/C/enum.c.obj
+.PHONY : C/enum.c.obj
+
+C/enum.i: C/enum.c.i
+
+.PHONY : C/enum.i
+
+# target to preprocess a source file
+C/enum.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\enum.dir\build.make CMakeFiles/enum.dir/C/enum.c.i
+.PHONY : C/enum.c.i
+
+C/enum.s: C/enum.c.s
+
+.PHONY : C/enum.s
+
+# target to generate assembly for a file
+C/enum.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\enum.dir\build.make CMakeFiles/enum.dir/C/enum.c.s
+.PHONY : C/enum.c.s
+
+C/free.obj: C/free.cpp.obj
+
+.PHONY : C/free.obj
+
+# target to build an object file
+C/free.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\free.dir\build.make CMakeFiles/free.dir/C/free.cpp.obj
+.PHONY : C/free.cpp.obj
+
+C/free.i: C/free.cpp.i
+
+.PHONY : C/free.i
+
+# target to preprocess a source file
+C/free.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\free.dir\build.make CMakeFiles/free.dir/C/free.cpp.i
+.PHONY : C/free.cpp.i
+
+C/free.s: C/free.cpp.s
+
+.PHONY : C/free.s
+
+# target to generate assembly for a file
+C/free.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\free.dir\build.make CMakeFiles/free.dir/C/free.cpp.s
+.PHONY : C/free.cpp.s
+
+C/isPowerOfFour.obj: C/isPowerOfFour.cpp.obj
+
+.PHONY : C/isPowerOfFour.obj
+
+# target to build an object file
+C/isPowerOfFour.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isPowerOfFour.dir\build.make CMakeFiles/isPowerOfFour.dir/C/isPowerOfFour.cpp.obj
+.PHONY : C/isPowerOfFour.cpp.obj
+
+C/isPowerOfFour.i: C/isPowerOfFour.cpp.i
+
+.PHONY : C/isPowerOfFour.i
+
+# target to preprocess a source file
+C/isPowerOfFour.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isPowerOfFour.dir\build.make CMakeFiles/isPowerOfFour.dir/C/isPowerOfFour.cpp.i
+.PHONY : C/isPowerOfFour.cpp.i
+
+C/isPowerOfFour.s: C/isPowerOfFour.cpp.s
+
+.PHONY : C/isPowerOfFour.s
+
+# target to generate assembly for a file
+C/isPowerOfFour.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isPowerOfFour.dir\build.make CMakeFiles/isPowerOfFour.dir/C/isPowerOfFour.cpp.s
+.PHONY : C/isPowerOfFour.cpp.s
+
+C/malloc.obj: C/malloc.c.obj
+
+.PHONY : C/malloc.obj
+
+# target to build an object file
+C/malloc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\malloc.dir\build.make CMakeFiles/malloc.dir/C/malloc.c.obj
+.PHONY : C/malloc.c.obj
+
+C/malloc.i: C/malloc.c.i
+
+.PHONY : C/malloc.i
+
+# target to preprocess a source file
+C/malloc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\malloc.dir\build.make CMakeFiles/malloc.dir/C/malloc.c.i
+.PHONY : C/malloc.c.i
+
+C/malloc.s: C/malloc.c.s
+
+.PHONY : C/malloc.s
+
+# target to generate assembly for a file
+C/malloc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\malloc.dir\build.make CMakeFiles/malloc.dir/C/malloc.c.s
+.PHONY : C/malloc.c.s
+
+C/malloc2.obj: C/malloc2.cpp.obj
+
+.PHONY : C/malloc2.obj
+
+# target to build an object file
+C/malloc2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\malloc2.dir\build.make CMakeFiles/malloc2.dir/C/malloc2.cpp.obj
+.PHONY : C/malloc2.cpp.obj
+
+C/malloc2.i: C/malloc2.cpp.i
+
+.PHONY : C/malloc2.i
+
+# target to preprocess a source file
+C/malloc2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\malloc2.dir\build.make CMakeFiles/malloc2.dir/C/malloc2.cpp.i
+.PHONY : C/malloc2.cpp.i
+
+C/malloc2.s: C/malloc2.cpp.s
+
+.PHONY : C/malloc2.s
+
+# target to generate assembly for a file
+C/malloc2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\malloc2.dir\build.make CMakeFiles/malloc2.dir/C/malloc2.cpp.s
+.PHONY : C/malloc2.cpp.s
+
+C/qsort.obj: C/qsort.c.obj
+
+.PHONY : C/qsort.obj
+
+# target to build an object file
+C/qsort.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qsort.dir\build.make CMakeFiles/qsort.dir/C/qsort.c.obj
+.PHONY : C/qsort.c.obj
+
+C/qsort.i: C/qsort.c.i
+
+.PHONY : C/qsort.i
+
+# target to preprocess a source file
+C/qsort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qsort.dir\build.make CMakeFiles/qsort.dir/C/qsort.c.i
+.PHONY : C/qsort.c.i
+
+C/qsort.s: C/qsort.c.s
+
+.PHONY : C/qsort.s
+
+# target to generate assembly for a file
+C/qsort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qsort.dir\build.make CMakeFiles/qsort.dir/C/qsort.c.s
+.PHONY : C/qsort.c.s
+
+C/realloc.obj: C/realloc.cpp.obj
+
+.PHONY : C/realloc.obj
+
+# target to build an object file
+C/realloc.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\realloc.dir\build.make CMakeFiles/realloc.dir/C/realloc.cpp.obj
+.PHONY : C/realloc.cpp.obj
+
+C/realloc.i: C/realloc.cpp.i
+
+.PHONY : C/realloc.i
+
+# target to preprocess a source file
+C/realloc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\realloc.dir\build.make CMakeFiles/realloc.dir/C/realloc.cpp.i
+.PHONY : C/realloc.cpp.i
+
+C/realloc.s: C/realloc.cpp.s
+
+.PHONY : C/realloc.s
+
+# target to generate assembly for a file
+C/realloc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\realloc.dir\build.make CMakeFiles/realloc.dir/C/realloc.cpp.s
+.PHONY : C/realloc.cpp.s
+
+C/strPointer.obj: C/strPointer.c.obj
+
+.PHONY : C/strPointer.obj
+
+# target to build an object file
+C/strPointer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strPointer.dir\build.make CMakeFiles/strPointer.dir/C/strPointer.c.obj
+.PHONY : C/strPointer.c.obj
+
+C/strPointer.i: C/strPointer.c.i
+
+.PHONY : C/strPointer.i
+
+# target to preprocess a source file
+C/strPointer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strPointer.dir\build.make CMakeFiles/strPointer.dir/C/strPointer.c.i
+.PHONY : C/strPointer.c.i
+
+C/strPointer.s: C/strPointer.c.s
+
+.PHONY : C/strPointer.s
+
+# target to generate assembly for a file
+C/strPointer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strPointer.dir\build.make CMakeFiles/strPointer.dir/C/strPointer.c.s
+.PHONY : C/strPointer.c.s
+
+C/strPointer2.obj: C/strPointer2.c.obj
+
+.PHONY : C/strPointer2.obj
+
+# target to build an object file
+C/strPointer2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strPointer2.dir\build.make CMakeFiles/strPointer2.dir/C/strPointer2.c.obj
+.PHONY : C/strPointer2.c.obj
+
+C/strPointer2.i: C/strPointer2.c.i
+
+.PHONY : C/strPointer2.i
+
+# target to preprocess a source file
+C/strPointer2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strPointer2.dir\build.make CMakeFiles/strPointer2.dir/C/strPointer2.c.i
+.PHONY : C/strPointer2.c.i
+
+C/strPointer2.s: C/strPointer2.c.s
+
+.PHONY : C/strPointer2.s
+
+# target to generate assembly for a file
+C/strPointer2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strPointer2.dir\build.make CMakeFiles/strPointer2.dir/C/strPointer2.c.s
+.PHONY : C/strPointer2.c.s
+
+C/strlen.obj: C/strlen.c.obj
+
+.PHONY : C/strlen.obj
+
+# target to build an object file
+C/strlen.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strlen.dir\build.make CMakeFiles/strlen.dir/C/strlen.c.obj
+.PHONY : C/strlen.c.obj
+
+C/strlen.i: C/strlen.c.i
+
+.PHONY : C/strlen.i
+
+# target to preprocess a source file
+C/strlen.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strlen.dir\build.make CMakeFiles/strlen.dir/C/strlen.c.i
+.PHONY : C/strlen.c.i
+
+C/strlen.s: C/strlen.c.s
+
+.PHONY : C/strlen.s
+
+# target to generate assembly for a file
+C/strlen.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strlen.dir\build.make CMakeFiles/strlen.dir/C/strlen.c.s
+.PHONY : C/strlen.c.s
 
 Search/BinarySearch.obj: Search/BinarySearch.cpp.obj
 
@@ -554,6 +1220,33 @@ Sort/QuickSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuickSort.dir\build.make CMakeFiles/QuickSort.dir/Sort/QuickSort.cpp.s
 .PHONY : Sort/QuickSort.cpp.s
 
+Sort/RadixSort.obj: Sort/RadixSort.cpp.obj
+
+.PHONY : Sort/RadixSort.obj
+
+# target to build an object file
+Sort/RadixSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RadixSort.dir\build.make CMakeFiles/RadixSort.dir/Sort/RadixSort.cpp.obj
+.PHONY : Sort/RadixSort.cpp.obj
+
+Sort/RadixSort.i: Sort/RadixSort.cpp.i
+
+.PHONY : Sort/RadixSort.i
+
+# target to preprocess a source file
+Sort/RadixSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RadixSort.dir\build.make CMakeFiles/RadixSort.dir/Sort/RadixSort.cpp.i
+.PHONY : Sort/RadixSort.cpp.i
+
+Sort/RadixSort.s: Sort/RadixSort.cpp.s
+
+.PHONY : Sort/RadixSort.s
+
+# target to generate assembly for a file
+Sort/RadixSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RadixSort.dir\build.make CMakeFiles/RadixSort.dir/Sort/RadixSort.cpp.s
+.PHONY : Sort/RadixSort.cpp.s
+
 Sort/SelectSort.obj: Sort/SelectSort.cpp.obj
 
 .PHONY : Sort/SelectSort.obj
@@ -608,6 +1301,33 @@ Sort/ShellSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShellSort.dir\build.make CMakeFiles/ShellSort.dir/Sort/ShellSort.cpp.s
 .PHONY : Sort/ShellSort.cpp.s
 
+String/Hash.obj: String/Hash.cpp.obj
+
+.PHONY : String/Hash.obj
+
+# target to build an object file
+String/Hash.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hash.dir\build.make CMakeFiles/Hash.dir/String/Hash.cpp.obj
+.PHONY : String/Hash.cpp.obj
+
+String/Hash.i: String/Hash.cpp.i
+
+.PHONY : String/Hash.i
+
+# target to preprocess a source file
+String/Hash.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hash.dir\build.make CMakeFiles/Hash.dir/String/Hash.cpp.i
+.PHONY : String/Hash.cpp.i
+
+String/Hash.s: String/Hash.cpp.s
+
+.PHONY : String/Hash.s
+
+# target to generate assembly for a file
+String/Hash.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hash.dir\build.make CMakeFiles/Hash.dir/String/Hash.cpp.s
+.PHONY : String/Hash.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -619,18 +1339,84 @@ help:
 	@echo ... BinarySearch
 	@echo ... BubbleSort
 	@echo ... BucketSort
+	@echo ... FunctionPointer
+	@echo ... Hash
 	@echo ... HeapSort
 	@echo ... InsertSort
 	@echo ... KMP
+	@echo ... Matrix
+	@echo ... Matrix2
+	@echo ... Matrix3
 	@echo ... MergeSort
 	@echo ... QuickSort
+	@echo ... RadixSort
+	@echo ... SecondPointer
 	@echo ... SelectSort
 	@echo ... ShellSort
 	@echo ... SqSearch
+	@echo ... calloc
 	@echo ... deleteRep
+	@echo ... enum
+	@echo ... free
+	@echo ... isPowerOfFour
+	@echo ... malloc
+	@echo ... malloc2
+	@echo ... qsort
+	@echo ... realloc
+	@echo ... strPointer
+	@echo ... strPointer2
+	@echo ... strlen
 	@echo ... Array/deleteRep.obj
 	@echo ... Array/deleteRep.i
 	@echo ... Array/deleteRep.s
+	@echo ... C/FunctionPointer.obj
+	@echo ... C/FunctionPointer.i
+	@echo ... C/FunctionPointer.s
+	@echo ... C/Matrix.obj
+	@echo ... C/Matrix.i
+	@echo ... C/Matrix.s
+	@echo ... C/Matrix2.obj
+	@echo ... C/Matrix2.i
+	@echo ... C/Matrix2.s
+	@echo ... C/Matrix3.obj
+	@echo ... C/Matrix3.i
+	@echo ... C/Matrix3.s
+	@echo ... C/SecondPointer.obj
+	@echo ... C/SecondPointer.i
+	@echo ... C/SecondPointer.s
+	@echo ... C/calloc.obj
+	@echo ... C/calloc.i
+	@echo ... C/calloc.s
+	@echo ... C/enum.obj
+	@echo ... C/enum.i
+	@echo ... C/enum.s
+	@echo ... C/free.obj
+	@echo ... C/free.i
+	@echo ... C/free.s
+	@echo ... C/isPowerOfFour.obj
+	@echo ... C/isPowerOfFour.i
+	@echo ... C/isPowerOfFour.s
+	@echo ... C/malloc.obj
+	@echo ... C/malloc.i
+	@echo ... C/malloc.s
+	@echo ... C/malloc2.obj
+	@echo ... C/malloc2.i
+	@echo ... C/malloc2.s
+	@echo ... C/qsort.obj
+	@echo ... C/qsort.i
+	@echo ... C/qsort.s
+	@echo ... C/realloc.obj
+	@echo ... C/realloc.i
+	@echo ... C/realloc.s
+	@echo ... C/strPointer.obj
+	@echo ... C/strPointer.i
+	@echo ... C/strPointer.s
+	@echo ... C/strPointer2.obj
+	@echo ... C/strPointer2.i
+	@echo ... C/strPointer2.s
+	@echo ... C/strlen.obj
+	@echo ... C/strlen.i
+	@echo ... C/strlen.s
 	@echo ... Search/BinarySearch.obj
 	@echo ... Search/BinarySearch.i
 	@echo ... Search/BinarySearch.s
@@ -658,12 +1444,18 @@ help:
 	@echo ... Sort/QuickSort.obj
 	@echo ... Sort/QuickSort.i
 	@echo ... Sort/QuickSort.s
+	@echo ... Sort/RadixSort.obj
+	@echo ... Sort/RadixSort.i
+	@echo ... Sort/RadixSort.s
 	@echo ... Sort/SelectSort.obj
 	@echo ... Sort/SelectSort.i
 	@echo ... Sort/SelectSort.s
 	@echo ... Sort/ShellSort.obj
 	@echo ... Sort/ShellSort.i
 	@echo ... Sort/ShellSort.s
+	@echo ... String/Hash.obj
+	@echo ... String/Hash.i
+	@echo ... String/Hash.s
 .PHONY : help
 
 

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Cpp/KaoYan/C/malloc2.cpp
+stdio.h
+-
+stdlib.h
+E:/Cpp/KaoYan/C/stdlib.h
+

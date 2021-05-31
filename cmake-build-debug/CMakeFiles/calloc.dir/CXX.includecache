@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Cpp/KaoYan/C/calloc.cpp
+stdio.h
+-
+cstdlib
+E:/Cpp/KaoYan/C/cstdlib
+

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Cpp/KaoYan/C/Matrix.c
+stdlib.h
+E:/Cpp/KaoYan/C/stdlib.h
+stdio.h
+E:/Cpp/KaoYan/C/stdio.h
+
