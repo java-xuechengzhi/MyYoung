@@ -129,6 +129,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named sortArrayByParityII
+
+# Build rule for target.
+sortArrayByParityII: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sortArrayByParityII
+.PHONY : sortArrayByParityII
+
+# fast build rule for target.
+sortArrayByParityII/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sortArrayByParityII.dir\build.make CMakeFiles/sortArrayByParityII.dir/build
+.PHONY : sortArrayByParityII/fast
+
+#=============================================================================
 # Target rules for targets named InsertSort
 
 # Build rule for target.
@@ -192,6 +205,19 @@ BubbleSort: cmake_check_build_system
 BubbleSort/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/build
 .PHONY : BubbleSort/fast
+
+#=============================================================================
+# Target rules for targets named intersection
+
+# Build rule for target.
+intersection: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 intersection
+.PHONY : intersection
+
+# fast build rule for target.
+intersection/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\intersection.dir\build.make CMakeFiles/intersection.dir/build
+.PHONY : intersection/fast
 
 #=============================================================================
 # Target rules for targets named QuickSort
@@ -415,6 +441,19 @@ isPowerOfFour/fast:
 .PHONY : isPowerOfFour/fast
 
 #=============================================================================
+# Target rules for targets named SearchBST
+
+# Build rule for target.
+SearchBST: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SearchBST
+.PHONY : SearchBST
+
+# fast build rule for target.
+SearchBST/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchBST.dir\build.make CMakeFiles/SearchBST.dir/build
+.PHONY : SearchBST/fast
+
+#=============================================================================
 # Target rules for targets named FunctionPointer
 
 # Build rule for target.
@@ -426,6 +465,19 @@ FunctionPointer: cmake_check_build_system
 FunctionPointer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FunctionPointer.dir\build.make CMakeFiles/FunctionPointer.dir/build
 .PHONY : FunctionPointer/fast
+
+#=============================================================================
+# Target rules for targets named RelativeSortArray
+
+# Build rule for target.
+RelativeSortArray: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RelativeSortArray
+.PHONY : RelativeSortArray
+
+# fast build rule for target.
+RelativeSortArray/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RelativeSortArray.dir\build.make CMakeFiles/RelativeSortArray.dir/build
+.PHONY : RelativeSortArray/fast
 
 #=============================================================================
 # Target rules for targets named SecondPointer
@@ -465,6 +517,32 @@ calloc: cmake_check_build_system
 calloc/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\calloc.dir\build.make CMakeFiles/calloc.dir/build
 .PHONY : calloc/fast
+
+#=============================================================================
+# Target rules for targets named FrequencySort
+
+# Build rule for target.
+FrequencySort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FrequencySort
+.PHONY : FrequencySort
+
+# fast build rule for target.
+FrequencySort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FrequencySort.dir\build.make CMakeFiles/FrequencySort.dir/build
+.PHONY : FrequencySort/fast
+
+#=============================================================================
+# Target rules for targets named isBalanced
+
+# Build rule for target.
+isBalanced: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 isBalanced
+.PHONY : isBalanced
+
+# fast build rule for target.
+isBalanced/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isBalanced.dir\build.make CMakeFiles/isBalanced.dir/build
+.PHONY : isBalanced/fast
 
 #=============================================================================
 # Target rules for targets named malloc2
@@ -518,6 +596,124 @@ free/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\free.dir\build.make CMakeFiles/free.dir/build
 .PHONY : free/fast
 
+#=============================================================================
+# Target rules for targets named findRepeatNumber
+
+# Build rule for target.
+findRepeatNumber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 findRepeatNumber
+.PHONY : findRepeatNumber
+
+# fast build rule for target.
+findRepeatNumber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\findRepeatNumber.dir\build.make CMakeFiles/findRepeatNumber.dir/build
+.PHONY : findRepeatNumber/fast
+
+#=============================================================================
+# Target rules for targets named minDepth
+
+# Build rule for target.
+minDepth: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 minDepth
+.PHONY : minDepth
+
+# fast build rule for target.
+minDepth/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\minDepth.dir\build.make CMakeFiles/minDepth.dir/build
+.PHONY : minDepth/fast
+
+#=============================================================================
+# Target rules for targets named MinHeightTree
+
+# Build rule for target.
+MinHeightTree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MinHeightTree
+.PHONY : MinHeightTree
+
+# fast build rule for target.
+MinHeightTree/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinHeightTree.dir\build.make CMakeFiles/MinHeightTree.dir/build
+.PHONY : MinHeightTree/fast
+
+#=============================================================================
+# Target rules for targets named sortArrayByParity
+
+# Build rule for target.
+sortArrayByParity: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sortArrayByParity
+.PHONY : sortArrayByParity
+
+# fast build rule for target.
+sortArrayByParity/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sortArrayByParity.dir\build.make CMakeFiles/sortArrayByParity.dir/build
+.PHONY : sortArrayByParity/fast
+
+#=============================================================================
+# Target rules for targets named MaxDepth
+
+# Build rule for target.
+MaxDepth: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MaxDepth
+.PHONY : MaxDepth
+
+# fast build rule for target.
+MaxDepth/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxDepth.dir\build.make CMakeFiles/MaxDepth.dir/build
+.PHONY : MaxDepth/fast
+
+#=============================================================================
+# Target rules for targets named RunningSum
+
+# Build rule for target.
+RunningSum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RunningSum
+.PHONY : RunningSum
+
+# fast build rule for target.
+RunningSum/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RunningSum.dir\build.make CMakeFiles/RunningSum.dir/build
+.PHONY : RunningSum/fast
+
+#=============================================================================
+# Target rules for targets named RemoveOutermostParentheses
+
+# Build rule for target.
+RemoveOutermostParentheses: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RemoveOutermostParentheses
+.PHONY : RemoveOutermostParentheses
+
+# fast build rule for target.
+RemoveOutermostParentheses/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RemoveOutermostParentheses.dir\build.make CMakeFiles/RemoveOutermostParentheses.dir/build
+.PHONY : RemoveOutermostParentheses/fast
+
+Array/RunningSum.obj: Array/RunningSum.cpp.obj
+
+.PHONY : Array/RunningSum.obj
+
+# target to build an object file
+Array/RunningSum.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RunningSum.dir\build.make CMakeFiles/RunningSum.dir/Array/RunningSum.cpp.obj
+.PHONY : Array/RunningSum.cpp.obj
+
+Array/RunningSum.i: Array/RunningSum.cpp.i
+
+.PHONY : Array/RunningSum.i
+
+# target to preprocess a source file
+Array/RunningSum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RunningSum.dir\build.make CMakeFiles/RunningSum.dir/Array/RunningSum.cpp.i
+.PHONY : Array/RunningSum.cpp.i
+
+Array/RunningSum.s: Array/RunningSum.cpp.s
+
+.PHONY : Array/RunningSum.s
+
+# target to generate assembly for a file
+Array/RunningSum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RunningSum.dir\build.make CMakeFiles/RunningSum.dir/Array/RunningSum.cpp.s
+.PHONY : Array/RunningSum.cpp.s
+
 Array/deleteRep.obj: Array/deleteRep.cpp.obj
 
 .PHONY : Array/deleteRep.obj
@@ -544,6 +740,60 @@ Array/deleteRep.s: Array/deleteRep.cpp.s
 Array/deleteRep.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\deleteRep.dir\build.make CMakeFiles/deleteRep.dir/Array/deleteRep.cpp.s
 .PHONY : Array/deleteRep.cpp.s
+
+Array/findRepeatNumber.obj: Array/findRepeatNumber.cpp.obj
+
+.PHONY : Array/findRepeatNumber.obj
+
+# target to build an object file
+Array/findRepeatNumber.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\findRepeatNumber.dir\build.make CMakeFiles/findRepeatNumber.dir/Array/findRepeatNumber.cpp.obj
+.PHONY : Array/findRepeatNumber.cpp.obj
+
+Array/findRepeatNumber.i: Array/findRepeatNumber.cpp.i
+
+.PHONY : Array/findRepeatNumber.i
+
+# target to preprocess a source file
+Array/findRepeatNumber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\findRepeatNumber.dir\build.make CMakeFiles/findRepeatNumber.dir/Array/findRepeatNumber.cpp.i
+.PHONY : Array/findRepeatNumber.cpp.i
+
+Array/findRepeatNumber.s: Array/findRepeatNumber.cpp.s
+
+.PHONY : Array/findRepeatNumber.s
+
+# target to generate assembly for a file
+Array/findRepeatNumber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\findRepeatNumber.dir\build.make CMakeFiles/findRepeatNumber.dir/Array/findRepeatNumber.cpp.s
+.PHONY : Array/findRepeatNumber.cpp.s
+
+Array/intersection.obj: Array/intersection.cpp.obj
+
+.PHONY : Array/intersection.obj
+
+# target to build an object file
+Array/intersection.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\intersection.dir\build.make CMakeFiles/intersection.dir/Array/intersection.cpp.obj
+.PHONY : Array/intersection.cpp.obj
+
+Array/intersection.i: Array/intersection.cpp.i
+
+.PHONY : Array/intersection.i
+
+# target to preprocess a source file
+Array/intersection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\intersection.dir\build.make CMakeFiles/intersection.dir/Array/intersection.cpp.i
+.PHONY : Array/intersection.cpp.i
+
+Array/intersection.s: Array/intersection.cpp.s
+
+.PHONY : Array/intersection.s
+
+# target to generate assembly for a file
+Array/intersection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\intersection.dir\build.make CMakeFiles/intersection.dir/Array/intersection.cpp.s
+.PHONY : Array/intersection.cpp.s
 
 C/FunctionPointer.obj: C/FunctionPointer.c.obj
 
@@ -1112,6 +1362,33 @@ Sort/BucketSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BucketSort.dir\build.make CMakeFiles/BucketSort.dir/Sort/BucketSort.cpp.s
 .PHONY : Sort/BucketSort.cpp.s
 
+Sort/FrequencySort.obj: Sort/FrequencySort.cpp.obj
+
+.PHONY : Sort/FrequencySort.obj
+
+# target to build an object file
+Sort/FrequencySort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FrequencySort.dir\build.make CMakeFiles/FrequencySort.dir/Sort/FrequencySort.cpp.obj
+.PHONY : Sort/FrequencySort.cpp.obj
+
+Sort/FrequencySort.i: Sort/FrequencySort.cpp.i
+
+.PHONY : Sort/FrequencySort.i
+
+# target to preprocess a source file
+Sort/FrequencySort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FrequencySort.dir\build.make CMakeFiles/FrequencySort.dir/Sort/FrequencySort.cpp.i
+.PHONY : Sort/FrequencySort.cpp.i
+
+Sort/FrequencySort.s: Sort/FrequencySort.cpp.s
+
+.PHONY : Sort/FrequencySort.s
+
+# target to generate assembly for a file
+Sort/FrequencySort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FrequencySort.dir\build.make CMakeFiles/FrequencySort.dir/Sort/FrequencySort.cpp.s
+.PHONY : Sort/FrequencySort.cpp.s
+
 Sort/HeapSort.obj: Sort/HeapSort.cpp.obj
 
 .PHONY : Sort/HeapSort.obj
@@ -1247,6 +1524,33 @@ Sort/RadixSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RadixSort.dir\build.make CMakeFiles/RadixSort.dir/Sort/RadixSort.cpp.s
 .PHONY : Sort/RadixSort.cpp.s
 
+Sort/RelativeSortArray.obj: Sort/RelativeSortArray.cpp.obj
+
+.PHONY : Sort/RelativeSortArray.obj
+
+# target to build an object file
+Sort/RelativeSortArray.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RelativeSortArray.dir\build.make CMakeFiles/RelativeSortArray.dir/Sort/RelativeSortArray.cpp.obj
+.PHONY : Sort/RelativeSortArray.cpp.obj
+
+Sort/RelativeSortArray.i: Sort/RelativeSortArray.cpp.i
+
+.PHONY : Sort/RelativeSortArray.i
+
+# target to preprocess a source file
+Sort/RelativeSortArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RelativeSortArray.dir\build.make CMakeFiles/RelativeSortArray.dir/Sort/RelativeSortArray.cpp.i
+.PHONY : Sort/RelativeSortArray.cpp.i
+
+Sort/RelativeSortArray.s: Sort/RelativeSortArray.cpp.s
+
+.PHONY : Sort/RelativeSortArray.s
+
+# target to generate assembly for a file
+Sort/RelativeSortArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RelativeSortArray.dir\build.make CMakeFiles/RelativeSortArray.dir/Sort/RelativeSortArray.cpp.s
+.PHONY : Sort/RelativeSortArray.cpp.s
+
 Sort/SelectSort.obj: Sort/SelectSort.cpp.obj
 
 .PHONY : Sort/SelectSort.obj
@@ -1301,6 +1605,87 @@ Sort/ShellSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShellSort.dir\build.make CMakeFiles/ShellSort.dir/Sort/ShellSort.cpp.s
 .PHONY : Sort/ShellSort.cpp.s
 
+Sort/sortArrayByParity.obj: Sort/sortArrayByParity.cpp.obj
+
+.PHONY : Sort/sortArrayByParity.obj
+
+# target to build an object file
+Sort/sortArrayByParity.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sortArrayByParity.dir\build.make CMakeFiles/sortArrayByParity.dir/Sort/sortArrayByParity.cpp.obj
+.PHONY : Sort/sortArrayByParity.cpp.obj
+
+Sort/sortArrayByParity.i: Sort/sortArrayByParity.cpp.i
+
+.PHONY : Sort/sortArrayByParity.i
+
+# target to preprocess a source file
+Sort/sortArrayByParity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sortArrayByParity.dir\build.make CMakeFiles/sortArrayByParity.dir/Sort/sortArrayByParity.cpp.i
+.PHONY : Sort/sortArrayByParity.cpp.i
+
+Sort/sortArrayByParity.s: Sort/sortArrayByParity.cpp.s
+
+.PHONY : Sort/sortArrayByParity.s
+
+# target to generate assembly for a file
+Sort/sortArrayByParity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sortArrayByParity.dir\build.make CMakeFiles/sortArrayByParity.dir/Sort/sortArrayByParity.cpp.s
+.PHONY : Sort/sortArrayByParity.cpp.s
+
+Sort/sortArrayByParityII.obj: Sort/sortArrayByParityII.cpp.obj
+
+.PHONY : Sort/sortArrayByParityII.obj
+
+# target to build an object file
+Sort/sortArrayByParityII.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sortArrayByParityII.dir\build.make CMakeFiles/sortArrayByParityII.dir/Sort/sortArrayByParityII.cpp.obj
+.PHONY : Sort/sortArrayByParityII.cpp.obj
+
+Sort/sortArrayByParityII.i: Sort/sortArrayByParityII.cpp.i
+
+.PHONY : Sort/sortArrayByParityII.i
+
+# target to preprocess a source file
+Sort/sortArrayByParityII.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sortArrayByParityII.dir\build.make CMakeFiles/sortArrayByParityII.dir/Sort/sortArrayByParityII.cpp.i
+.PHONY : Sort/sortArrayByParityII.cpp.i
+
+Sort/sortArrayByParityII.s: Sort/sortArrayByParityII.cpp.s
+
+.PHONY : Sort/sortArrayByParityII.s
+
+# target to generate assembly for a file
+Sort/sortArrayByParityII.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sortArrayByParityII.dir\build.make CMakeFiles/sortArrayByParityII.dir/Sort/sortArrayByParityII.cpp.s
+.PHONY : Sort/sortArrayByParityII.cpp.s
+
+Stack/RemoveOutermostParentheses.obj: Stack/RemoveOutermostParentheses.cpp.obj
+
+.PHONY : Stack/RemoveOutermostParentheses.obj
+
+# target to build an object file
+Stack/RemoveOutermostParentheses.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RemoveOutermostParentheses.dir\build.make CMakeFiles/RemoveOutermostParentheses.dir/Stack/RemoveOutermostParentheses.cpp.obj
+.PHONY : Stack/RemoveOutermostParentheses.cpp.obj
+
+Stack/RemoveOutermostParentheses.i: Stack/RemoveOutermostParentheses.cpp.i
+
+.PHONY : Stack/RemoveOutermostParentheses.i
+
+# target to preprocess a source file
+Stack/RemoveOutermostParentheses.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RemoveOutermostParentheses.dir\build.make CMakeFiles/RemoveOutermostParentheses.dir/Stack/RemoveOutermostParentheses.cpp.i
+.PHONY : Stack/RemoveOutermostParentheses.cpp.i
+
+Stack/RemoveOutermostParentheses.s: Stack/RemoveOutermostParentheses.cpp.s
+
+.PHONY : Stack/RemoveOutermostParentheses.s
+
+# target to generate assembly for a file
+Stack/RemoveOutermostParentheses.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RemoveOutermostParentheses.dir\build.make CMakeFiles/RemoveOutermostParentheses.dir/Stack/RemoveOutermostParentheses.cpp.s
+.PHONY : Stack/RemoveOutermostParentheses.cpp.s
+
 String/Hash.obj: String/Hash.cpp.obj
 
 .PHONY : String/Hash.obj
@@ -1328,6 +1713,141 @@ String/Hash.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hash.dir\build.make CMakeFiles/Hash.dir/String/Hash.cpp.s
 .PHONY : String/Hash.cpp.s
 
+Tree/MaxDepth.obj: Tree/MaxDepth.cpp.obj
+
+.PHONY : Tree/MaxDepth.obj
+
+# target to build an object file
+Tree/MaxDepth.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxDepth.dir\build.make CMakeFiles/MaxDepth.dir/Tree/MaxDepth.cpp.obj
+.PHONY : Tree/MaxDepth.cpp.obj
+
+Tree/MaxDepth.i: Tree/MaxDepth.cpp.i
+
+.PHONY : Tree/MaxDepth.i
+
+# target to preprocess a source file
+Tree/MaxDepth.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxDepth.dir\build.make CMakeFiles/MaxDepth.dir/Tree/MaxDepth.cpp.i
+.PHONY : Tree/MaxDepth.cpp.i
+
+Tree/MaxDepth.s: Tree/MaxDepth.cpp.s
+
+.PHONY : Tree/MaxDepth.s
+
+# target to generate assembly for a file
+Tree/MaxDepth.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxDepth.dir\build.make CMakeFiles/MaxDepth.dir/Tree/MaxDepth.cpp.s
+.PHONY : Tree/MaxDepth.cpp.s
+
+Tree/MinHeightTree.obj: Tree/MinHeightTree.cpp.obj
+
+.PHONY : Tree/MinHeightTree.obj
+
+# target to build an object file
+Tree/MinHeightTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinHeightTree.dir\build.make CMakeFiles/MinHeightTree.dir/Tree/MinHeightTree.cpp.obj
+.PHONY : Tree/MinHeightTree.cpp.obj
+
+Tree/MinHeightTree.i: Tree/MinHeightTree.cpp.i
+
+.PHONY : Tree/MinHeightTree.i
+
+# target to preprocess a source file
+Tree/MinHeightTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinHeightTree.dir\build.make CMakeFiles/MinHeightTree.dir/Tree/MinHeightTree.cpp.i
+.PHONY : Tree/MinHeightTree.cpp.i
+
+Tree/MinHeightTree.s: Tree/MinHeightTree.cpp.s
+
+.PHONY : Tree/MinHeightTree.s
+
+# target to generate assembly for a file
+Tree/MinHeightTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinHeightTree.dir\build.make CMakeFiles/MinHeightTree.dir/Tree/MinHeightTree.cpp.s
+.PHONY : Tree/MinHeightTree.cpp.s
+
+Tree/SearchBST.obj: Tree/SearchBST.cpp.obj
+
+.PHONY : Tree/SearchBST.obj
+
+# target to build an object file
+Tree/SearchBST.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchBST.dir\build.make CMakeFiles/SearchBST.dir/Tree/SearchBST.cpp.obj
+.PHONY : Tree/SearchBST.cpp.obj
+
+Tree/SearchBST.i: Tree/SearchBST.cpp.i
+
+.PHONY : Tree/SearchBST.i
+
+# target to preprocess a source file
+Tree/SearchBST.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchBST.dir\build.make CMakeFiles/SearchBST.dir/Tree/SearchBST.cpp.i
+.PHONY : Tree/SearchBST.cpp.i
+
+Tree/SearchBST.s: Tree/SearchBST.cpp.s
+
+.PHONY : Tree/SearchBST.s
+
+# target to generate assembly for a file
+Tree/SearchBST.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchBST.dir\build.make CMakeFiles/SearchBST.dir/Tree/SearchBST.cpp.s
+.PHONY : Tree/SearchBST.cpp.s
+
+Tree/isBalanced.obj: Tree/isBalanced.cpp.obj
+
+.PHONY : Tree/isBalanced.obj
+
+# target to build an object file
+Tree/isBalanced.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isBalanced.dir\build.make CMakeFiles/isBalanced.dir/Tree/isBalanced.cpp.obj
+.PHONY : Tree/isBalanced.cpp.obj
+
+Tree/isBalanced.i: Tree/isBalanced.cpp.i
+
+.PHONY : Tree/isBalanced.i
+
+# target to preprocess a source file
+Tree/isBalanced.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isBalanced.dir\build.make CMakeFiles/isBalanced.dir/Tree/isBalanced.cpp.i
+.PHONY : Tree/isBalanced.cpp.i
+
+Tree/isBalanced.s: Tree/isBalanced.cpp.s
+
+.PHONY : Tree/isBalanced.s
+
+# target to generate assembly for a file
+Tree/isBalanced.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isBalanced.dir\build.make CMakeFiles/isBalanced.dir/Tree/isBalanced.cpp.s
+.PHONY : Tree/isBalanced.cpp.s
+
+Tree/minDepth.obj: Tree/minDepth.cpp.obj
+
+.PHONY : Tree/minDepth.obj
+
+# target to build an object file
+Tree/minDepth.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\minDepth.dir\build.make CMakeFiles/minDepth.dir/Tree/minDepth.cpp.obj
+.PHONY : Tree/minDepth.cpp.obj
+
+Tree/minDepth.i: Tree/minDepth.cpp.i
+
+.PHONY : Tree/minDepth.i
+
+# target to preprocess a source file
+Tree/minDepth.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\minDepth.dir\build.make CMakeFiles/minDepth.dir/Tree/minDepth.cpp.i
+.PHONY : Tree/minDepth.cpp.i
+
+Tree/minDepth.s: Tree/minDepth.cpp.s
+
+.PHONY : Tree/minDepth.s
+
+# target to generate assembly for a file
+Tree/minDepth.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\minDepth.dir\build.make CMakeFiles/minDepth.dir/Tree/minDepth.cpp.s
+.PHONY : Tree/minDepth.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1339,6 +1859,7 @@ help:
 	@echo ... BinarySearch
 	@echo ... BubbleSort
 	@echo ... BucketSort
+	@echo ... FrequencySort
 	@echo ... FunctionPointer
 	@echo ... Hash
 	@echo ... HeapSort
@@ -1347,9 +1868,15 @@ help:
 	@echo ... Matrix
 	@echo ... Matrix2
 	@echo ... Matrix3
+	@echo ... MaxDepth
 	@echo ... MergeSort
+	@echo ... MinHeightTree
 	@echo ... QuickSort
 	@echo ... RadixSort
+	@echo ... RelativeSortArray
+	@echo ... RemoveOutermostParentheses
+	@echo ... RunningSum
+	@echo ... SearchBST
 	@echo ... SecondPointer
 	@echo ... SelectSort
 	@echo ... ShellSort
@@ -1357,18 +1884,33 @@ help:
 	@echo ... calloc
 	@echo ... deleteRep
 	@echo ... enum
+	@echo ... findRepeatNumber
 	@echo ... free
+	@echo ... intersection
+	@echo ... isBalanced
 	@echo ... isPowerOfFour
 	@echo ... malloc
 	@echo ... malloc2
+	@echo ... minDepth
 	@echo ... qsort
 	@echo ... realloc
+	@echo ... sortArrayByParity
+	@echo ... sortArrayByParityII
 	@echo ... strPointer
 	@echo ... strPointer2
 	@echo ... strlen
+	@echo ... Array/RunningSum.obj
+	@echo ... Array/RunningSum.i
+	@echo ... Array/RunningSum.s
 	@echo ... Array/deleteRep.obj
 	@echo ... Array/deleteRep.i
 	@echo ... Array/deleteRep.s
+	@echo ... Array/findRepeatNumber.obj
+	@echo ... Array/findRepeatNumber.i
+	@echo ... Array/findRepeatNumber.s
+	@echo ... Array/intersection.obj
+	@echo ... Array/intersection.i
+	@echo ... Array/intersection.s
 	@echo ... C/FunctionPointer.obj
 	@echo ... C/FunctionPointer.i
 	@echo ... C/FunctionPointer.s
@@ -1432,6 +1974,9 @@ help:
 	@echo ... Sort/BucketSort.obj
 	@echo ... Sort/BucketSort.i
 	@echo ... Sort/BucketSort.s
+	@echo ... Sort/FrequencySort.obj
+	@echo ... Sort/FrequencySort.i
+	@echo ... Sort/FrequencySort.s
 	@echo ... Sort/HeapSort.obj
 	@echo ... Sort/HeapSort.i
 	@echo ... Sort/HeapSort.s
@@ -1447,15 +1992,42 @@ help:
 	@echo ... Sort/RadixSort.obj
 	@echo ... Sort/RadixSort.i
 	@echo ... Sort/RadixSort.s
+	@echo ... Sort/RelativeSortArray.obj
+	@echo ... Sort/RelativeSortArray.i
+	@echo ... Sort/RelativeSortArray.s
 	@echo ... Sort/SelectSort.obj
 	@echo ... Sort/SelectSort.i
 	@echo ... Sort/SelectSort.s
 	@echo ... Sort/ShellSort.obj
 	@echo ... Sort/ShellSort.i
 	@echo ... Sort/ShellSort.s
+	@echo ... Sort/sortArrayByParity.obj
+	@echo ... Sort/sortArrayByParity.i
+	@echo ... Sort/sortArrayByParity.s
+	@echo ... Sort/sortArrayByParityII.obj
+	@echo ... Sort/sortArrayByParityII.i
+	@echo ... Sort/sortArrayByParityII.s
+	@echo ... Stack/RemoveOutermostParentheses.obj
+	@echo ... Stack/RemoveOutermostParentheses.i
+	@echo ... Stack/RemoveOutermostParentheses.s
 	@echo ... String/Hash.obj
 	@echo ... String/Hash.i
 	@echo ... String/Hash.s
+	@echo ... Tree/MaxDepth.obj
+	@echo ... Tree/MaxDepth.i
+	@echo ... Tree/MaxDepth.s
+	@echo ... Tree/MinHeightTree.obj
+	@echo ... Tree/MinHeightTree.i
+	@echo ... Tree/MinHeightTree.s
+	@echo ... Tree/SearchBST.obj
+	@echo ... Tree/SearchBST.i
+	@echo ... Tree/SearchBST.s
+	@echo ... Tree/isBalanced.obj
+	@echo ... Tree/isBalanced.i
+	@echo ... Tree/isBalanced.s
+	@echo ... Tree/minDepth.obj
+	@echo ... Tree/minDepth.i
+	@echo ... Tree/minDepth.s
 .PHONY : help
 
 

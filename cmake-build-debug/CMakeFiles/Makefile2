@@ -71,11 +71,13 @@ CMAKE_BINARY_DIR = E:\Cpp\KaoYan\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/sortArrayByParityII.dir/all
 all: CMakeFiles/InsertSort.dir/all
 all: CMakeFiles/HeapSort.dir/all
 all: CMakeFiles/BucketSort.dir/all
 all: CMakeFiles/MergeSort.dir/all
 all: CMakeFiles/BubbleSort.dir/all
+all: CMakeFiles/intersection.dir/all
 all: CMakeFiles/QuickSort.dir/all
 all: CMakeFiles/SelectSort.dir/all
 all: CMakeFiles/Matrix3.dir/all
@@ -93,14 +95,25 @@ all: CMakeFiles/strlen.dir/all
 all: CMakeFiles/strPointer2.dir/all
 all: CMakeFiles/qsort.dir/all
 all: CMakeFiles/isPowerOfFour.dir/all
+all: CMakeFiles/SearchBST.dir/all
 all: CMakeFiles/FunctionPointer.dir/all
+all: CMakeFiles/RelativeSortArray.dir/all
 all: CMakeFiles/SecondPointer.dir/all
 all: CMakeFiles/enum.dir/all
 all: CMakeFiles/calloc.dir/all
+all: CMakeFiles/FrequencySort.dir/all
+all: CMakeFiles/isBalanced.dir/all
 all: CMakeFiles/malloc2.dir/all
 all: CMakeFiles/malloc.dir/all
 all: CMakeFiles/realloc.dir/all
 all: CMakeFiles/free.dir/all
+all: CMakeFiles/findRepeatNumber.dir/all
+all: CMakeFiles/minDepth.dir/all
+all: CMakeFiles/MinHeightTree.dir/all
+all: CMakeFiles/sortArrayByParity.dir/all
+all: CMakeFiles/MaxDepth.dir/all
+all: CMakeFiles/RunningSum.dir/all
+all: CMakeFiles/RemoveOutermostParentheses.dir/all
 
 .PHONY : all
 
@@ -110,11 +123,13 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/sortArrayByParityII.dir/clean
 clean: CMakeFiles/InsertSort.dir/clean
 clean: CMakeFiles/HeapSort.dir/clean
 clean: CMakeFiles/BucketSort.dir/clean
 clean: CMakeFiles/MergeSort.dir/clean
 clean: CMakeFiles/BubbleSort.dir/clean
+clean: CMakeFiles/intersection.dir/clean
 clean: CMakeFiles/QuickSort.dir/clean
 clean: CMakeFiles/SelectSort.dir/clean
 clean: CMakeFiles/Matrix3.dir/clean
@@ -132,16 +147,54 @@ clean: CMakeFiles/strlen.dir/clean
 clean: CMakeFiles/strPointer2.dir/clean
 clean: CMakeFiles/qsort.dir/clean
 clean: CMakeFiles/isPowerOfFour.dir/clean
+clean: CMakeFiles/SearchBST.dir/clean
 clean: CMakeFiles/FunctionPointer.dir/clean
+clean: CMakeFiles/RelativeSortArray.dir/clean
 clean: CMakeFiles/SecondPointer.dir/clean
 clean: CMakeFiles/enum.dir/clean
 clean: CMakeFiles/calloc.dir/clean
+clean: CMakeFiles/FrequencySort.dir/clean
+clean: CMakeFiles/isBalanced.dir/clean
 clean: CMakeFiles/malloc2.dir/clean
 clean: CMakeFiles/malloc.dir/clean
 clean: CMakeFiles/realloc.dir/clean
 clean: CMakeFiles/free.dir/clean
+clean: CMakeFiles/findRepeatNumber.dir/clean
+clean: CMakeFiles/minDepth.dir/clean
+clean: CMakeFiles/MinHeightTree.dir/clean
+clean: CMakeFiles/sortArrayByParity.dir/clean
+clean: CMakeFiles/MaxDepth.dir/clean
+clean: CMakeFiles/RunningSum.dir/clean
+clean: CMakeFiles/RemoveOutermostParentheses.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/sortArrayByParityII.dir
+
+# All Build rule for target.
+CMakeFiles/sortArrayByParityII.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sortArrayByParityII.dir\build.make CMakeFiles/sortArrayByParityII.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sortArrayByParityII.dir\build.make CMakeFiles/sortArrayByParityII.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=79,80 "Built target sortArrayByParityII"
+.PHONY : CMakeFiles/sortArrayByParityII.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sortArrayByParityII.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/sortArrayByParityII.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/sortArrayByParityII.dir/rule
+
+# Convenience name for target.
+sortArrayByParityII: CMakeFiles/sortArrayByParityII.dir/rule
+
+.PHONY : sortArrayByParityII
+
+# clean rule for target.
+CMakeFiles/sortArrayByParityII.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sortArrayByParityII.dir\build.make CMakeFiles/sortArrayByParityII.dir/clean
+.PHONY : CMakeFiles/sortArrayByParityII.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/InsertSort.dir
@@ -150,7 +203,7 @@ clean: CMakeFiles/free.dir/clean
 CMakeFiles/InsertSort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InsertSort.dir\build.make CMakeFiles/InsertSort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InsertSort.dir\build.make CMakeFiles/InsertSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target InsertSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target InsertSort"
 .PHONY : CMakeFiles/InsertSort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -177,7 +230,7 @@ CMakeFiles/InsertSort.dir/clean:
 CMakeFiles/HeapSort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSort.dir\build.make CMakeFiles/HeapSort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSort.dir\build.make CMakeFiles/HeapSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target HeapSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target HeapSort"
 .PHONY : CMakeFiles/HeapSort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -231,7 +284,7 @@ CMakeFiles/BucketSort.dir/clean:
 CMakeFiles/MergeSort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MergeSort.dir\build.make CMakeFiles/MergeSort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MergeSort.dir\build.make CMakeFiles/MergeSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target MergeSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target MergeSort"
 .PHONY : CMakeFiles/MergeSort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -279,13 +332,40 @@ CMakeFiles/BubbleSort.dir/clean:
 .PHONY : CMakeFiles/BubbleSort.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/intersection.dir
+
+# All Build rule for target.
+CMakeFiles/intersection.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\intersection.dir\build.make CMakeFiles/intersection.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\intersection.dir\build.make CMakeFiles/intersection.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=61,62 "Built target intersection"
+.PHONY : CMakeFiles/intersection.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/intersection.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/intersection.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/intersection.dir/rule
+
+# Convenience name for target.
+intersection: CMakeFiles/intersection.dir/rule
+
+.PHONY : intersection
+
+# clean rule for target.
+CMakeFiles/intersection.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\intersection.dir\build.make CMakeFiles/intersection.dir/clean
+.PHONY : CMakeFiles/intersection.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/QuickSort.dir
 
 # All Build rule for target.
 CMakeFiles/QuickSort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuickSort.dir\build.make CMakeFiles/QuickSort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuickSort.dir\build.make CMakeFiles/QuickSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target QuickSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target QuickSort"
 .PHONY : CMakeFiles/QuickSort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -312,7 +392,7 @@ CMakeFiles/QuickSort.dir/clean:
 CMakeFiles/SelectSort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SelectSort.dir\build.make CMakeFiles/SelectSort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SelectSort.dir\build.make CMakeFiles/SelectSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target SelectSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target SelectSort"
 .PHONY : CMakeFiles/SelectSort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -339,7 +419,7 @@ CMakeFiles/SelectSort.dir/clean:
 CMakeFiles/Matrix3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Matrix3.dir\build.make CMakeFiles/Matrix3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Matrix3.dir\build.make CMakeFiles/Matrix3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target Matrix3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target Matrix3"
 .PHONY : CMakeFiles/Matrix3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -366,7 +446,7 @@ CMakeFiles/Matrix3.dir/clean:
 CMakeFiles/ShellSort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShellSort.dir\build.make CMakeFiles/ShellSort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShellSort.dir\build.make CMakeFiles/ShellSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target ShellSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target ShellSort"
 .PHONY : CMakeFiles/ShellSort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -420,7 +500,7 @@ CMakeFiles/BinarySearch.dir/clean:
 CMakeFiles/KMP.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\KMP.dir\build.make CMakeFiles/KMP.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\KMP.dir\build.make CMakeFiles/KMP.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target KMP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target KMP"
 .PHONY : CMakeFiles/KMP.dir/all
 
 # Build rule for subdir invocation for target.
@@ -447,7 +527,7 @@ CMakeFiles/KMP.dir/clean:
 CMakeFiles/SqSearch.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SqSearch.dir\build.make CMakeFiles/SqSearch.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SqSearch.dir\build.make CMakeFiles/SqSearch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target SqSearch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target SqSearch"
 .PHONY : CMakeFiles/SqSearch.dir/all
 
 # Build rule for subdir invocation for target.
@@ -474,7 +554,7 @@ CMakeFiles/SqSearch.dir/clean:
 CMakeFiles/deleteRep.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\deleteRep.dir\build.make CMakeFiles/deleteRep.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\deleteRep.dir\build.make CMakeFiles/deleteRep.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target deleteRep"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target deleteRep"
 .PHONY : CMakeFiles/deleteRep.dir/all
 
 # Build rule for subdir invocation for target.
@@ -501,7 +581,7 @@ CMakeFiles/deleteRep.dir/clean:
 CMakeFiles/strPointer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\strPointer.dir\build.make CMakeFiles/strPointer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\strPointer.dir\build.make CMakeFiles/strPointer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target strPointer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=81,82 "Built target strPointer"
 .PHONY : CMakeFiles/strPointer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -528,7 +608,7 @@ CMakeFiles/strPointer.dir/clean:
 CMakeFiles/Hash.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hash.dir\build.make CMakeFiles/Hash.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hash.dir\build.make CMakeFiles/Hash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target Hash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target Hash"
 .PHONY : CMakeFiles/Hash.dir/all
 
 # Build rule for subdir invocation for target.
@@ -555,7 +635,7 @@ CMakeFiles/Hash.dir/clean:
 CMakeFiles/RadixSort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RadixSort.dir\build.make CMakeFiles/RadixSort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RadixSort.dir\build.make CMakeFiles/RadixSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target RadixSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target RadixSort"
 .PHONY : CMakeFiles/RadixSort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -582,7 +662,7 @@ CMakeFiles/RadixSort.dir/clean:
 CMakeFiles/Matrix.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Matrix.dir\build.make CMakeFiles/Matrix.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Matrix.dir\build.make CMakeFiles/Matrix.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target Matrix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target Matrix"
 .PHONY : CMakeFiles/Matrix.dir/all
 
 # Build rule for subdir invocation for target.
@@ -609,7 +689,7 @@ CMakeFiles/Matrix.dir/clean:
 CMakeFiles/Matrix2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Matrix2.dir\build.make CMakeFiles/Matrix2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Matrix2.dir\build.make CMakeFiles/Matrix2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target Matrix2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target Matrix2"
 .PHONY : CMakeFiles/Matrix2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -636,7 +716,7 @@ CMakeFiles/Matrix2.dir/clean:
 CMakeFiles/strlen.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\strlen.dir\build.make CMakeFiles/strlen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\strlen.dir\build.make CMakeFiles/strlen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=59,60 "Built target strlen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=85,86 "Built target strlen"
 .PHONY : CMakeFiles/strlen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -663,7 +743,7 @@ CMakeFiles/strlen.dir/clean:
 CMakeFiles/strPointer2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\strPointer2.dir\build.make CMakeFiles/strPointer2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\strPointer2.dir\build.make CMakeFiles/strPointer2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target strPointer2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=83,84 "Built target strPointer2"
 .PHONY : CMakeFiles/strPointer2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -690,7 +770,7 @@ CMakeFiles/strPointer2.dir/clean:
 CMakeFiles/qsort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\qsort.dir\build.make CMakeFiles/qsort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\qsort.dir\build.make CMakeFiles/qsort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target qsort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=73,74 "Built target qsort"
 .PHONY : CMakeFiles/qsort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -717,7 +797,7 @@ CMakeFiles/qsort.dir/clean:
 CMakeFiles/isPowerOfFour.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\isPowerOfFour.dir\build.make CMakeFiles/isPowerOfFour.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\isPowerOfFour.dir\build.make CMakeFiles/isPowerOfFour.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target isPowerOfFour"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=65,66 "Built target isPowerOfFour"
 .PHONY : CMakeFiles/isPowerOfFour.dir/all
 
 # Build rule for subdir invocation for target.
@@ -738,13 +818,40 @@ CMakeFiles/isPowerOfFour.dir/clean:
 .PHONY : CMakeFiles/isPowerOfFour.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/SearchBST.dir
+
+# All Build rule for target.
+CMakeFiles/SearchBST.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchBST.dir\build.make CMakeFiles/SearchBST.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchBST.dir\build.make CMakeFiles/SearchBST.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target SearchBST"
+.PHONY : CMakeFiles/SearchBST.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/SearchBST.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/SearchBST.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/SearchBST.dir/rule
+
+# Convenience name for target.
+SearchBST: CMakeFiles/SearchBST.dir/rule
+
+.PHONY : SearchBST
+
+# clean rule for target.
+CMakeFiles/SearchBST.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchBST.dir\build.make CMakeFiles/SearchBST.dir/clean
+.PHONY : CMakeFiles/SearchBST.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/FunctionPointer.dir
 
 # All Build rule for target.
 CMakeFiles/FunctionPointer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FunctionPointer.dir\build.make CMakeFiles/FunctionPointer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FunctionPointer.dir\build.make CMakeFiles/FunctionPointer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target FunctionPointer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target FunctionPointer"
 .PHONY : CMakeFiles/FunctionPointer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -765,13 +872,40 @@ CMakeFiles/FunctionPointer.dir/clean:
 .PHONY : CMakeFiles/FunctionPointer.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/RelativeSortArray.dir
+
+# All Build rule for target.
+CMakeFiles/RelativeSortArray.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RelativeSortArray.dir\build.make CMakeFiles/RelativeSortArray.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RelativeSortArray.dir\build.make CMakeFiles/RelativeSortArray.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target RelativeSortArray"
+.PHONY : CMakeFiles/RelativeSortArray.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/RelativeSortArray.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/RelativeSortArray.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/RelativeSortArray.dir/rule
+
+# Convenience name for target.
+RelativeSortArray: CMakeFiles/RelativeSortArray.dir/rule
+
+.PHONY : RelativeSortArray
+
+# clean rule for target.
+CMakeFiles/RelativeSortArray.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RelativeSortArray.dir\build.make CMakeFiles/RelativeSortArray.dir/clean
+.PHONY : CMakeFiles/RelativeSortArray.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/SecondPointer.dir
 
 # All Build rule for target.
 CMakeFiles/SecondPointer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SecondPointer.dir\build.make CMakeFiles/SecondPointer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SecondPointer.dir\build.make CMakeFiles/SecondPointer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target SecondPointer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target SecondPointer"
 .PHONY : CMakeFiles/SecondPointer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -798,7 +932,7 @@ CMakeFiles/SecondPointer.dir/clean:
 CMakeFiles/enum.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\enum.dir\build.make CMakeFiles/enum.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\enum.dir\build.make CMakeFiles/enum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target enum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target enum"
 .PHONY : CMakeFiles/enum.dir/all
 
 # Build rule for subdir invocation for target.
@@ -825,7 +959,7 @@ CMakeFiles/enum.dir/clean:
 CMakeFiles/calloc.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\calloc.dir\build.make CMakeFiles/calloc.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\calloc.dir\build.make CMakeFiles/calloc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target calloc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target calloc"
 .PHONY : CMakeFiles/calloc.dir/all
 
 # Build rule for subdir invocation for target.
@@ -846,13 +980,67 @@ CMakeFiles/calloc.dir/clean:
 .PHONY : CMakeFiles/calloc.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/FrequencySort.dir
+
+# All Build rule for target.
+CMakeFiles/FrequencySort.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FrequencySort.dir\build.make CMakeFiles/FrequencySort.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FrequencySort.dir\build.make CMakeFiles/FrequencySort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target FrequencySort"
+.PHONY : CMakeFiles/FrequencySort.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/FrequencySort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/FrequencySort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/FrequencySort.dir/rule
+
+# Convenience name for target.
+FrequencySort: CMakeFiles/FrequencySort.dir/rule
+
+.PHONY : FrequencySort
+
+# clean rule for target.
+CMakeFiles/FrequencySort.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FrequencySort.dir\build.make CMakeFiles/FrequencySort.dir/clean
+.PHONY : CMakeFiles/FrequencySort.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/isBalanced.dir
+
+# All Build rule for target.
+CMakeFiles/isBalanced.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isBalanced.dir\build.make CMakeFiles/isBalanced.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isBalanced.dir\build.make CMakeFiles/isBalanced.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=63,64 "Built target isBalanced"
+.PHONY : CMakeFiles/isBalanced.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/isBalanced.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/isBalanced.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/isBalanced.dir/rule
+
+# Convenience name for target.
+isBalanced: CMakeFiles/isBalanced.dir/rule
+
+.PHONY : isBalanced
+
+# clean rule for target.
+CMakeFiles/isBalanced.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isBalanced.dir\build.make CMakeFiles/isBalanced.dir/clean
+.PHONY : CMakeFiles/isBalanced.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/malloc2.dir
 
 # All Build rule for target.
 CMakeFiles/malloc2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\malloc2.dir\build.make CMakeFiles/malloc2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\malloc2.dir\build.make CMakeFiles/malloc2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target malloc2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=69,70 "Built target malloc2"
 .PHONY : CMakeFiles/malloc2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -879,7 +1067,7 @@ CMakeFiles/malloc2.dir/clean:
 CMakeFiles/malloc.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\malloc.dir\build.make CMakeFiles/malloc.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\malloc.dir\build.make CMakeFiles/malloc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target malloc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=67,68 "Built target malloc"
 .PHONY : CMakeFiles/malloc.dir/all
 
 # Build rule for subdir invocation for target.
@@ -906,7 +1094,7 @@ CMakeFiles/malloc.dir/clean:
 CMakeFiles/realloc.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\realloc.dir\build.make CMakeFiles/realloc.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\realloc.dir\build.make CMakeFiles/realloc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target realloc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=75,76 "Built target realloc"
 .PHONY : CMakeFiles/realloc.dir/all
 
 # Build rule for subdir invocation for target.
@@ -933,7 +1121,7 @@ CMakeFiles/realloc.dir/clean:
 CMakeFiles/free.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\free.dir\build.make CMakeFiles/free.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\free.dir\build.make CMakeFiles/free.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target free"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=59,60 "Built target free"
 .PHONY : CMakeFiles/free.dir/all
 
 # Build rule for subdir invocation for target.
@@ -952,6 +1140,195 @@ free: CMakeFiles/free.dir/rule
 CMakeFiles/free.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\free.dir\build.make CMakeFiles/free.dir/clean
 .PHONY : CMakeFiles/free.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/findRepeatNumber.dir
+
+# All Build rule for target.
+CMakeFiles/findRepeatNumber.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\findRepeatNumber.dir\build.make CMakeFiles/findRepeatNumber.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\findRepeatNumber.dir\build.make CMakeFiles/findRepeatNumber.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target findRepeatNumber"
+.PHONY : CMakeFiles/findRepeatNumber.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/findRepeatNumber.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/findRepeatNumber.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/findRepeatNumber.dir/rule
+
+# Convenience name for target.
+findRepeatNumber: CMakeFiles/findRepeatNumber.dir/rule
+
+.PHONY : findRepeatNumber
+
+# clean rule for target.
+CMakeFiles/findRepeatNumber.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\findRepeatNumber.dir\build.make CMakeFiles/findRepeatNumber.dir/clean
+.PHONY : CMakeFiles/findRepeatNumber.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/minDepth.dir
+
+# All Build rule for target.
+CMakeFiles/minDepth.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\minDepth.dir\build.make CMakeFiles/minDepth.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\minDepth.dir\build.make CMakeFiles/minDepth.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=71,72 "Built target minDepth"
+.PHONY : CMakeFiles/minDepth.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/minDepth.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/minDepth.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/minDepth.dir/rule
+
+# Convenience name for target.
+minDepth: CMakeFiles/minDepth.dir/rule
+
+.PHONY : minDepth
+
+# clean rule for target.
+CMakeFiles/minDepth.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\minDepth.dir\build.make CMakeFiles/minDepth.dir/clean
+.PHONY : CMakeFiles/minDepth.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/MinHeightTree.dir
+
+# All Build rule for target.
+CMakeFiles/MinHeightTree.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinHeightTree.dir\build.make CMakeFiles/MinHeightTree.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinHeightTree.dir\build.make CMakeFiles/MinHeightTree.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target MinHeightTree"
+.PHONY : CMakeFiles/MinHeightTree.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/MinHeightTree.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/MinHeightTree.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/MinHeightTree.dir/rule
+
+# Convenience name for target.
+MinHeightTree: CMakeFiles/MinHeightTree.dir/rule
+
+.PHONY : MinHeightTree
+
+# clean rule for target.
+CMakeFiles/MinHeightTree.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinHeightTree.dir\build.make CMakeFiles/MinHeightTree.dir/clean
+.PHONY : CMakeFiles/MinHeightTree.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/sortArrayByParity.dir
+
+# All Build rule for target.
+CMakeFiles/sortArrayByParity.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sortArrayByParity.dir\build.make CMakeFiles/sortArrayByParity.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sortArrayByParity.dir\build.make CMakeFiles/sortArrayByParity.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=77,78 "Built target sortArrayByParity"
+.PHONY : CMakeFiles/sortArrayByParity.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sortArrayByParity.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/sortArrayByParity.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/sortArrayByParity.dir/rule
+
+# Convenience name for target.
+sortArrayByParity: CMakeFiles/sortArrayByParity.dir/rule
+
+.PHONY : sortArrayByParity
+
+# clean rule for target.
+CMakeFiles/sortArrayByParity.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sortArrayByParity.dir\build.make CMakeFiles/sortArrayByParity.dir/clean
+.PHONY : CMakeFiles/sortArrayByParity.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/MaxDepth.dir
+
+# All Build rule for target.
+CMakeFiles/MaxDepth.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxDepth.dir\build.make CMakeFiles/MaxDepth.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxDepth.dir\build.make CMakeFiles/MaxDepth.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target MaxDepth"
+.PHONY : CMakeFiles/MaxDepth.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/MaxDepth.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/MaxDepth.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/MaxDepth.dir/rule
+
+# Convenience name for target.
+MaxDepth: CMakeFiles/MaxDepth.dir/rule
+
+.PHONY : MaxDepth
+
+# clean rule for target.
+CMakeFiles/MaxDepth.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaxDepth.dir\build.make CMakeFiles/MaxDepth.dir/clean
+.PHONY : CMakeFiles/MaxDepth.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/RunningSum.dir
+
+# All Build rule for target.
+CMakeFiles/RunningSum.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RunningSum.dir\build.make CMakeFiles/RunningSum.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RunningSum.dir\build.make CMakeFiles/RunningSum.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target RunningSum"
+.PHONY : CMakeFiles/RunningSum.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/RunningSum.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/RunningSum.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/RunningSum.dir/rule
+
+# Convenience name for target.
+RunningSum: CMakeFiles/RunningSum.dir/rule
+
+.PHONY : RunningSum
+
+# clean rule for target.
+CMakeFiles/RunningSum.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RunningSum.dir\build.make CMakeFiles/RunningSum.dir/clean
+.PHONY : CMakeFiles/RunningSum.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/RemoveOutermostParentheses.dir
+
+# All Build rule for target.
+CMakeFiles/RemoveOutermostParentheses.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RemoveOutermostParentheses.dir\build.make CMakeFiles/RemoveOutermostParentheses.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RemoveOutermostParentheses.dir\build.make CMakeFiles/RemoveOutermostParentheses.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target RemoveOutermostParentheses"
+.PHONY : CMakeFiles/RemoveOutermostParentheses.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/RemoveOutermostParentheses.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/RemoveOutermostParentheses.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Cpp\KaoYan\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/RemoveOutermostParentheses.dir/rule
+
+# Convenience name for target.
+RemoveOutermostParentheses: CMakeFiles/RemoveOutermostParentheses.dir/rule
+
+.PHONY : RemoveOutermostParentheses
+
+# clean rule for target.
+CMakeFiles/RemoveOutermostParentheses.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RemoveOutermostParentheses.dir\build.make CMakeFiles/RemoveOutermostParentheses.dir/clean
+.PHONY : CMakeFiles/RemoveOutermostParentheses.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

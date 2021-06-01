@@ -1,0 +1,3 @@
+"D:\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\sortArrayByParity.dir/objects.a
+D:\environment\mingw64\bin\ar.exe cr CMakeFiles\sortArrayByParity.dir/objects.a @CMakeFiles\sortArrayByParity.dir\objects1.rsp
+D:\environment\mingw64\bin\g++.exe  -Wall -fexec-charset=GBK -g -Wl,--whole-archive CMakeFiles\sortArrayByParity.dir/objects.a -Wl,--no-whole-archive -o sortArrayByParity.exe -Wl,--out-implib,libsortArrayByParity.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sortArrayByParity.dir\linklibs.rsp

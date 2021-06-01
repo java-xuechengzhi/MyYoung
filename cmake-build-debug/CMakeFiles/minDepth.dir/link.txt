@@ -1,0 +1,3 @@
+"D:\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\minDepth.dir/objects.a
+D:\environment\mingw64\bin\ar.exe cr CMakeFiles\minDepth.dir/objects.a @CMakeFiles\minDepth.dir\objects1.rsp
+D:\environment\mingw64\bin\g++.exe  -Wall -fexec-charset=GBK -g -Wl,--whole-archive CMakeFiles\minDepth.dir/objects.a -Wl,--no-whole-archive -o minDepth.exe -Wl,--out-implib,libminDepth.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\minDepth.dir\linklibs.rsp

@@ -1,0 +1,3 @@
+"D:\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\isBalanced.dir/objects.a
+D:\environment\mingw64\bin\ar.exe cr CMakeFiles\isBalanced.dir/objects.a @CMakeFiles\isBalanced.dir\objects1.rsp
+D:\environment\mingw64\bin\g++.exe  -Wall -fexec-charset=GBK -g -Wl,--whole-archive CMakeFiles\isBalanced.dir/objects.a -Wl,--no-whole-archive -o isBalanced.exe -Wl,--out-implib,libisBalanced.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\isBalanced.dir\linklibs.rsp
