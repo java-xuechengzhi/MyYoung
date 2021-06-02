@@ -13,10 +13,12 @@ E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/BinarySearch.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/PalindromeNumber.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/KMP.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/SqSearch.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/PascalTriangle.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/deleteRep.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/backtrack.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/strPointer.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/Hash.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/SortList.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/RadixSort.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/Matrix.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/Matrix2.dir
@@ -46,4 +48,7 @@ E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/MaxDepth.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/RunningSum.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/RemoveOutermostParentheses.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/ThreeSumCloset.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/RotateList.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/SortColor.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/Shuffle.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/rebuild_cache.dir

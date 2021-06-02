@@ -324,6 +324,19 @@ SqSearch/fast:
 .PHONY : SqSearch/fast
 
 #=============================================================================
+# Target rules for targets named PascalTriangle
+
+# Build rule for target.
+PascalTriangle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PascalTriangle
+.PHONY : PascalTriangle
+
+# fast build rule for target.
+PascalTriangle/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PascalTriangle.dir\build.make CMakeFiles/PascalTriangle.dir/build
+.PHONY : PascalTriangle/fast
+
+#=============================================================================
 # Target rules for targets named deleteRep
 
 # Build rule for target.
@@ -374,6 +387,19 @@ Hash: cmake_check_build_system
 Hash/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hash.dir\build.make CMakeFiles/Hash.dir/build
 .PHONY : Hash/fast
+
+#=============================================================================
+# Target rules for targets named SortList
+
+# Build rule for target.
+SortList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SortList
+.PHONY : SortList
+
+# fast build rule for target.
+SortList/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortList.dir\build.make CMakeFiles/SortList.dir/build
+.PHONY : SortList/fast
 
 #=============================================================================
 # Target rules for targets named RadixSort
@@ -739,6 +765,72 @@ ThreeSumCloset/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeSumCloset.dir\build.make CMakeFiles/ThreeSumCloset.dir/build
 .PHONY : ThreeSumCloset/fast
 
+#=============================================================================
+# Target rules for targets named RotateList
+
+# Build rule for target.
+RotateList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RotateList
+.PHONY : RotateList
+
+# fast build rule for target.
+RotateList/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RotateList.dir\build.make CMakeFiles/RotateList.dir/build
+.PHONY : RotateList/fast
+
+#=============================================================================
+# Target rules for targets named SortColor
+
+# Build rule for target.
+SortColor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SortColor
+.PHONY : SortColor
+
+# fast build rule for target.
+SortColor/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortColor.dir\build.make CMakeFiles/SortColor.dir/build
+.PHONY : SortColor/fast
+
+#=============================================================================
+# Target rules for targets named Shuffle
+
+# Build rule for target.
+Shuffle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Shuffle
+.PHONY : Shuffle
+
+# fast build rule for target.
+Shuffle/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Shuffle.dir\build.make CMakeFiles/Shuffle.dir/build
+.PHONY : Shuffle/fast
+
+Array/PascalTriangle.obj: Array/PascalTriangle.cpp.obj
+
+.PHONY : Array/PascalTriangle.obj
+
+# target to build an object file
+Array/PascalTriangle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PascalTriangle.dir\build.make CMakeFiles/PascalTriangle.dir/Array/PascalTriangle.cpp.obj
+.PHONY : Array/PascalTriangle.cpp.obj
+
+Array/PascalTriangle.i: Array/PascalTriangle.cpp.i
+
+.PHONY : Array/PascalTriangle.i
+
+# target to preprocess a source file
+Array/PascalTriangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PascalTriangle.dir\build.make CMakeFiles/PascalTriangle.dir/Array/PascalTriangle.cpp.i
+.PHONY : Array/PascalTriangle.cpp.i
+
+Array/PascalTriangle.s: Array/PascalTriangle.cpp.s
+
+.PHONY : Array/PascalTriangle.s
+
+# target to generate assembly for a file
+Array/PascalTriangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PascalTriangle.dir\build.make CMakeFiles/PascalTriangle.dir/Array/PascalTriangle.cpp.s
+.PHONY : Array/PascalTriangle.cpp.s
+
 Array/RunningSum.obj: Array/RunningSum.cpp.obj
 
 .PHONY : Array/RunningSum.obj
@@ -765,6 +857,33 @@ Array/RunningSum.s: Array/RunningSum.cpp.s
 Array/RunningSum.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RunningSum.dir\build.make CMakeFiles/RunningSum.dir/Array/RunningSum.cpp.s
 .PHONY : Array/RunningSum.cpp.s
+
+Array/SortColor.obj: Array/SortColor.cpp.obj
+
+.PHONY : Array/SortColor.obj
+
+# target to build an object file
+Array/SortColor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortColor.dir\build.make CMakeFiles/SortColor.dir/Array/SortColor.cpp.obj
+.PHONY : Array/SortColor.cpp.obj
+
+Array/SortColor.i: Array/SortColor.cpp.i
+
+.PHONY : Array/SortColor.i
+
+# target to preprocess a source file
+Array/SortColor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortColor.dir\build.make CMakeFiles/SortColor.dir/Array/SortColor.cpp.i
+.PHONY : Array/SortColor.cpp.i
+
+Array/SortColor.s: Array/SortColor.cpp.s
+
+.PHONY : Array/SortColor.s
+
+# target to generate assembly for a file
+Array/SortColor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortColor.dir\build.make CMakeFiles/SortColor.dir/Array/SortColor.cpp.s
+.PHONY : Array/SortColor.cpp.s
 
 Array/ThreeSum.obj: Array/ThreeSum.cpp.obj
 
@@ -1360,6 +1479,60 @@ C/strlen.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\strlen.dir\build.make CMakeFiles/strlen.dir/C/strlen.c.s
 .PHONY : C/strlen.c.s
 
+List/RotateList.obj: List/RotateList.cpp.obj
+
+.PHONY : List/RotateList.obj
+
+# target to build an object file
+List/RotateList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RotateList.dir\build.make CMakeFiles/RotateList.dir/List/RotateList.cpp.obj
+.PHONY : List/RotateList.cpp.obj
+
+List/RotateList.i: List/RotateList.cpp.i
+
+.PHONY : List/RotateList.i
+
+# target to preprocess a source file
+List/RotateList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RotateList.dir\build.make CMakeFiles/RotateList.dir/List/RotateList.cpp.i
+.PHONY : List/RotateList.cpp.i
+
+List/RotateList.s: List/RotateList.cpp.s
+
+.PHONY : List/RotateList.s
+
+# target to generate assembly for a file
+List/RotateList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RotateList.dir\build.make CMakeFiles/RotateList.dir/List/RotateList.cpp.s
+.PHONY : List/RotateList.cpp.s
+
+List/SortList.obj: List/SortList.cpp.obj
+
+.PHONY : List/SortList.obj
+
+# target to build an object file
+List/SortList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortList.dir\build.make CMakeFiles/SortList.dir/List/SortList.cpp.obj
+.PHONY : List/SortList.cpp.obj
+
+List/SortList.i: List/SortList.cpp.i
+
+.PHONY : List/SortList.i
+
+# target to preprocess a source file
+List/SortList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortList.dir\build.make CMakeFiles/SortList.dir/List/SortList.cpp.i
+.PHONY : List/SortList.cpp.i
+
+List/SortList.s: List/SortList.cpp.s
+
+.PHONY : List/SortList.s
+
+# target to generate assembly for a file
+List/SortList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortList.dir\build.make CMakeFiles/SortList.dir/List/SortList.cpp.s
+.PHONY : List/SortList.cpp.s
+
 Search/BinarySearch.obj: Search/BinarySearch.cpp.obj
 
 .PHONY : Search/BinarySearch.obj
@@ -1738,6 +1911,33 @@ Sort/ShellSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShellSort.dir\build.make CMakeFiles/ShellSort.dir/Sort/ShellSort.cpp.s
 .PHONY : Sort/ShellSort.cpp.s
 
+Sort/Shuffle.obj: Sort/Shuffle.cpp.obj
+
+.PHONY : Sort/Shuffle.obj
+
+# target to build an object file
+Sort/Shuffle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Shuffle.dir\build.make CMakeFiles/Shuffle.dir/Sort/Shuffle.cpp.obj
+.PHONY : Sort/Shuffle.cpp.obj
+
+Sort/Shuffle.i: Sort/Shuffle.cpp.i
+
+.PHONY : Sort/Shuffle.i
+
+# target to preprocess a source file
+Sort/Shuffle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Shuffle.dir\build.make CMakeFiles/Shuffle.dir/Sort/Shuffle.cpp.i
+.PHONY : Sort/Shuffle.cpp.i
+
+Sort/Shuffle.s: Sort/Shuffle.cpp.s
+
+.PHONY : Sort/Shuffle.s
+
+# target to generate assembly for a file
+Sort/Shuffle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Shuffle.dir\build.make CMakeFiles/Shuffle.dir/Sort/Shuffle.cpp.s
+.PHONY : Sort/Shuffle.cpp.s
+
 Sort/sortArrayByParity.obj: Sort/sortArrayByParity.cpp.obj
 
 .PHONY : Sort/sortArrayByParity.obj
@@ -2032,15 +2232,20 @@ help:
 	@echo ... MergeSort
 	@echo ... MinHeightTree
 	@echo ... PalindromeNumber
+	@echo ... PascalTriangle
 	@echo ... QuickSort
 	@echo ... RadixSort
 	@echo ... RelativeSortArray
 	@echo ... RemoveOutermostParentheses
+	@echo ... RotateList
 	@echo ... RunningSum
 	@echo ... SearchBST
 	@echo ... SecondPointer
 	@echo ... SelectSort
 	@echo ... ShellSort
+	@echo ... Shuffle
+	@echo ... SortColor
+	@echo ... SortList
 	@echo ... SqSearch
 	@echo ... ThreeSum
 	@echo ... ThreeSumCloset
@@ -2063,9 +2268,15 @@ help:
 	@echo ... strPointer
 	@echo ... strPointer2
 	@echo ... strlen
+	@echo ... Array/PascalTriangle.obj
+	@echo ... Array/PascalTriangle.i
+	@echo ... Array/PascalTriangle.s
 	@echo ... Array/RunningSum.obj
 	@echo ... Array/RunningSum.i
 	@echo ... Array/RunningSum.s
+	@echo ... Array/SortColor.obj
+	@echo ... Array/SortColor.i
+	@echo ... Array/SortColor.s
 	@echo ... Array/ThreeSum.obj
 	@echo ... Array/ThreeSum.i
 	@echo ... Array/ThreeSum.s
@@ -2132,6 +2343,12 @@ help:
 	@echo ... C/strlen.obj
 	@echo ... C/strlen.i
 	@echo ... C/strlen.s
+	@echo ... List/RotateList.obj
+	@echo ... List/RotateList.i
+	@echo ... List/RotateList.s
+	@echo ... List/SortList.obj
+	@echo ... List/SortList.i
+	@echo ... List/SortList.s
 	@echo ... Search/BinarySearch.obj
 	@echo ... Search/BinarySearch.i
 	@echo ... Search/BinarySearch.s
@@ -2174,6 +2391,9 @@ help:
 	@echo ... Sort/ShellSort.obj
 	@echo ... Sort/ShellSort.i
 	@echo ... Sort/ShellSort.s
+	@echo ... Sort/Shuffle.obj
+	@echo ... Sort/Shuffle.i
+	@echo ... Sort/Shuffle.s
 	@echo ... Sort/sortArrayByParity.obj
 	@echo ... Sort/sortArrayByParity.i
 	@echo ... Sort/sortArrayByParity.s
