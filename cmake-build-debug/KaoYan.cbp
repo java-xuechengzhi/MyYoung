@@ -521,6 +521,48 @@
 					<DistClean command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="PalindromeNumber">
+				<Option output="E:/Cpp/KaoYan/cmake-build-debug/PalindromeNumber.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cpp/KaoYan/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 PalindromeNumber"/>
+					<CompileFile command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PalindromeNumber/fast">
+				<Option output="E:/Cpp/KaoYan/cmake-build-debug/PalindromeNumber.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cpp/KaoYan/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 PalindromeNumber/fast"/>
+					<CompileFile command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="KMP">
 				<Option output="E:/Cpp/KaoYan/cmake-build-debug/KMP.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/Cpp/KaoYan/cmake-build-debug"/>
@@ -642,6 +684,48 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 deleteRep/fast"/>
+					<CompileFile command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="backtrack">
+				<Option output="E:/Cpp/KaoYan/cmake-build-debug/backtrack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cpp/KaoYan/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 backtrack"/>
+					<CompileFile command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="backtrack/fast">
+				<Option output="E:/Cpp/KaoYan/cmake-build-debug/backtrack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cpp/KaoYan/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 backtrack/fast"/>
 					<CompileFile command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1030,6 +1114,48 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 isPowerOfFour/fast"/>
+					<CompileFile command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ThreeSum">
+				<Option output="E:/Cpp/KaoYan/cmake-build-debug/ThreeSum.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cpp/KaoYan/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 ThreeSum"/>
+					<CompileFile command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ThreeSum/fast">
+				<Option output="E:/Cpp/KaoYan/cmake-build-debug/ThreeSum.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cpp/KaoYan/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 ThreeSum/fast"/>
 					<CompileFile command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1833,6 +1959,48 @@
 					<DistClean command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="ThreeSumCloset">
+				<Option output="E:/Cpp/KaoYan/cmake-build-debug/ThreeSumCloset.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cpp/KaoYan/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 ThreeSumCloset"/>
+					<CompileFile command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ThreeSumCloset/fast">
+				<Option output="E:/Cpp/KaoYan/cmake-build-debug/ThreeSumCloset.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cpp/KaoYan/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 ThreeSumCloset/fast"/>
+					<CompileFile command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="E:/Cpp/KaoYan/cmake-build-debug"/>
 				<Option type="4"/>
@@ -1846,6 +2014,12 @@
 		</Build>
 		<Unit filename="E:/Cpp/KaoYan/Array/RunningSum.cpp">
 			<Option target="RunningSum"/>
+		</Unit>
+		<Unit filename="E:/Cpp/KaoYan/Array/ThreeSum.cpp">
+			<Option target="ThreeSum"/>
+		</Unit>
+		<Unit filename="E:/Cpp/KaoYan/Array/ThreeSumCloset.cpp">
+			<Option target="ThreeSumCloset"/>
 		</Unit>
 		<Unit filename="E:/Cpp/KaoYan/Array/deleteRep.cpp">
 			<Option target="deleteRep"/>
@@ -1870,6 +2044,9 @@
 		</Unit>
 		<Unit filename="E:/Cpp/KaoYan/C/SecondPointer.c">
 			<Option target="SecondPointer"/>
+		</Unit>
+		<Unit filename="E:/Cpp/KaoYan/C/backtrack.cpp">
+			<Option target="backtrack"/>
 		</Unit>
 		<Unit filename="E:/Cpp/KaoYan/C/calloc.cpp">
 			<Option target="calloc"/>
@@ -1957,6 +2134,9 @@
 		</Unit>
 		<Unit filename="E:/Cpp/KaoYan/String/Hash.cpp">
 			<Option target="Hash"/>
+		</Unit>
+		<Unit filename="E:/Cpp/KaoYan/String/PalindromeNumber.cpp">
+			<Option target="PalindromeNumber"/>
 		</Unit>
 		<Unit filename="E:/Cpp/KaoYan/Tree/MaxDepth.cpp">
 			<Option target="MaxDepth"/>

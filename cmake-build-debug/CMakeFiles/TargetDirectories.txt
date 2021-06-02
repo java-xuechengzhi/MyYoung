@@ -10,9 +10,11 @@ E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/SelectSort.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/Matrix3.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/ShellSort.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/BinarySearch.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/PalindromeNumber.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/KMP.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/SqSearch.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/deleteRep.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/backtrack.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/strPointer.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/Hash.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/RadixSort.dir
@@ -23,6 +25,7 @@ E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/strPointer2.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/qsort.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/isPowerOfFour.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/ThreeSum.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/SearchBST.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/FunctionPointer.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/RelativeSortArray.dir
@@ -42,4 +45,5 @@ E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/sortArrayByParity.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/MaxDepth.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/RunningSum.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/RemoveOutermostParentheses.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/ThreeSumCloset.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/rebuild_cache.dir

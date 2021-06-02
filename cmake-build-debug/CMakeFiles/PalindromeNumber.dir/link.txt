@@ -1,0 +1,3 @@
+"D:\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\PalindromeNumber.dir/objects.a
+D:\environment\mingw64\bin\ar.exe cr CMakeFiles\PalindromeNumber.dir/objects.a @CMakeFiles\PalindromeNumber.dir\objects1.rsp
+D:\environment\mingw64\bin\g++.exe  -Wall -fexec-charset=GBK -g -Wl,--whole-archive CMakeFiles\PalindromeNumber.dir/objects.a -Wl,--no-whole-archive -o PalindromeNumber.exe -Wl,--out-implib,libPalindromeNumber.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PalindromeNumber.dir\linklibs.rsp

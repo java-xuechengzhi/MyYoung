@@ -285,6 +285,19 @@ BinarySearch/fast:
 .PHONY : BinarySearch/fast
 
 #=============================================================================
+# Target rules for targets named PalindromeNumber
+
+# Build rule for target.
+PalindromeNumber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PalindromeNumber
+.PHONY : PalindromeNumber
+
+# fast build rule for target.
+PalindromeNumber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PalindromeNumber.dir\build.make CMakeFiles/PalindromeNumber.dir/build
+.PHONY : PalindromeNumber/fast
+
+#=============================================================================
 # Target rules for targets named KMP
 
 # Build rule for target.
@@ -322,6 +335,19 @@ deleteRep: cmake_check_build_system
 deleteRep/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\deleteRep.dir\build.make CMakeFiles/deleteRep.dir/build
 .PHONY : deleteRep/fast
+
+#=============================================================================
+# Target rules for targets named backtrack
+
+# Build rule for target.
+backtrack: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 backtrack
+.PHONY : backtrack
+
+# fast build rule for target.
+backtrack/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtrack.dir\build.make CMakeFiles/backtrack.dir/build
+.PHONY : backtrack/fast
 
 #=============================================================================
 # Target rules for targets named strPointer
@@ -439,6 +465,19 @@ isPowerOfFour: cmake_check_build_system
 isPowerOfFour/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\isPowerOfFour.dir\build.make CMakeFiles/isPowerOfFour.dir/build
 .PHONY : isPowerOfFour/fast
+
+#=============================================================================
+# Target rules for targets named ThreeSum
+
+# Build rule for target.
+ThreeSum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ThreeSum
+.PHONY : ThreeSum
+
+# fast build rule for target.
+ThreeSum/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeSum.dir\build.make CMakeFiles/ThreeSum.dir/build
+.PHONY : ThreeSum/fast
 
 #=============================================================================
 # Target rules for targets named SearchBST
@@ -687,6 +726,19 @@ RemoveOutermostParentheses/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RemoveOutermostParentheses.dir\build.make CMakeFiles/RemoveOutermostParentheses.dir/build
 .PHONY : RemoveOutermostParentheses/fast
 
+#=============================================================================
+# Target rules for targets named ThreeSumCloset
+
+# Build rule for target.
+ThreeSumCloset: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ThreeSumCloset
+.PHONY : ThreeSumCloset
+
+# fast build rule for target.
+ThreeSumCloset/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeSumCloset.dir\build.make CMakeFiles/ThreeSumCloset.dir/build
+.PHONY : ThreeSumCloset/fast
+
 Array/RunningSum.obj: Array/RunningSum.cpp.obj
 
 .PHONY : Array/RunningSum.obj
@@ -713,6 +765,60 @@ Array/RunningSum.s: Array/RunningSum.cpp.s
 Array/RunningSum.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RunningSum.dir\build.make CMakeFiles/RunningSum.dir/Array/RunningSum.cpp.s
 .PHONY : Array/RunningSum.cpp.s
+
+Array/ThreeSum.obj: Array/ThreeSum.cpp.obj
+
+.PHONY : Array/ThreeSum.obj
+
+# target to build an object file
+Array/ThreeSum.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeSum.dir\build.make CMakeFiles/ThreeSum.dir/Array/ThreeSum.cpp.obj
+.PHONY : Array/ThreeSum.cpp.obj
+
+Array/ThreeSum.i: Array/ThreeSum.cpp.i
+
+.PHONY : Array/ThreeSum.i
+
+# target to preprocess a source file
+Array/ThreeSum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeSum.dir\build.make CMakeFiles/ThreeSum.dir/Array/ThreeSum.cpp.i
+.PHONY : Array/ThreeSum.cpp.i
+
+Array/ThreeSum.s: Array/ThreeSum.cpp.s
+
+.PHONY : Array/ThreeSum.s
+
+# target to generate assembly for a file
+Array/ThreeSum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeSum.dir\build.make CMakeFiles/ThreeSum.dir/Array/ThreeSum.cpp.s
+.PHONY : Array/ThreeSum.cpp.s
+
+Array/ThreeSumCloset.obj: Array/ThreeSumCloset.cpp.obj
+
+.PHONY : Array/ThreeSumCloset.obj
+
+# target to build an object file
+Array/ThreeSumCloset.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeSumCloset.dir\build.make CMakeFiles/ThreeSumCloset.dir/Array/ThreeSumCloset.cpp.obj
+.PHONY : Array/ThreeSumCloset.cpp.obj
+
+Array/ThreeSumCloset.i: Array/ThreeSumCloset.cpp.i
+
+.PHONY : Array/ThreeSumCloset.i
+
+# target to preprocess a source file
+Array/ThreeSumCloset.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeSumCloset.dir\build.make CMakeFiles/ThreeSumCloset.dir/Array/ThreeSumCloset.cpp.i
+.PHONY : Array/ThreeSumCloset.cpp.i
+
+Array/ThreeSumCloset.s: Array/ThreeSumCloset.cpp.s
+
+.PHONY : Array/ThreeSumCloset.s
+
+# target to generate assembly for a file
+Array/ThreeSumCloset.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeSumCloset.dir\build.make CMakeFiles/ThreeSumCloset.dir/Array/ThreeSumCloset.cpp.s
+.PHONY : Array/ThreeSumCloset.cpp.s
 
 Array/deleteRep.obj: Array/deleteRep.cpp.obj
 
@@ -929,6 +1035,33 @@ C/SecondPointer.s: C/SecondPointer.c.s
 C/SecondPointer.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SecondPointer.dir\build.make CMakeFiles/SecondPointer.dir/C/SecondPointer.c.s
 .PHONY : C/SecondPointer.c.s
+
+C/backtrack.obj: C/backtrack.cpp.obj
+
+.PHONY : C/backtrack.obj
+
+# target to build an object file
+C/backtrack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtrack.dir\build.make CMakeFiles/backtrack.dir/C/backtrack.cpp.obj
+.PHONY : C/backtrack.cpp.obj
+
+C/backtrack.i: C/backtrack.cpp.i
+
+.PHONY : C/backtrack.i
+
+# target to preprocess a source file
+C/backtrack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtrack.dir\build.make CMakeFiles/backtrack.dir/C/backtrack.cpp.i
+.PHONY : C/backtrack.cpp.i
+
+C/backtrack.s: C/backtrack.cpp.s
+
+.PHONY : C/backtrack.s
+
+# target to generate assembly for a file
+C/backtrack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtrack.dir\build.make CMakeFiles/backtrack.dir/C/backtrack.cpp.s
+.PHONY : C/backtrack.cpp.s
 
 C/calloc.obj: C/calloc.cpp.obj
 
@@ -1713,6 +1846,33 @@ String/Hash.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hash.dir\build.make CMakeFiles/Hash.dir/String/Hash.cpp.s
 .PHONY : String/Hash.cpp.s
 
+String/PalindromeNumber.obj: String/PalindromeNumber.cpp.obj
+
+.PHONY : String/PalindromeNumber.obj
+
+# target to build an object file
+String/PalindromeNumber.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PalindromeNumber.dir\build.make CMakeFiles/PalindromeNumber.dir/String/PalindromeNumber.cpp.obj
+.PHONY : String/PalindromeNumber.cpp.obj
+
+String/PalindromeNumber.i: String/PalindromeNumber.cpp.i
+
+.PHONY : String/PalindromeNumber.i
+
+# target to preprocess a source file
+String/PalindromeNumber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PalindromeNumber.dir\build.make CMakeFiles/PalindromeNumber.dir/String/PalindromeNumber.cpp.i
+.PHONY : String/PalindromeNumber.cpp.i
+
+String/PalindromeNumber.s: String/PalindromeNumber.cpp.s
+
+.PHONY : String/PalindromeNumber.s
+
+# target to generate assembly for a file
+String/PalindromeNumber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PalindromeNumber.dir\build.make CMakeFiles/PalindromeNumber.dir/String/PalindromeNumber.cpp.s
+.PHONY : String/PalindromeNumber.cpp.s
+
 Tree/MaxDepth.obj: Tree/MaxDepth.cpp.obj
 
 .PHONY : Tree/MaxDepth.obj
@@ -1871,6 +2031,7 @@ help:
 	@echo ... MaxDepth
 	@echo ... MergeSort
 	@echo ... MinHeightTree
+	@echo ... PalindromeNumber
 	@echo ... QuickSort
 	@echo ... RadixSort
 	@echo ... RelativeSortArray
@@ -1881,6 +2042,9 @@ help:
 	@echo ... SelectSort
 	@echo ... ShellSort
 	@echo ... SqSearch
+	@echo ... ThreeSum
+	@echo ... ThreeSumCloset
+	@echo ... backtrack
 	@echo ... calloc
 	@echo ... deleteRep
 	@echo ... enum
@@ -1902,6 +2066,12 @@ help:
 	@echo ... Array/RunningSum.obj
 	@echo ... Array/RunningSum.i
 	@echo ... Array/RunningSum.s
+	@echo ... Array/ThreeSum.obj
+	@echo ... Array/ThreeSum.i
+	@echo ... Array/ThreeSum.s
+	@echo ... Array/ThreeSumCloset.obj
+	@echo ... Array/ThreeSumCloset.i
+	@echo ... Array/ThreeSumCloset.s
 	@echo ... Array/deleteRep.obj
 	@echo ... Array/deleteRep.i
 	@echo ... Array/deleteRep.s
@@ -1926,6 +2096,9 @@ help:
 	@echo ... C/SecondPointer.obj
 	@echo ... C/SecondPointer.i
 	@echo ... C/SecondPointer.s
+	@echo ... C/backtrack.obj
+	@echo ... C/backtrack.i
+	@echo ... C/backtrack.s
 	@echo ... C/calloc.obj
 	@echo ... C/calloc.i
 	@echo ... C/calloc.s
@@ -2013,6 +2186,9 @@ help:
 	@echo ... String/Hash.obj
 	@echo ... String/Hash.i
 	@echo ... String/Hash.s
+	@echo ... String/PalindromeNumber.obj
+	@echo ... String/PalindromeNumber.i
+	@echo ... String/PalindromeNumber.s
 	@echo ... Tree/MaxDepth.obj
 	@echo ... Tree/MaxDepth.i
 	@echo ... Tree/MaxDepth.s
