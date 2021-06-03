@@ -47,11 +47,11 @@ void RadixSort(int A[], int n) {
             B[i][0] = 0;
         }
     }
+
     for(int i = 0; i < 10; i++) {
-        delete[]B[i];
+        delete []B[i];
     }
     delete B;
-
 }
 
 int main()

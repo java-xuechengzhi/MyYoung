@@ -1413,6 +1413,48 @@
 					<DistClean command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="findMaxLength">
+				<Option output="E:/Cpp/KaoYan/cmake-build-debug/findMaxLength.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cpp/KaoYan/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 findMaxLength"/>
+					<CompileFile command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="findMaxLength/fast">
+				<Option output="E:/Cpp/KaoYan/cmake-build-debug/findMaxLength.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cpp/KaoYan/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 findMaxLength/fast"/>
+					<CompileFile command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/environment/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/KaoYan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="enum">
 				<Option output="E:/Cpp/KaoYan/cmake-build-debug/enum.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/Cpp/KaoYan/cmake-build-debug"/>
@@ -2239,6 +2281,9 @@
 		</Unit>
 		<Unit filename="E:/Cpp/KaoYan/Array/deleteRep.cpp">
 			<Option target="deleteRep"/>
+		</Unit>
+		<Unit filename="E:/Cpp/KaoYan/Array/findMaxLength.cpp">
+			<Option target="findMaxLength"/>
 		</Unit>
 		<Unit filename="E:/Cpp/KaoYan/Array/findRepeatNumber.cpp">
 			<Option target="findRepeatNumber"/>

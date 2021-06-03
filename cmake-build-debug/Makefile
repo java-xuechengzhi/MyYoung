@@ -558,6 +558,19 @@ SecondPointer/fast:
 .PHONY : SecondPointer/fast
 
 #=============================================================================
+# Target rules for targets named findMaxLength
+
+# Build rule for target.
+findMaxLength: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 findMaxLength
+.PHONY : findMaxLength
+
+# fast build rule for target.
+findMaxLength/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\findMaxLength.dir\build.make CMakeFiles/findMaxLength.dir/build
+.PHONY : findMaxLength/fast
+
+#=============================================================================
 # Target rules for targets named enum
 
 # Build rule for target.
@@ -965,6 +978,33 @@ Array/deleteRep.s: Array/deleteRep.cpp.s
 Array/deleteRep.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\deleteRep.dir\build.make CMakeFiles/deleteRep.dir/Array/deleteRep.cpp.s
 .PHONY : Array/deleteRep.cpp.s
+
+Array/findMaxLength.obj: Array/findMaxLength.cpp.obj
+
+.PHONY : Array/findMaxLength.obj
+
+# target to build an object file
+Array/findMaxLength.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\findMaxLength.dir\build.make CMakeFiles/findMaxLength.dir/Array/findMaxLength.cpp.obj
+.PHONY : Array/findMaxLength.cpp.obj
+
+Array/findMaxLength.i: Array/findMaxLength.cpp.i
+
+.PHONY : Array/findMaxLength.i
+
+# target to preprocess a source file
+Array/findMaxLength.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\findMaxLength.dir\build.make CMakeFiles/findMaxLength.dir/Array/findMaxLength.cpp.i
+.PHONY : Array/findMaxLength.cpp.i
+
+Array/findMaxLength.s: Array/findMaxLength.cpp.s
+
+.PHONY : Array/findMaxLength.s
+
+# target to generate assembly for a file
+Array/findMaxLength.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\findMaxLength.dir\build.make CMakeFiles/findMaxLength.dir/Array/findMaxLength.cpp.s
+.PHONY : Array/findMaxLength.cpp.s
 
 Array/findRepeatNumber.obj: Array/findRepeatNumber.cpp.obj
 
@@ -2253,6 +2293,7 @@ help:
 	@echo ... calloc
 	@echo ... deleteRep
 	@echo ... enum
+	@echo ... findMaxLength
 	@echo ... findRepeatNumber
 	@echo ... free
 	@echo ... intersection
@@ -2286,6 +2327,9 @@ help:
 	@echo ... Array/deleteRep.obj
 	@echo ... Array/deleteRep.i
 	@echo ... Array/deleteRep.s
+	@echo ... Array/findMaxLength.obj
+	@echo ... Array/findMaxLength.i
+	@echo ... Array/findMaxLength.s
 	@echo ... Array/findRepeatNumber.obj
 	@echo ... Array/findRepeatNumber.i
 	@echo ... Array/findRepeatNumber.s

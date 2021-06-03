@@ -12,6 +12,15 @@ void quickSort(int *a, int left, int right) {
     quickSort(a, pos + 1, right);
 }
 
+void quickSort2(int *a, int left, int right) {
+    if(left >= right) {
+        return;
+    }
+    int pos = findPosition(a, left, right);
+    quickSort(a, left, pos - 1);
+    quickSort(a, pos + 1, right);
+}
+
 int findPosition(int *a, int left, int right) {
     int temp = a[left];
 

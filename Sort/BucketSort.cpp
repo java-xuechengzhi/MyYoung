@@ -15,7 +15,6 @@ int main(void) {
 
     memset(array_stu, 0, sizeof(array_stu));
     memset(array_out, 0, sizeof(array_out));
-
     for(int i = 0; i < 50; i++) {
         array_stu[i] = random_set(1, 99);
     }
