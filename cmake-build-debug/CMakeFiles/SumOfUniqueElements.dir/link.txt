@@ -1,0 +1,3 @@
+"D:\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\SumOfUniqueElements.dir/objects.a
+D:\environment\mingw64\bin\ar.exe cr CMakeFiles\SumOfUniqueElements.dir/objects.a @CMakeFiles\SumOfUniqueElements.dir\objects1.rsp
+D:\environment\mingw64\bin\g++.exe  -Wall -fexec-charset=GBK -g -Wl,--whole-archive CMakeFiles\SumOfUniqueElements.dir/objects.a -Wl,--no-whole-archive -o SumOfUniqueElements.exe -Wl,--out-implib,libSumOfUniqueElements.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SumOfUniqueElements.dir\linklibs.rsp

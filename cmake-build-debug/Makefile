@@ -324,6 +324,19 @@ SqSearch/fast:
 .PHONY : SqSearch/fast
 
 #=============================================================================
+# Target rules for targets named MaximumProductofTwoElementsinanArray
+
+# Build rule for target.
+MaximumProductofTwoElementsinanArray: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MaximumProductofTwoElementsinanArray
+.PHONY : MaximumProductofTwoElementsinanArray
+
+# fast build rule for target.
+MaximumProductofTwoElementsinanArray/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaximumProductofTwoElementsinanArray.dir\build.make CMakeFiles/MaximumProductofTwoElementsinanArray.dir/build
+.PHONY : MaximumProductofTwoElementsinanArray/fast
+
+#=============================================================================
 # Target rules for targets named PascalTriangle
 
 # Build rule for target.
@@ -478,6 +491,19 @@ qsort: cmake_check_build_system
 qsort/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\qsort.dir\build.make CMakeFiles/qsort.dir/build
 .PHONY : qsort/fast
+
+#=============================================================================
+# Target rules for targets named SumOfUniqueElements
+
+# Build rule for target.
+SumOfUniqueElements: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SumOfUniqueElements
+.PHONY : SumOfUniqueElements
+
+# fast build rule for target.
+SumOfUniqueElements/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SumOfUniqueElements.dir\build.make CMakeFiles/SumOfUniqueElements.dir/build
+.PHONY : SumOfUniqueElements/fast
 
 #=============================================================================
 # Target rules for targets named isPowerOfFour
@@ -817,6 +843,33 @@ Shuffle/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Shuffle.dir\build.make CMakeFiles/Shuffle.dir/build
 .PHONY : Shuffle/fast
 
+Array/MaximumProductofTwoElementsinanArray.obj: Array/MaximumProductofTwoElementsinanArray.cpp.obj
+
+.PHONY : Array/MaximumProductofTwoElementsinanArray.obj
+
+# target to build an object file
+Array/MaximumProductofTwoElementsinanArray.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaximumProductofTwoElementsinanArray.dir\build.make CMakeFiles/MaximumProductofTwoElementsinanArray.dir/Array/MaximumProductofTwoElementsinanArray.cpp.obj
+.PHONY : Array/MaximumProductofTwoElementsinanArray.cpp.obj
+
+Array/MaximumProductofTwoElementsinanArray.i: Array/MaximumProductofTwoElementsinanArray.cpp.i
+
+.PHONY : Array/MaximumProductofTwoElementsinanArray.i
+
+# target to preprocess a source file
+Array/MaximumProductofTwoElementsinanArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaximumProductofTwoElementsinanArray.dir\build.make CMakeFiles/MaximumProductofTwoElementsinanArray.dir/Array/MaximumProductofTwoElementsinanArray.cpp.i
+.PHONY : Array/MaximumProductofTwoElementsinanArray.cpp.i
+
+Array/MaximumProductofTwoElementsinanArray.s: Array/MaximumProductofTwoElementsinanArray.cpp.s
+
+.PHONY : Array/MaximumProductofTwoElementsinanArray.s
+
+# target to generate assembly for a file
+Array/MaximumProductofTwoElementsinanArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MaximumProductofTwoElementsinanArray.dir\build.make CMakeFiles/MaximumProductofTwoElementsinanArray.dir/Array/MaximumProductofTwoElementsinanArray.cpp.s
+.PHONY : Array/MaximumProductofTwoElementsinanArray.cpp.s
+
 Array/PascalTriangle.obj: Array/PascalTriangle.cpp.obj
 
 .PHONY : Array/PascalTriangle.obj
@@ -897,6 +950,33 @@ Array/SortColor.s: Array/SortColor.cpp.s
 Array/SortColor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortColor.dir\build.make CMakeFiles/SortColor.dir/Array/SortColor.cpp.s
 .PHONY : Array/SortColor.cpp.s
+
+Array/SumOfUniqueElements.obj: Array/SumOfUniqueElements.cpp.obj
+
+.PHONY : Array/SumOfUniqueElements.obj
+
+# target to build an object file
+Array/SumOfUniqueElements.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SumOfUniqueElements.dir\build.make CMakeFiles/SumOfUniqueElements.dir/Array/SumOfUniqueElements.cpp.obj
+.PHONY : Array/SumOfUniqueElements.cpp.obj
+
+Array/SumOfUniqueElements.i: Array/SumOfUniqueElements.cpp.i
+
+.PHONY : Array/SumOfUniqueElements.i
+
+# target to preprocess a source file
+Array/SumOfUniqueElements.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SumOfUniqueElements.dir\build.make CMakeFiles/SumOfUniqueElements.dir/Array/SumOfUniqueElements.cpp.i
+.PHONY : Array/SumOfUniqueElements.cpp.i
+
+Array/SumOfUniqueElements.s: Array/SumOfUniqueElements.cpp.s
+
+.PHONY : Array/SumOfUniqueElements.s
+
+# target to generate assembly for a file
+Array/SumOfUniqueElements.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SumOfUniqueElements.dir\build.make CMakeFiles/SumOfUniqueElements.dir/Array/SumOfUniqueElements.cpp.s
+.PHONY : Array/SumOfUniqueElements.cpp.s
 
 Array/ThreeSum.obj: Array/ThreeSum.cpp.obj
 
@@ -2269,6 +2349,7 @@ help:
 	@echo ... Matrix2
 	@echo ... Matrix3
 	@echo ... MaxDepth
+	@echo ... MaximumProductofTwoElementsinanArray
 	@echo ... MergeSort
 	@echo ... MinHeightTree
 	@echo ... PalindromeNumber
@@ -2287,6 +2368,7 @@ help:
 	@echo ... SortColor
 	@echo ... SortList
 	@echo ... SqSearch
+	@echo ... SumOfUniqueElements
 	@echo ... ThreeSum
 	@echo ... ThreeSumCloset
 	@echo ... backtrack
@@ -2309,6 +2391,9 @@ help:
 	@echo ... strPointer
 	@echo ... strPointer2
 	@echo ... strlen
+	@echo ... Array/MaximumProductofTwoElementsinanArray.obj
+	@echo ... Array/MaximumProductofTwoElementsinanArray.i
+	@echo ... Array/MaximumProductofTwoElementsinanArray.s
 	@echo ... Array/PascalTriangle.obj
 	@echo ... Array/PascalTriangle.i
 	@echo ... Array/PascalTriangle.s
@@ -2318,6 +2403,9 @@ help:
 	@echo ... Array/SortColor.obj
 	@echo ... Array/SortColor.i
 	@echo ... Array/SortColor.s
+	@echo ... Array/SumOfUniqueElements.obj
+	@echo ... Array/SumOfUniqueElements.i
+	@echo ... Array/SumOfUniqueElements.s
 	@echo ... Array/ThreeSum.obj
 	@echo ... Array/ThreeSum.i
 	@echo ... Array/ThreeSum.s
