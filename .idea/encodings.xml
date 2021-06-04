@@ -2,5 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/C/malloc.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/C/完美的代价.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/C/翻硬币.cpp" charset="GBK" />
   </component>
 </project>

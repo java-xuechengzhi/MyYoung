@@ -207,6 +207,19 @@ BubbleSort/fast:
 .PHONY : BubbleSort/fast
 
 #=============================================================================
+# Target rules for targets named RandomizedSet
+
+# Build rule for target.
+RandomizedSet: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RandomizedSet
+.PHONY : RandomizedSet
+
+# fast build rule for target.
+RandomizedSet/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RandomizedSet.dir\build.make CMakeFiles/RandomizedSet.dir/build
+.PHONY : RandomizedSet/fast
+
+#=============================================================================
 # Target rules for targets named intersection
 
 # Build rule for target.
@@ -231,6 +244,19 @@ QuickSort: cmake_check_build_system
 QuickSort/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuickSort.dir\build.make CMakeFiles/QuickSort.dir/build
 .PHONY : QuickSort/fast
+
+#=============================================================================
+# Target rules for targets named containsDuplicate
+
+# Build rule for target.
+containsDuplicate: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 containsDuplicate
+.PHONY : containsDuplicate
+
+# fast build rule for target.
+containsDuplicate/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\containsDuplicate.dir\build.make CMakeFiles/containsDuplicate.dir/build
+.PHONY : containsDuplicate/fast
 
 #=============================================================================
 # Target rules for targets named SelectSort
@@ -766,6 +792,19 @@ MaxDepth/fast:
 .PHONY : MaxDepth/fast
 
 #=============================================================================
+# Target rules for targets named Heap
+
+# Build rule for target.
+Heap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Heap
+.PHONY : Heap
+
+# fast build rule for target.
+Heap/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Heap.dir\build.make CMakeFiles/Heap.dir/build
+.PHONY : Heap/fast
+
+#=============================================================================
 # Target rules for targets named RunningSum
 
 # Build rule for target.
@@ -842,6 +881,45 @@ Shuffle: cmake_check_build_system
 Shuffle/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Shuffle.dir\build.make CMakeFiles/Shuffle.dir/build
 .PHONY : Shuffle/fast
+
+#=============================================================================
+# Target rules for targets named containsDuplicateII
+
+# Build rule for target.
+containsDuplicateII: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 containsDuplicateII
+.PHONY : containsDuplicateII
+
+# fast build rule for target.
+containsDuplicateII/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\containsDuplicateII.dir\build.make CMakeFiles/containsDuplicateII.dir/build
+.PHONY : containsDuplicateII/fast
+
+#=============================================================================
+# Target rules for targets named BFS1
+
+# Build rule for target.
+BFS1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BFS1
+.PHONY : BFS1
+
+# fast build rule for target.
+BFS1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BFS1.dir\build.make CMakeFiles/BFS1.dir/build
+.PHONY : BFS1/fast
+
+#=============================================================================
+# Target rules for targets named algorithm
+
+# Build rule for target.
+algorithm: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm
+.PHONY : algorithm
+
+# fast build rule for target.
+algorithm/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm.dir\build.make CMakeFiles/algorithm.dir/build
+.PHONY : algorithm/fast
 
 Array/MaximumProductofTwoElementsinanArray.obj: Array/MaximumProductofTwoElementsinanArray.cpp.obj
 
@@ -1140,6 +1218,33 @@ Array/intersection.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\intersection.dir\build.make CMakeFiles/intersection.dir/Array/intersection.cpp.s
 .PHONY : Array/intersection.cpp.s
 
+C/BFS1.obj: C/BFS1.cpp.obj
+
+.PHONY : C/BFS1.obj
+
+# target to build an object file
+C/BFS1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BFS1.dir\build.make CMakeFiles/BFS1.dir/C/BFS1.cpp.obj
+.PHONY : C/BFS1.cpp.obj
+
+C/BFS1.i: C/BFS1.cpp.i
+
+.PHONY : C/BFS1.i
+
+# target to preprocess a source file
+C/BFS1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BFS1.dir\build.make CMakeFiles/BFS1.dir/C/BFS1.cpp.i
+.PHONY : C/BFS1.cpp.i
+
+C/BFS1.s: C/BFS1.cpp.s
+
+.PHONY : C/BFS1.s
+
+# target to generate assembly for a file
+C/BFS1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BFS1.dir\build.make CMakeFiles/BFS1.dir/C/BFS1.cpp.s
+.PHONY : C/BFS1.cpp.s
+
 C/FunctionPointer.obj: C/FunctionPointer.c.obj
 
 .PHONY : C/FunctionPointer.obj
@@ -1166,6 +1271,33 @@ C/FunctionPointer.s: C/FunctionPointer.c.s
 C/FunctionPointer.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FunctionPointer.dir\build.make CMakeFiles/FunctionPointer.dir/C/FunctionPointer.c.s
 .PHONY : C/FunctionPointer.c.s
+
+C/Heap.obj: C/Heap.cpp.obj
+
+.PHONY : C/Heap.obj
+
+# target to build an object file
+C/Heap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Heap.dir\build.make CMakeFiles/Heap.dir/C/Heap.cpp.obj
+.PHONY : C/Heap.cpp.obj
+
+C/Heap.i: C/Heap.cpp.i
+
+.PHONY : C/Heap.i
+
+# target to preprocess a source file
+C/Heap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Heap.dir\build.make CMakeFiles/Heap.dir/C/Heap.cpp.i
+.PHONY : C/Heap.cpp.i
+
+C/Heap.s: C/Heap.cpp.s
+
+.PHONY : C/Heap.s
+
+# target to generate assembly for a file
+C/Heap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Heap.dir\build.make CMakeFiles/Heap.dir/C/Heap.cpp.s
+.PHONY : C/Heap.cpp.s
 
 C/Matrix.obj: C/Matrix.c.obj
 
@@ -1274,6 +1406,33 @@ C/SecondPointer.s: C/SecondPointer.c.s
 C/SecondPointer.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SecondPointer.dir\build.make CMakeFiles/SecondPointer.dir/C/SecondPointer.c.s
 .PHONY : C/SecondPointer.c.s
+
+C/algorithm.obj: C/algorithm.cpp.obj
+
+.PHONY : C/algorithm.obj
+
+# target to build an object file
+C/algorithm.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm.dir\build.make CMakeFiles/algorithm.dir/C/algorithm.cpp.obj
+.PHONY : C/algorithm.cpp.obj
+
+C/algorithm.i: C/algorithm.cpp.i
+
+.PHONY : C/algorithm.i
+
+# target to preprocess a source file
+C/algorithm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm.dir\build.make CMakeFiles/algorithm.dir/C/algorithm.cpp.i
+.PHONY : C/algorithm.cpp.i
+
+C/algorithm.s: C/algorithm.cpp.s
+
+.PHONY : C/algorithm.s
+
+# target to generate assembly for a file
+C/algorithm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm.dir\build.make CMakeFiles/algorithm.dir/C/algorithm.cpp.s
+.PHONY : C/algorithm.cpp.s
 
 C/backtrack.obj: C/backtrack.cpp.obj
 
@@ -1598,6 +1757,87 @@ C/strlen.s: C/strlen.c.s
 C/strlen.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\strlen.dir\build.make CMakeFiles/strlen.dir/C/strlen.c.s
 .PHONY : C/strlen.c.s
+
+Hash/RandomizedSet.obj: Hash/RandomizedSet.cpp.obj
+
+.PHONY : Hash/RandomizedSet.obj
+
+# target to build an object file
+Hash/RandomizedSet.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RandomizedSet.dir\build.make CMakeFiles/RandomizedSet.dir/Hash/RandomizedSet.cpp.obj
+.PHONY : Hash/RandomizedSet.cpp.obj
+
+Hash/RandomizedSet.i: Hash/RandomizedSet.cpp.i
+
+.PHONY : Hash/RandomizedSet.i
+
+# target to preprocess a source file
+Hash/RandomizedSet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RandomizedSet.dir\build.make CMakeFiles/RandomizedSet.dir/Hash/RandomizedSet.cpp.i
+.PHONY : Hash/RandomizedSet.cpp.i
+
+Hash/RandomizedSet.s: Hash/RandomizedSet.cpp.s
+
+.PHONY : Hash/RandomizedSet.s
+
+# target to generate assembly for a file
+Hash/RandomizedSet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RandomizedSet.dir\build.make CMakeFiles/RandomizedSet.dir/Hash/RandomizedSet.cpp.s
+.PHONY : Hash/RandomizedSet.cpp.s
+
+Hash/containsDuplicate.obj: Hash/containsDuplicate.cpp.obj
+
+.PHONY : Hash/containsDuplicate.obj
+
+# target to build an object file
+Hash/containsDuplicate.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\containsDuplicate.dir\build.make CMakeFiles/containsDuplicate.dir/Hash/containsDuplicate.cpp.obj
+.PHONY : Hash/containsDuplicate.cpp.obj
+
+Hash/containsDuplicate.i: Hash/containsDuplicate.cpp.i
+
+.PHONY : Hash/containsDuplicate.i
+
+# target to preprocess a source file
+Hash/containsDuplicate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\containsDuplicate.dir\build.make CMakeFiles/containsDuplicate.dir/Hash/containsDuplicate.cpp.i
+.PHONY : Hash/containsDuplicate.cpp.i
+
+Hash/containsDuplicate.s: Hash/containsDuplicate.cpp.s
+
+.PHONY : Hash/containsDuplicate.s
+
+# target to generate assembly for a file
+Hash/containsDuplicate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\containsDuplicate.dir\build.make CMakeFiles/containsDuplicate.dir/Hash/containsDuplicate.cpp.s
+.PHONY : Hash/containsDuplicate.cpp.s
+
+Hash/containsDuplicateII.obj: Hash/containsDuplicateII.cpp.obj
+
+.PHONY : Hash/containsDuplicateII.obj
+
+# target to build an object file
+Hash/containsDuplicateII.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\containsDuplicateII.dir\build.make CMakeFiles/containsDuplicateII.dir/Hash/containsDuplicateII.cpp.obj
+.PHONY : Hash/containsDuplicateII.cpp.obj
+
+Hash/containsDuplicateII.i: Hash/containsDuplicateII.cpp.i
+
+.PHONY : Hash/containsDuplicateII.i
+
+# target to preprocess a source file
+Hash/containsDuplicateII.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\containsDuplicateII.dir\build.make CMakeFiles/containsDuplicateII.dir/Hash/containsDuplicateII.cpp.i
+.PHONY : Hash/containsDuplicateII.cpp.i
+
+Hash/containsDuplicateII.s: Hash/containsDuplicateII.cpp.s
+
+.PHONY : Hash/containsDuplicateII.s
+
+# target to generate assembly for a file
+Hash/containsDuplicateII.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\containsDuplicateII.dir\build.make CMakeFiles/containsDuplicateII.dir/Hash/containsDuplicateII.cpp.s
+.PHONY : Hash/containsDuplicateII.cpp.s
 
 List/RotateList.obj: List/RotateList.cpp.obj
 
@@ -2336,12 +2576,14 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... BFS1
 	@echo ... BinarySearch
 	@echo ... BubbleSort
 	@echo ... BucketSort
 	@echo ... FrequencySort
 	@echo ... FunctionPointer
 	@echo ... Hash
+	@echo ... Heap
 	@echo ... HeapSort
 	@echo ... InsertSort
 	@echo ... KMP
@@ -2356,6 +2598,7 @@ help:
 	@echo ... PascalTriangle
 	@echo ... QuickSort
 	@echo ... RadixSort
+	@echo ... RandomizedSet
 	@echo ... RelativeSortArray
 	@echo ... RemoveOutermostParentheses
 	@echo ... RotateList
@@ -2371,8 +2614,11 @@ help:
 	@echo ... SumOfUniqueElements
 	@echo ... ThreeSum
 	@echo ... ThreeSumCloset
+	@echo ... algorithm
 	@echo ... backtrack
 	@echo ... calloc
+	@echo ... containsDuplicate
+	@echo ... containsDuplicateII
 	@echo ... deleteRep
 	@echo ... enum
 	@echo ... findMaxLength
@@ -2424,9 +2670,15 @@ help:
 	@echo ... Array/intersection.obj
 	@echo ... Array/intersection.i
 	@echo ... Array/intersection.s
+	@echo ... C/BFS1.obj
+	@echo ... C/BFS1.i
+	@echo ... C/BFS1.s
 	@echo ... C/FunctionPointer.obj
 	@echo ... C/FunctionPointer.i
 	@echo ... C/FunctionPointer.s
+	@echo ... C/Heap.obj
+	@echo ... C/Heap.i
+	@echo ... C/Heap.s
 	@echo ... C/Matrix.obj
 	@echo ... C/Matrix.i
 	@echo ... C/Matrix.s
@@ -2439,6 +2691,9 @@ help:
 	@echo ... C/SecondPointer.obj
 	@echo ... C/SecondPointer.i
 	@echo ... C/SecondPointer.s
+	@echo ... C/algorithm.obj
+	@echo ... C/algorithm.i
+	@echo ... C/algorithm.s
 	@echo ... C/backtrack.obj
 	@echo ... C/backtrack.i
 	@echo ... C/backtrack.s
@@ -2475,6 +2730,15 @@ help:
 	@echo ... C/strlen.obj
 	@echo ... C/strlen.i
 	@echo ... C/strlen.s
+	@echo ... Hash/RandomizedSet.obj
+	@echo ... Hash/RandomizedSet.i
+	@echo ... Hash/RandomizedSet.s
+	@echo ... Hash/containsDuplicate.obj
+	@echo ... Hash/containsDuplicate.i
+	@echo ... Hash/containsDuplicate.s
+	@echo ... Hash/containsDuplicateII.obj
+	@echo ... Hash/containsDuplicateII.i
+	@echo ... Hash/containsDuplicateII.s
 	@echo ... List/RotateList.obj
 	@echo ... List/RotateList.i
 	@echo ... List/RotateList.s
