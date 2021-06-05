@@ -39,8 +39,8 @@ void RadixSort(int A[], int n) {
         for(j = 0; j < n; j++) {
             int num = Bitnumber(A[i], bit);
             int index = ++B[num][0];
-            B[num][index] = [j];
-        }A
+            B[num][index] = A[j];
+        }
         for(i = 0, j = 0; i < 10; i++) {
             for(k = 1; k <= B[i][0]; k++)
                 A[j++] = B[i][k];

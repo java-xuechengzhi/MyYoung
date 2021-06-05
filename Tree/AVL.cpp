@@ -44,8 +44,6 @@ AVLTree RR_Rotation(AVLTree &T) {
     temp->lchild = T;
     updateHeight(T);
     updateHeight(temp);
-    return temp;
-
 }
 
 AVLTree LR_Rotation(AVLTree &T) {
