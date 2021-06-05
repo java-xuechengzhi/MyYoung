@@ -32,6 +32,3 @@ string removeOuterParentheses(string str) {
     }
     return res;
 }
-
-//stack:()
-//start:2

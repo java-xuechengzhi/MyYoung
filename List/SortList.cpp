@@ -10,6 +10,7 @@ struct ListNode {
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
 
+
 ListNode* merge(ListNode* head1, ListNode* head2) {
     ListNode* dummyHead = new ListNode(0);
     ListNode* temp = dummyHead, *temp1 = head1, *temp2 = head2;

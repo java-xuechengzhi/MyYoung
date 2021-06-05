@@ -17,7 +17,6 @@ int main() {
         printf("%d ", values[n]);
     }
     qsort(values, 5, sizeof(int), cmpfunc);
-
     printf("\nAfter sorting: \n");
     for(n = 0; n < 5; n++) {
         printf("%d ", values[n]);

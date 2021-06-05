@@ -33,6 +33,7 @@ int minDepth(TreeNode *root) {
     return min_depth + 1;
 }
 
+
 int minDepth2(TreeNode *root) {
     if(root == nullptr) {
         return 0;
@@ -55,9 +56,6 @@ int minDepth2(TreeNode *root) {
     }
     return 0;
 }
-
-
-
 
 
 
