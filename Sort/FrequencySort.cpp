@@ -8,15 +8,17 @@ using namespace std;
 
 int Hash[MAX];
 
+
 int cmp(const void *a, const void *b) {
-    int tmpa = *(int *)a + 100;
-    int tmpb = *(int *)b + 100;
+    int tmpa = *(int*)a + 100;
+    int tmpb = *(int*)b + 100;
 
     if(Hash[tmpb] == Hash[tmpa]) {
         return tmpb - tmpa;
     }
     return Hash[tmpa] - Hash[tmpb];
 }
+
 
 int *frequencySort(int *nums, int numsSize, int *returnSize) {
     int i;

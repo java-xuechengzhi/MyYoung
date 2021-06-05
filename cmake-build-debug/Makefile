@@ -428,19 +428,6 @@ Hash/fast:
 .PHONY : Hash/fast
 
 #=============================================================================
-# Target rules for targets named SortList
-
-# Build rule for target.
-SortList: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SortList
-.PHONY : SortList
-
-# fast build rule for target.
-SortList/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortList.dir\build.make CMakeFiles/SortList.dir/build
-.PHONY : SortList/fast
-
-#=============================================================================
 # Target rules for targets named RadixSort
 
 # Build rule for target.
@@ -452,6 +439,19 @@ RadixSort: cmake_check_build_system
 RadixSort/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RadixSort.dir\build.make CMakeFiles/RadixSort.dir/build
 .PHONY : RadixSort/fast
+
+#=============================================================================
+# Target rules for targets named SortList
+
+# Build rule for target.
+SortList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SortList
+.PHONY : SortList
+
+# fast build rule for target.
+SortList/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortList.dir\build.make CMakeFiles/SortList.dir/build
+.PHONY : SortList/fast
 
 #=============================================================================
 # Target rules for targets named Matrix
@@ -519,19 +519,6 @@ qsort/fast:
 .PHONY : qsort/fast
 
 #=============================================================================
-# Target rules for targets named SumOfUniqueElements
-
-# Build rule for target.
-SumOfUniqueElements: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SumOfUniqueElements
-.PHONY : SumOfUniqueElements
-
-# fast build rule for target.
-SumOfUniqueElements/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SumOfUniqueElements.dir\build.make CMakeFiles/SumOfUniqueElements.dir/build
-.PHONY : SumOfUniqueElements/fast
-
-#=============================================================================
 # Target rules for targets named isPowerOfFour
 
 # Build rule for target.
@@ -543,6 +530,19 @@ isPowerOfFour: cmake_check_build_system
 isPowerOfFour/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\isPowerOfFour.dir\build.make CMakeFiles/isPowerOfFour.dir/build
 .PHONY : isPowerOfFour/fast
+
+#=============================================================================
+# Target rules for targets named SumOfUniqueElements
+
+# Build rule for target.
+SumOfUniqueElements: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SumOfUniqueElements
+.PHONY : SumOfUniqueElements
+
+# fast build rule for target.
+SumOfUniqueElements/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SumOfUniqueElements.dir\build.make CMakeFiles/SumOfUniqueElements.dir/build
+.PHONY : SumOfUniqueElements/fast
 
 #=============================================================================
 # Target rules for targets named ThreeSum
@@ -584,19 +584,6 @@ FunctionPointer/fast:
 .PHONY : FunctionPointer/fast
 
 #=============================================================================
-# Target rules for targets named RelativeSortArray
-
-# Build rule for target.
-RelativeSortArray: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RelativeSortArray
-.PHONY : RelativeSortArray
-
-# fast build rule for target.
-RelativeSortArray/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RelativeSortArray.dir\build.make CMakeFiles/RelativeSortArray.dir/build
-.PHONY : RelativeSortArray/fast
-
-#=============================================================================
 # Target rules for targets named SecondPointer
 
 # Build rule for target.
@@ -608,6 +595,19 @@ SecondPointer: cmake_check_build_system
 SecondPointer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SecondPointer.dir\build.make CMakeFiles/SecondPointer.dir/build
 .PHONY : SecondPointer/fast
+
+#=============================================================================
+# Target rules for targets named RelativeSortArray
+
+# Build rule for target.
+RelativeSortArray: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RelativeSortArray
+.PHONY : RelativeSortArray
+
+# fast build rule for target.
+RelativeSortArray/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RelativeSortArray.dir\build.make CMakeFiles/RelativeSortArray.dir/build
+.PHONY : RelativeSortArray/fast
 
 #=============================================================================
 # Target rules for targets named findMaxLength
@@ -649,6 +649,19 @@ calloc/fast:
 .PHONY : calloc/fast
 
 #=============================================================================
+# Target rules for targets named malloc
+
+# Build rule for target.
+malloc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 malloc
+.PHONY : malloc
+
+# fast build rule for target.
+malloc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\malloc.dir\build.make CMakeFiles/malloc.dir/build
+.PHONY : malloc/fast
+
+#=============================================================================
 # Target rules for targets named FrequencySort
 
 # Build rule for target.
@@ -686,19 +699,6 @@ malloc2: cmake_check_build_system
 malloc2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\malloc2.dir\build.make CMakeFiles/malloc2.dir/build
 .PHONY : malloc2/fast
-
-#=============================================================================
-# Target rules for targets named malloc
-
-# Build rule for target.
-malloc: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 malloc
-.PHONY : malloc
-
-# fast build rule for target.
-malloc/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\malloc.dir\build.make CMakeFiles/malloc.dir/build
-.PHONY : malloc/fast
 
 #=============================================================================
 # Target rules for targets named realloc
@@ -844,6 +844,19 @@ ThreeSumCloset/fast:
 .PHONY : ThreeSumCloset/fast
 
 #=============================================================================
+# Target rules for targets named AVL
+
+# Build rule for target.
+AVL: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 AVL
+.PHONY : AVL
+
+# fast build rule for target.
+AVL/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVL.dir\build.make CMakeFiles/AVL.dir/build
+.PHONY : AVL/fast
+
+#=============================================================================
 # Target rules for targets named RotateList
 
 # Build rule for target.
@@ -920,6 +933,19 @@ algorithm: cmake_check_build_system
 algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm.dir\build.make CMakeFiles/algorithm.dir/build
 .PHONY : algorithm/fast
+
+#=============================================================================
+# Target rules for targets named BST
+
+# Build rule for target.
+BST: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BST
+.PHONY : BST
+
+# fast build rule for target.
+BST/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BST.dir\build.make CMakeFiles/BST.dir/build
+.PHONY : BST/fast
 
 Array/MaximumProductofTwoElementsinanArray.obj: Array/MaximumProductofTwoElementsinanArray.cpp.obj
 
@@ -2433,6 +2459,60 @@ String/PalindromeNumber.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PalindromeNumber.dir\build.make CMakeFiles/PalindromeNumber.dir/String/PalindromeNumber.cpp.s
 .PHONY : String/PalindromeNumber.cpp.s
 
+Tree/AVL.obj: Tree/AVL.cpp.obj
+
+.PHONY : Tree/AVL.obj
+
+# target to build an object file
+Tree/AVL.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVL.dir\build.make CMakeFiles/AVL.dir/Tree/AVL.cpp.obj
+.PHONY : Tree/AVL.cpp.obj
+
+Tree/AVL.i: Tree/AVL.cpp.i
+
+.PHONY : Tree/AVL.i
+
+# target to preprocess a source file
+Tree/AVL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVL.dir\build.make CMakeFiles/AVL.dir/Tree/AVL.cpp.i
+.PHONY : Tree/AVL.cpp.i
+
+Tree/AVL.s: Tree/AVL.cpp.s
+
+.PHONY : Tree/AVL.s
+
+# target to generate assembly for a file
+Tree/AVL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVL.dir\build.make CMakeFiles/AVL.dir/Tree/AVL.cpp.s
+.PHONY : Tree/AVL.cpp.s
+
+Tree/BST.obj: Tree/BST.cpp.obj
+
+.PHONY : Tree/BST.obj
+
+# target to build an object file
+Tree/BST.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BST.dir\build.make CMakeFiles/BST.dir/Tree/BST.cpp.obj
+.PHONY : Tree/BST.cpp.obj
+
+Tree/BST.i: Tree/BST.cpp.i
+
+.PHONY : Tree/BST.i
+
+# target to preprocess a source file
+Tree/BST.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BST.dir\build.make CMakeFiles/BST.dir/Tree/BST.cpp.i
+.PHONY : Tree/BST.cpp.i
+
+Tree/BST.s: Tree/BST.cpp.s
+
+.PHONY : Tree/BST.s
+
+# target to generate assembly for a file
+Tree/BST.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BST.dir\build.make CMakeFiles/BST.dir/Tree/BST.cpp.s
+.PHONY : Tree/BST.cpp.s
+
 Tree/MaxDepth.obj: Tree/MaxDepth.cpp.obj
 
 .PHONY : Tree/MaxDepth.obj
@@ -2576,7 +2656,9 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... AVL
 	@echo ... BFS1
+	@echo ... BST
 	@echo ... BinarySearch
 	@echo ... BubbleSort
 	@echo ... BucketSort
@@ -2805,6 +2887,12 @@ help:
 	@echo ... String/PalindromeNumber.obj
 	@echo ... String/PalindromeNumber.i
 	@echo ... String/PalindromeNumber.s
+	@echo ... Tree/AVL.obj
+	@echo ... Tree/AVL.i
+	@echo ... Tree/AVL.s
+	@echo ... Tree/BST.obj
+	@echo ... Tree/BST.i
+	@echo ... Tree/BST.s
 	@echo ... Tree/MaxDepth.obj
 	@echo ... Tree/MaxDepth.i
 	@echo ... Tree/MaxDepth.s
