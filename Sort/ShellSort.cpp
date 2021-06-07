@@ -28,6 +28,7 @@ void ShellSort(int a[], int len) {
     }
 }
 
+
 int main() {
     int a[10] = {-1, 2, -10, 100, -3, 4, 7, 9, -8, 10};
     for (int x:a) {

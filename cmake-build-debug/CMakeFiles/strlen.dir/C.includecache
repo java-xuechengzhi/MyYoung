@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Cpp/KaoYan/C/strlen.c
+stdio.h
+E:/Cpp/KaoYan/C/stdio.h
+stdlib.h
+E:/Cpp/KaoYan/C/stdlib.h
+malloc.h
+E:/Cpp/KaoYan/C/malloc.h
+string.h
+E:/Cpp/KaoYan/C/string.h
+

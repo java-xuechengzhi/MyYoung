@@ -1,0 +1,3 @@
+"D:\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\levelOrder2.dir/objects.a
+D:\environment\mingw64\bin\ar.exe cr CMakeFiles\levelOrder2.dir/objects.a @CMakeFiles\levelOrder2.dir\objects1.rsp
+D:\environment\mingw64\bin\g++.exe  -Wall -fexec-charset=GBK -g -Wl,--whole-archive CMakeFiles\levelOrder2.dir/objects.a -Wl,--no-whole-archive -o levelOrder2.exe -Wl,--out-implib,liblevelOrder2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\levelOrder2.dir\linklibs.rsp

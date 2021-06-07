@@ -129,6 +129,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named levelOrder3
+
+# Build rule for target.
+levelOrder3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 levelOrder3
+.PHONY : levelOrder3
+
+# fast build rule for target.
+levelOrder3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\levelOrder3.dir\build.make CMakeFiles/levelOrder3.dir/build
+.PHONY : levelOrder3/fast
+
+#=============================================================================
 # Target rules for targets named sortArrayByParityII
 
 # Build rule for target.
@@ -205,6 +218,19 @@ BubbleSort: cmake_check_build_system
 BubbleSort/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/build
 .PHONY : BubbleSort/fast
+
+#=============================================================================
+# Target rules for targets named maxProduct
+
+# Build rule for target.
+maxProduct: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 maxProduct
+.PHONY : maxProduct
+
+# fast build rule for target.
+maxProduct/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxProduct.dir\build.make CMakeFiles/maxProduct.dir/build
+.PHONY : maxProduct/fast
 
 #=============================================================================
 # Target rules for targets named RandomizedSet
@@ -831,6 +857,19 @@ RemoveOutermostParentheses/fast:
 .PHONY : RemoveOutermostParentheses/fast
 
 #=============================================================================
+# Target rules for targets named removeNthFromEnd
+
+# Build rule for target.
+removeNthFromEnd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 removeNthFromEnd
+.PHONY : removeNthFromEnd
+
+# fast build rule for target.
+removeNthFromEnd/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\removeNthFromEnd.dir\build.make CMakeFiles/removeNthFromEnd.dir/build
+.PHONY : removeNthFromEnd/fast
+
+#=============================================================================
 # Target rules for targets named ThreeSumCloset
 
 # Build rule for target.
@@ -946,6 +985,123 @@ BST: cmake_check_build_system
 BST/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BST.dir\build.make CMakeFiles/BST.dir/build
 .PHONY : BST/fast
+
+#=============================================================================
+# Target rules for targets named removeNthFromEnd2
+
+# Build rule for target.
+removeNthFromEnd2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 removeNthFromEnd2
+.PHONY : removeNthFromEnd2
+
+# fast build rule for target.
+removeNthFromEnd2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\removeNthFromEnd2.dir\build.make CMakeFiles/removeNthFromEnd2.dir/build
+.PHONY : removeNthFromEnd2/fast
+
+#=============================================================================
+# Target rules for targets named LevelOrder
+
+# Build rule for target.
+LevelOrder: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LevelOrder
+.PHONY : LevelOrder
+
+# fast build rule for target.
+LevelOrder/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelOrder.dir\build.make CMakeFiles/LevelOrder.dir/build
+.PHONY : LevelOrder/fast
+
+#=============================================================================
+# Target rules for targets named levelOrder2
+
+# Build rule for target.
+levelOrder2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 levelOrder2
+.PHONY : levelOrder2
+
+# fast build rule for target.
+levelOrder2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\levelOrder2.dir\build.make CMakeFiles/levelOrder2.dir/build
+.PHONY : levelOrder2/fast
+
+#=============================================================================
+# Target rules for targets named verifyPostOrder
+
+# Build rule for target.
+verifyPostOrder: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 verifyPostOrder
+.PHONY : verifyPostOrder
+
+# fast build rule for target.
+verifyPostOrder/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\verifyPostOrder.dir\build.make CMakeFiles/verifyPostOrder.dir/build
+.PHONY : verifyPostOrder/fast
+
+#=============================================================================
+# Target rules for targets named pathSum
+
+# Build rule for target.
+pathSum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pathSum
+.PHONY : pathSum
+
+# fast build rule for target.
+pathSum/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pathSum.dir\build.make CMakeFiles/pathSum.dir/build
+.PHONY : pathSum/fast
+
+#=============================================================================
+# Target rules for targets named postOrderTraversal
+
+# Build rule for target.
+postOrderTraversal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 postOrderTraversal
+.PHONY : postOrderTraversal
+
+# fast build rule for target.
+postOrderTraversal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\postOrderTraversal.dir\build.make CMakeFiles/postOrderTraversal.dir/build
+.PHONY : postOrderTraversal/fast
+
+#=============================================================================
+# Target rules for targets named inOrderTraversal
+
+# Build rule for target.
+inOrderTraversal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 inOrderTraversal
+.PHONY : inOrderTraversal
+
+# fast build rule for target.
+inOrderTraversal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\inOrderTraversal.dir\build.make CMakeFiles/inOrderTraversal.dir/build
+.PHONY : inOrderTraversal/fast
+
+#=============================================================================
+# Target rules for targets named recoverFromPreOrder
+
+# Build rule for target.
+recoverFromPreOrder: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 recoverFromPreOrder
+.PHONY : recoverFromPreOrder
+
+# fast build rule for target.
+recoverFromPreOrder/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\recoverFromPreOrder.dir\build.make CMakeFiles/recoverFromPreOrder.dir/build
+.PHONY : recoverFromPreOrder/fast
+
+#=============================================================================
+# Target rules for targets named PreOrderTraversal
+
+# Build rule for target.
+PreOrderTraversal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PreOrderTraversal
+.PHONY : PreOrderTraversal
+
+# fast build rule for target.
+PreOrderTraversal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PreOrderTraversal.dir\build.make CMakeFiles/PreOrderTraversal.dir/build
+.PHONY : PreOrderTraversal/fast
 
 Array/MaximumProductofTwoElementsinanArray.obj: Array/MaximumProductofTwoElementsinanArray.cpp.obj
 
@@ -1243,6 +1399,33 @@ Array/intersection.s: Array/intersection.cpp.s
 Array/intersection.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\intersection.dir\build.make CMakeFiles/intersection.dir/Array/intersection.cpp.s
 .PHONY : Array/intersection.cpp.s
+
+Array/maxProduct.obj: Array/maxProduct.cpp.obj
+
+.PHONY : Array/maxProduct.obj
+
+# target to build an object file
+Array/maxProduct.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxProduct.dir\build.make CMakeFiles/maxProduct.dir/Array/maxProduct.cpp.obj
+.PHONY : Array/maxProduct.cpp.obj
+
+Array/maxProduct.i: Array/maxProduct.cpp.i
+
+.PHONY : Array/maxProduct.i
+
+# target to preprocess a source file
+Array/maxProduct.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxProduct.dir\build.make CMakeFiles/maxProduct.dir/Array/maxProduct.cpp.i
+.PHONY : Array/maxProduct.cpp.i
+
+Array/maxProduct.s: Array/maxProduct.cpp.s
+
+.PHONY : Array/maxProduct.s
+
+# target to generate assembly for a file
+Array/maxProduct.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxProduct.dir\build.make CMakeFiles/maxProduct.dir/Array/maxProduct.cpp.s
+.PHONY : Array/maxProduct.cpp.s
 
 C/BFS1.obj: C/BFS1.cpp.obj
 
@@ -1919,6 +2102,60 @@ List/SortList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortList.dir\build.make CMakeFiles/SortList.dir/List/SortList.cpp.s
 .PHONY : List/SortList.cpp.s
 
+List/removeNthFromEnd.obj: List/removeNthFromEnd.cpp.obj
+
+.PHONY : List/removeNthFromEnd.obj
+
+# target to build an object file
+List/removeNthFromEnd.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\removeNthFromEnd.dir\build.make CMakeFiles/removeNthFromEnd.dir/List/removeNthFromEnd.cpp.obj
+.PHONY : List/removeNthFromEnd.cpp.obj
+
+List/removeNthFromEnd.i: List/removeNthFromEnd.cpp.i
+
+.PHONY : List/removeNthFromEnd.i
+
+# target to preprocess a source file
+List/removeNthFromEnd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\removeNthFromEnd.dir\build.make CMakeFiles/removeNthFromEnd.dir/List/removeNthFromEnd.cpp.i
+.PHONY : List/removeNthFromEnd.cpp.i
+
+List/removeNthFromEnd.s: List/removeNthFromEnd.cpp.s
+
+.PHONY : List/removeNthFromEnd.s
+
+# target to generate assembly for a file
+List/removeNthFromEnd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\removeNthFromEnd.dir\build.make CMakeFiles/removeNthFromEnd.dir/List/removeNthFromEnd.cpp.s
+.PHONY : List/removeNthFromEnd.cpp.s
+
+List/removeNthFromEnd2.obj: List/removeNthFromEnd2.cpp.obj
+
+.PHONY : List/removeNthFromEnd2.obj
+
+# target to build an object file
+List/removeNthFromEnd2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\removeNthFromEnd2.dir\build.make CMakeFiles/removeNthFromEnd2.dir/List/removeNthFromEnd2.cpp.obj
+.PHONY : List/removeNthFromEnd2.cpp.obj
+
+List/removeNthFromEnd2.i: List/removeNthFromEnd2.cpp.i
+
+.PHONY : List/removeNthFromEnd2.i
+
+# target to preprocess a source file
+List/removeNthFromEnd2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\removeNthFromEnd2.dir\build.make CMakeFiles/removeNthFromEnd2.dir/List/removeNthFromEnd2.cpp.i
+.PHONY : List/removeNthFromEnd2.cpp.i
+
+List/removeNthFromEnd2.s: List/removeNthFromEnd2.cpp.s
+
+.PHONY : List/removeNthFromEnd2.s
+
+# target to generate assembly for a file
+List/removeNthFromEnd2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\removeNthFromEnd2.dir\build.make CMakeFiles/removeNthFromEnd2.dir/List/removeNthFromEnd2.cpp.s
+.PHONY : List/removeNthFromEnd2.cpp.s
+
 Search/BinarySearch.obj: Search/BinarySearch.cpp.obj
 
 .PHONY : Search/BinarySearch.obj
@@ -2513,6 +2750,33 @@ Tree/BST.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BST.dir\build.make CMakeFiles/BST.dir/Tree/BST.cpp.s
 .PHONY : Tree/BST.cpp.s
 
+Tree/LevelOrder.obj: Tree/LevelOrder.cpp.obj
+
+.PHONY : Tree/LevelOrder.obj
+
+# target to build an object file
+Tree/LevelOrder.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelOrder.dir\build.make CMakeFiles/LevelOrder.dir/Tree/LevelOrder.cpp.obj
+.PHONY : Tree/LevelOrder.cpp.obj
+
+Tree/LevelOrder.i: Tree/LevelOrder.cpp.i
+
+.PHONY : Tree/LevelOrder.i
+
+# target to preprocess a source file
+Tree/LevelOrder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelOrder.dir\build.make CMakeFiles/LevelOrder.dir/Tree/LevelOrder.cpp.i
+.PHONY : Tree/LevelOrder.cpp.i
+
+Tree/LevelOrder.s: Tree/LevelOrder.cpp.s
+
+.PHONY : Tree/LevelOrder.s
+
+# target to generate assembly for a file
+Tree/LevelOrder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelOrder.dir\build.make CMakeFiles/LevelOrder.dir/Tree/LevelOrder.cpp.s
+.PHONY : Tree/LevelOrder.cpp.s
+
 Tree/MaxDepth.obj: Tree/MaxDepth.cpp.obj
 
 .PHONY : Tree/MaxDepth.obj
@@ -2567,6 +2831,33 @@ Tree/MinHeightTree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinHeightTree.dir\build.make CMakeFiles/MinHeightTree.dir/Tree/MinHeightTree.cpp.s
 .PHONY : Tree/MinHeightTree.cpp.s
 
+Tree/PreOrderTraversal.obj: Tree/PreOrderTraversal.cpp.obj
+
+.PHONY : Tree/PreOrderTraversal.obj
+
+# target to build an object file
+Tree/PreOrderTraversal.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PreOrderTraversal.dir\build.make CMakeFiles/PreOrderTraversal.dir/Tree/PreOrderTraversal.cpp.obj
+.PHONY : Tree/PreOrderTraversal.cpp.obj
+
+Tree/PreOrderTraversal.i: Tree/PreOrderTraversal.cpp.i
+
+.PHONY : Tree/PreOrderTraversal.i
+
+# target to preprocess a source file
+Tree/PreOrderTraversal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PreOrderTraversal.dir\build.make CMakeFiles/PreOrderTraversal.dir/Tree/PreOrderTraversal.cpp.i
+.PHONY : Tree/PreOrderTraversal.cpp.i
+
+Tree/PreOrderTraversal.s: Tree/PreOrderTraversal.cpp.s
+
+.PHONY : Tree/PreOrderTraversal.s
+
+# target to generate assembly for a file
+Tree/PreOrderTraversal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PreOrderTraversal.dir\build.make CMakeFiles/PreOrderTraversal.dir/Tree/PreOrderTraversal.cpp.s
+.PHONY : Tree/PreOrderTraversal.cpp.s
+
 Tree/SearchBST.obj: Tree/SearchBST.cpp.obj
 
 .PHONY : Tree/SearchBST.obj
@@ -2593,6 +2884,33 @@ Tree/SearchBST.s: Tree/SearchBST.cpp.s
 Tree/SearchBST.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchBST.dir\build.make CMakeFiles/SearchBST.dir/Tree/SearchBST.cpp.s
 .PHONY : Tree/SearchBST.cpp.s
+
+Tree/inOrderTraversal.obj: Tree/inOrderTraversal.cpp.obj
+
+.PHONY : Tree/inOrderTraversal.obj
+
+# target to build an object file
+Tree/inOrderTraversal.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\inOrderTraversal.dir\build.make CMakeFiles/inOrderTraversal.dir/Tree/inOrderTraversal.cpp.obj
+.PHONY : Tree/inOrderTraversal.cpp.obj
+
+Tree/inOrderTraversal.i: Tree/inOrderTraversal.cpp.i
+
+.PHONY : Tree/inOrderTraversal.i
+
+# target to preprocess a source file
+Tree/inOrderTraversal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\inOrderTraversal.dir\build.make CMakeFiles/inOrderTraversal.dir/Tree/inOrderTraversal.cpp.i
+.PHONY : Tree/inOrderTraversal.cpp.i
+
+Tree/inOrderTraversal.s: Tree/inOrderTraversal.cpp.s
+
+.PHONY : Tree/inOrderTraversal.s
+
+# target to generate assembly for a file
+Tree/inOrderTraversal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\inOrderTraversal.dir\build.make CMakeFiles/inOrderTraversal.dir/Tree/inOrderTraversal.cpp.s
+.PHONY : Tree/inOrderTraversal.cpp.s
 
 Tree/isBalanced.obj: Tree/isBalanced.cpp.obj
 
@@ -2621,6 +2939,60 @@ Tree/isBalanced.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\isBalanced.dir\build.make CMakeFiles/isBalanced.dir/Tree/isBalanced.cpp.s
 .PHONY : Tree/isBalanced.cpp.s
 
+Tree/levelOrder2.obj: Tree/levelOrder2.cpp.obj
+
+.PHONY : Tree/levelOrder2.obj
+
+# target to build an object file
+Tree/levelOrder2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\levelOrder2.dir\build.make CMakeFiles/levelOrder2.dir/Tree/levelOrder2.cpp.obj
+.PHONY : Tree/levelOrder2.cpp.obj
+
+Tree/levelOrder2.i: Tree/levelOrder2.cpp.i
+
+.PHONY : Tree/levelOrder2.i
+
+# target to preprocess a source file
+Tree/levelOrder2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\levelOrder2.dir\build.make CMakeFiles/levelOrder2.dir/Tree/levelOrder2.cpp.i
+.PHONY : Tree/levelOrder2.cpp.i
+
+Tree/levelOrder2.s: Tree/levelOrder2.cpp.s
+
+.PHONY : Tree/levelOrder2.s
+
+# target to generate assembly for a file
+Tree/levelOrder2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\levelOrder2.dir\build.make CMakeFiles/levelOrder2.dir/Tree/levelOrder2.cpp.s
+.PHONY : Tree/levelOrder2.cpp.s
+
+Tree/levelOrder3.obj: Tree/levelOrder3.cpp.obj
+
+.PHONY : Tree/levelOrder3.obj
+
+# target to build an object file
+Tree/levelOrder3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\levelOrder3.dir\build.make CMakeFiles/levelOrder3.dir/Tree/levelOrder3.cpp.obj
+.PHONY : Tree/levelOrder3.cpp.obj
+
+Tree/levelOrder3.i: Tree/levelOrder3.cpp.i
+
+.PHONY : Tree/levelOrder3.i
+
+# target to preprocess a source file
+Tree/levelOrder3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\levelOrder3.dir\build.make CMakeFiles/levelOrder3.dir/Tree/levelOrder3.cpp.i
+.PHONY : Tree/levelOrder3.cpp.i
+
+Tree/levelOrder3.s: Tree/levelOrder3.cpp.s
+
+.PHONY : Tree/levelOrder3.s
+
+# target to generate assembly for a file
+Tree/levelOrder3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\levelOrder3.dir\build.make CMakeFiles/levelOrder3.dir/Tree/levelOrder3.cpp.s
+.PHONY : Tree/levelOrder3.cpp.s
+
 Tree/minDepth.obj: Tree/minDepth.cpp.obj
 
 .PHONY : Tree/minDepth.obj
@@ -2648,6 +3020,114 @@ Tree/minDepth.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\minDepth.dir\build.make CMakeFiles/minDepth.dir/Tree/minDepth.cpp.s
 .PHONY : Tree/minDepth.cpp.s
 
+Tree/pathSum.obj: Tree/pathSum.cpp.obj
+
+.PHONY : Tree/pathSum.obj
+
+# target to build an object file
+Tree/pathSum.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pathSum.dir\build.make CMakeFiles/pathSum.dir/Tree/pathSum.cpp.obj
+.PHONY : Tree/pathSum.cpp.obj
+
+Tree/pathSum.i: Tree/pathSum.cpp.i
+
+.PHONY : Tree/pathSum.i
+
+# target to preprocess a source file
+Tree/pathSum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pathSum.dir\build.make CMakeFiles/pathSum.dir/Tree/pathSum.cpp.i
+.PHONY : Tree/pathSum.cpp.i
+
+Tree/pathSum.s: Tree/pathSum.cpp.s
+
+.PHONY : Tree/pathSum.s
+
+# target to generate assembly for a file
+Tree/pathSum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pathSum.dir\build.make CMakeFiles/pathSum.dir/Tree/pathSum.cpp.s
+.PHONY : Tree/pathSum.cpp.s
+
+Tree/postOrderTraversal.obj: Tree/postOrderTraversal.cpp.obj
+
+.PHONY : Tree/postOrderTraversal.obj
+
+# target to build an object file
+Tree/postOrderTraversal.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\postOrderTraversal.dir\build.make CMakeFiles/postOrderTraversal.dir/Tree/postOrderTraversal.cpp.obj
+.PHONY : Tree/postOrderTraversal.cpp.obj
+
+Tree/postOrderTraversal.i: Tree/postOrderTraversal.cpp.i
+
+.PHONY : Tree/postOrderTraversal.i
+
+# target to preprocess a source file
+Tree/postOrderTraversal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\postOrderTraversal.dir\build.make CMakeFiles/postOrderTraversal.dir/Tree/postOrderTraversal.cpp.i
+.PHONY : Tree/postOrderTraversal.cpp.i
+
+Tree/postOrderTraversal.s: Tree/postOrderTraversal.cpp.s
+
+.PHONY : Tree/postOrderTraversal.s
+
+# target to generate assembly for a file
+Tree/postOrderTraversal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\postOrderTraversal.dir\build.make CMakeFiles/postOrderTraversal.dir/Tree/postOrderTraversal.cpp.s
+.PHONY : Tree/postOrderTraversal.cpp.s
+
+Tree/recoverFromPreOrder.obj: Tree/recoverFromPreOrder.cpp.obj
+
+.PHONY : Tree/recoverFromPreOrder.obj
+
+# target to build an object file
+Tree/recoverFromPreOrder.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\recoverFromPreOrder.dir\build.make CMakeFiles/recoverFromPreOrder.dir/Tree/recoverFromPreOrder.cpp.obj
+.PHONY : Tree/recoverFromPreOrder.cpp.obj
+
+Tree/recoverFromPreOrder.i: Tree/recoverFromPreOrder.cpp.i
+
+.PHONY : Tree/recoverFromPreOrder.i
+
+# target to preprocess a source file
+Tree/recoverFromPreOrder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\recoverFromPreOrder.dir\build.make CMakeFiles/recoverFromPreOrder.dir/Tree/recoverFromPreOrder.cpp.i
+.PHONY : Tree/recoverFromPreOrder.cpp.i
+
+Tree/recoverFromPreOrder.s: Tree/recoverFromPreOrder.cpp.s
+
+.PHONY : Tree/recoverFromPreOrder.s
+
+# target to generate assembly for a file
+Tree/recoverFromPreOrder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\recoverFromPreOrder.dir\build.make CMakeFiles/recoverFromPreOrder.dir/Tree/recoverFromPreOrder.cpp.s
+.PHONY : Tree/recoverFromPreOrder.cpp.s
+
+Tree/verifyPostOrder.obj: Tree/verifyPostOrder.cpp.obj
+
+.PHONY : Tree/verifyPostOrder.obj
+
+# target to build an object file
+Tree/verifyPostOrder.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\verifyPostOrder.dir\build.make CMakeFiles/verifyPostOrder.dir/Tree/verifyPostOrder.cpp.obj
+.PHONY : Tree/verifyPostOrder.cpp.obj
+
+Tree/verifyPostOrder.i: Tree/verifyPostOrder.cpp.i
+
+.PHONY : Tree/verifyPostOrder.i
+
+# target to preprocess a source file
+Tree/verifyPostOrder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\verifyPostOrder.dir\build.make CMakeFiles/verifyPostOrder.dir/Tree/verifyPostOrder.cpp.i
+.PHONY : Tree/verifyPostOrder.cpp.i
+
+Tree/verifyPostOrder.s: Tree/verifyPostOrder.cpp.s
+
+.PHONY : Tree/verifyPostOrder.s
+
+# target to generate assembly for a file
+Tree/verifyPostOrder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\verifyPostOrder.dir\build.make CMakeFiles/verifyPostOrder.dir/Tree/verifyPostOrder.cpp.s
+.PHONY : Tree/verifyPostOrder.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -2669,6 +3149,7 @@ help:
 	@echo ... HeapSort
 	@echo ... InsertSort
 	@echo ... KMP
+	@echo ... LevelOrder
 	@echo ... Matrix
 	@echo ... Matrix2
 	@echo ... Matrix3
@@ -2678,6 +3159,7 @@ help:
 	@echo ... MinHeightTree
 	@echo ... PalindromeNumber
 	@echo ... PascalTriangle
+	@echo ... PreOrderTraversal
 	@echo ... QuickSort
 	@echo ... RadixSort
 	@echo ... RandomizedSet
@@ -2706,19 +3188,29 @@ help:
 	@echo ... findMaxLength
 	@echo ... findRepeatNumber
 	@echo ... free
+	@echo ... inOrderTraversal
 	@echo ... intersection
 	@echo ... isBalanced
 	@echo ... isPowerOfFour
+	@echo ... levelOrder2
+	@echo ... levelOrder3
 	@echo ... malloc
 	@echo ... malloc2
+	@echo ... maxProduct
 	@echo ... minDepth
+	@echo ... pathSum
+	@echo ... postOrderTraversal
 	@echo ... qsort
 	@echo ... realloc
+	@echo ... recoverFromPreOrder
+	@echo ... removeNthFromEnd
+	@echo ... removeNthFromEnd2
 	@echo ... sortArrayByParity
 	@echo ... sortArrayByParityII
 	@echo ... strPointer
 	@echo ... strPointer2
 	@echo ... strlen
+	@echo ... verifyPostOrder
 	@echo ... Array/MaximumProductofTwoElementsinanArray.obj
 	@echo ... Array/MaximumProductofTwoElementsinanArray.i
 	@echo ... Array/MaximumProductofTwoElementsinanArray.s
@@ -2752,6 +3244,9 @@ help:
 	@echo ... Array/intersection.obj
 	@echo ... Array/intersection.i
 	@echo ... Array/intersection.s
+	@echo ... Array/maxProduct.obj
+	@echo ... Array/maxProduct.i
+	@echo ... Array/maxProduct.s
 	@echo ... C/BFS1.obj
 	@echo ... C/BFS1.i
 	@echo ... C/BFS1.s
@@ -2827,6 +3322,12 @@ help:
 	@echo ... List/SortList.obj
 	@echo ... List/SortList.i
 	@echo ... List/SortList.s
+	@echo ... List/removeNthFromEnd.obj
+	@echo ... List/removeNthFromEnd.i
+	@echo ... List/removeNthFromEnd.s
+	@echo ... List/removeNthFromEnd2.obj
+	@echo ... List/removeNthFromEnd2.i
+	@echo ... List/removeNthFromEnd2.s
 	@echo ... Search/BinarySearch.obj
 	@echo ... Search/BinarySearch.i
 	@echo ... Search/BinarySearch.s
@@ -2893,21 +3394,48 @@ help:
 	@echo ... Tree/BST.obj
 	@echo ... Tree/BST.i
 	@echo ... Tree/BST.s
+	@echo ... Tree/LevelOrder.obj
+	@echo ... Tree/LevelOrder.i
+	@echo ... Tree/LevelOrder.s
 	@echo ... Tree/MaxDepth.obj
 	@echo ... Tree/MaxDepth.i
 	@echo ... Tree/MaxDepth.s
 	@echo ... Tree/MinHeightTree.obj
 	@echo ... Tree/MinHeightTree.i
 	@echo ... Tree/MinHeightTree.s
+	@echo ... Tree/PreOrderTraversal.obj
+	@echo ... Tree/PreOrderTraversal.i
+	@echo ... Tree/PreOrderTraversal.s
 	@echo ... Tree/SearchBST.obj
 	@echo ... Tree/SearchBST.i
 	@echo ... Tree/SearchBST.s
+	@echo ... Tree/inOrderTraversal.obj
+	@echo ... Tree/inOrderTraversal.i
+	@echo ... Tree/inOrderTraversal.s
 	@echo ... Tree/isBalanced.obj
 	@echo ... Tree/isBalanced.i
 	@echo ... Tree/isBalanced.s
+	@echo ... Tree/levelOrder2.obj
+	@echo ... Tree/levelOrder2.i
+	@echo ... Tree/levelOrder2.s
+	@echo ... Tree/levelOrder3.obj
+	@echo ... Tree/levelOrder3.i
+	@echo ... Tree/levelOrder3.s
 	@echo ... Tree/minDepth.obj
 	@echo ... Tree/minDepth.i
 	@echo ... Tree/minDepth.s
+	@echo ... Tree/pathSum.obj
+	@echo ... Tree/pathSum.i
+	@echo ... Tree/pathSum.s
+	@echo ... Tree/postOrderTraversal.obj
+	@echo ... Tree/postOrderTraversal.i
+	@echo ... Tree/postOrderTraversal.s
+	@echo ... Tree/recoverFromPreOrder.obj
+	@echo ... Tree/recoverFromPreOrder.i
+	@echo ... Tree/recoverFromPreOrder.s
+	@echo ... Tree/verifyPostOrder.obj
+	@echo ... Tree/verifyPostOrder.i
+	@echo ... Tree/verifyPostOrder.s
 .PHONY : help
 
 
