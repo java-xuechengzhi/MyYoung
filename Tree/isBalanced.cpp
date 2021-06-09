@@ -26,3 +26,14 @@ bool isBalanced(struct TreeNode* root) {
         return fabs(height(root->left) - height(root->right)) <= 1 && isBalanced(root->left) && isBalanced(root->right);
     }
 }
+
+
+
+
+
+
+
+
+
+
+

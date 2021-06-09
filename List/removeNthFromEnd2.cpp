@@ -14,9 +14,9 @@ struct ListNode {
 
 
 ListNode* removeNthFromEnd(ListNode* head, int n) {
-    ListNode* dummy = new ListNode(0, head);
-    stack<ListNode*> stk;
-    ListNode* cur = dummy;
+    ListNode *dummy = new ListNode(0, head);
+    stack<ListNode *> stk;
+    ListNode *cur = dummy;
     while (cur) {
         stk.push(cur);
         cur = cur->next;
@@ -24,9 +24,10 @@ ListNode* removeNthFromEnd(ListNode* head, int n) {
     for (int i = 0; i < n; ++i) {
         stk.pop();
     }
-    ListNode* prev = stk.top();
+    ListNode *prev = stk.top();
     prev->next = prev->next->next;
-    ListNode* ans = dummy->next;
+    ListNode *ans = dummy->next;
     delete dummy;
     return ans;
 }
+

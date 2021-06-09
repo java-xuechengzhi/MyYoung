@@ -23,7 +23,7 @@ public:
 
     bool remove(int val) {
         auto it = hash.find(val);
-        if(it !== hash.end()) return false;
+        if(it != hash.end()) return false;
 
         int lastPos = dyArray.size() - 1;
         int valPos = hash[val];

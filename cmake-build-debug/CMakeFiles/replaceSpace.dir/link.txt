@@ -1,0 +1,3 @@
+"D:\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\replaceSpace.dir/objects.a
+D:\environment\mingw64\bin\ar.exe cr CMakeFiles\replaceSpace.dir/objects.a @CMakeFiles\replaceSpace.dir\objects1.rsp
+D:\environment\mingw64\bin\g++.exe  -Wall -fexec-charset=GBK -g -Wl,--whole-archive CMakeFiles\replaceSpace.dir/objects.a -Wl,--no-whole-archive -o replaceSpace.exe -Wl,--out-implib,libreplaceSpace.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\replaceSpace.dir\linklibs.rsp

@@ -3,6 +3,8 @@ using namespace std;
 #define maxN 1000
 int r[maxN];
 
+void Sink(int k, int n);
+
 void CreateHeap(int n) {
 	for (int i = n / 2; i > 0; i--)
 		Sink(i, n);
@@ -41,6 +43,9 @@ void push(int n, int x) {
 	r[++n] = x;
 	Swim(n);
 }
+
+
+
 
 int main() {
 	int n, select, x;

@@ -73,5 +73,12 @@ E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/postOrderTraversal.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/inOrderTraversal.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/recoverFromPreOrder.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/PreOrderTraversal.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/replaceSpace.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/maxAncestorDiff.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/maxAncestorDiff2.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/test.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/countNegatives.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/KthLargest.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/increasingBST.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/rebuild_cache.dir

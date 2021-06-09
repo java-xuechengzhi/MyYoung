@@ -49,3 +49,23 @@ struct ListNode* removeNthFromEnd2(struct ListNode* head, int n) {
     free(dummy);
     return ans;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1103,6 +1103,97 @@ PreOrderTraversal/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PreOrderTraversal.dir\build.make CMakeFiles/PreOrderTraversal.dir/build
 .PHONY : PreOrderTraversal/fast
 
+#=============================================================================
+# Target rules for targets named replaceSpace
+
+# Build rule for target.
+replaceSpace: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 replaceSpace
+.PHONY : replaceSpace
+
+# fast build rule for target.
+replaceSpace/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\replaceSpace.dir\build.make CMakeFiles/replaceSpace.dir/build
+.PHONY : replaceSpace/fast
+
+#=============================================================================
+# Target rules for targets named maxAncestorDiff
+
+# Build rule for target.
+maxAncestorDiff: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 maxAncestorDiff
+.PHONY : maxAncestorDiff
+
+# fast build rule for target.
+maxAncestorDiff/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxAncestorDiff.dir\build.make CMakeFiles/maxAncestorDiff.dir/build
+.PHONY : maxAncestorDiff/fast
+
+#=============================================================================
+# Target rules for targets named maxAncestorDiff2
+
+# Build rule for target.
+maxAncestorDiff2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 maxAncestorDiff2
+.PHONY : maxAncestorDiff2
+
+# fast build rule for target.
+maxAncestorDiff2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxAncestorDiff2.dir\build.make CMakeFiles/maxAncestorDiff2.dir/build
+.PHONY : maxAncestorDiff2/fast
+
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
+# Target rules for targets named countNegatives
+
+# Build rule for target.
+countNegatives: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 countNegatives
+.PHONY : countNegatives
+
+# fast build rule for target.
+countNegatives/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\countNegatives.dir\build.make CMakeFiles/countNegatives.dir/build
+.PHONY : countNegatives/fast
+
+#=============================================================================
+# Target rules for targets named KthLargest
+
+# Build rule for target.
+KthLargest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 KthLargest
+.PHONY : KthLargest
+
+# fast build rule for target.
+KthLargest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KthLargest.dir\build.make CMakeFiles/KthLargest.dir/build
+.PHONY : KthLargest/fast
+
+#=============================================================================
+# Target rules for targets named increasingBST
+
+# Build rule for target.
+increasingBST: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 increasingBST
+.PHONY : increasingBST
+
+# fast build rule for target.
+increasingBST/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\increasingBST.dir\build.make CMakeFiles/increasingBST.dir/build
+.PHONY : increasingBST/fast
+
 Array/MaximumProductofTwoElementsinanArray.obj: Array/MaximumProductofTwoElementsinanArray.cpp.obj
 
 .PHONY : Array/MaximumProductofTwoElementsinanArray.obj
@@ -1291,6 +1382,33 @@ Array/ThreeSumCloset.s: Array/ThreeSumCloset.cpp.s
 Array/ThreeSumCloset.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeSumCloset.dir\build.make CMakeFiles/ThreeSumCloset.dir/Array/ThreeSumCloset.cpp.s
 .PHONY : Array/ThreeSumCloset.cpp.s
+
+Array/countNegatives.obj: Array/countNegatives.cpp.obj
+
+.PHONY : Array/countNegatives.obj
+
+# target to build an object file
+Array/countNegatives.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\countNegatives.dir\build.make CMakeFiles/countNegatives.dir/Array/countNegatives.cpp.obj
+.PHONY : Array/countNegatives.cpp.obj
+
+Array/countNegatives.i: Array/countNegatives.cpp.i
+
+.PHONY : Array/countNegatives.i
+
+# target to preprocess a source file
+Array/countNegatives.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\countNegatives.dir\build.make CMakeFiles/countNegatives.dir/Array/countNegatives.cpp.i
+.PHONY : Array/countNegatives.cpp.i
+
+Array/countNegatives.s: Array/countNegatives.cpp.s
+
+.PHONY : Array/countNegatives.s
+
+# target to generate assembly for a file
+Array/countNegatives.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\countNegatives.dir\build.make CMakeFiles/countNegatives.dir/Array/countNegatives.cpp.s
+.PHONY : Array/countNegatives.cpp.s
 
 Array/deleteRep.obj: Array/deleteRep.cpp.obj
 
@@ -1885,6 +2003,33 @@ C/realloc.s: C/realloc.cpp.s
 C/realloc.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\realloc.dir\build.make CMakeFiles/realloc.dir/C/realloc.cpp.s
 .PHONY : C/realloc.cpp.s
+
+C/replaceSpace.obj: C/replaceSpace.cpp.obj
+
+.PHONY : C/replaceSpace.obj
+
+# target to build an object file
+C/replaceSpace.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\replaceSpace.dir\build.make CMakeFiles/replaceSpace.dir/C/replaceSpace.cpp.obj
+.PHONY : C/replaceSpace.cpp.obj
+
+C/replaceSpace.i: C/replaceSpace.cpp.i
+
+.PHONY : C/replaceSpace.i
+
+# target to preprocess a source file
+C/replaceSpace.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\replaceSpace.dir\build.make CMakeFiles/replaceSpace.dir/C/replaceSpace.cpp.i
+.PHONY : C/replaceSpace.cpp.i
+
+C/replaceSpace.s: C/replaceSpace.cpp.s
+
+.PHONY : C/replaceSpace.s
+
+# target to generate assembly for a file
+C/replaceSpace.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\replaceSpace.dir\build.make CMakeFiles/replaceSpace.dir/C/replaceSpace.cpp.s
+.PHONY : C/replaceSpace.cpp.s
 
 C/strPointer.obj: C/strPointer.c.obj
 
@@ -2750,6 +2895,33 @@ Tree/BST.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BST.dir\build.make CMakeFiles/BST.dir/Tree/BST.cpp.s
 .PHONY : Tree/BST.cpp.s
 
+Tree/KthLargest.obj: Tree/KthLargest.cpp.obj
+
+.PHONY : Tree/KthLargest.obj
+
+# target to build an object file
+Tree/KthLargest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KthLargest.dir\build.make CMakeFiles/KthLargest.dir/Tree/KthLargest.cpp.obj
+.PHONY : Tree/KthLargest.cpp.obj
+
+Tree/KthLargest.i: Tree/KthLargest.cpp.i
+
+.PHONY : Tree/KthLargest.i
+
+# target to preprocess a source file
+Tree/KthLargest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KthLargest.dir\build.make CMakeFiles/KthLargest.dir/Tree/KthLargest.cpp.i
+.PHONY : Tree/KthLargest.cpp.i
+
+Tree/KthLargest.s: Tree/KthLargest.cpp.s
+
+.PHONY : Tree/KthLargest.s
+
+# target to generate assembly for a file
+Tree/KthLargest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KthLargest.dir\build.make CMakeFiles/KthLargest.dir/Tree/KthLargest.cpp.s
+.PHONY : Tree/KthLargest.cpp.s
+
 Tree/LevelOrder.obj: Tree/LevelOrder.cpp.obj
 
 .PHONY : Tree/LevelOrder.obj
@@ -2912,6 +3084,33 @@ Tree/inOrderTraversal.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\inOrderTraversal.dir\build.make CMakeFiles/inOrderTraversal.dir/Tree/inOrderTraversal.cpp.s
 .PHONY : Tree/inOrderTraversal.cpp.s
 
+Tree/increasingBST.obj: Tree/increasingBST.cpp.obj
+
+.PHONY : Tree/increasingBST.obj
+
+# target to build an object file
+Tree/increasingBST.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\increasingBST.dir\build.make CMakeFiles/increasingBST.dir/Tree/increasingBST.cpp.obj
+.PHONY : Tree/increasingBST.cpp.obj
+
+Tree/increasingBST.i: Tree/increasingBST.cpp.i
+
+.PHONY : Tree/increasingBST.i
+
+# target to preprocess a source file
+Tree/increasingBST.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\increasingBST.dir\build.make CMakeFiles/increasingBST.dir/Tree/increasingBST.cpp.i
+.PHONY : Tree/increasingBST.cpp.i
+
+Tree/increasingBST.s: Tree/increasingBST.cpp.s
+
+.PHONY : Tree/increasingBST.s
+
+# target to generate assembly for a file
+Tree/increasingBST.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\increasingBST.dir\build.make CMakeFiles/increasingBST.dir/Tree/increasingBST.cpp.s
+.PHONY : Tree/increasingBST.cpp.s
+
 Tree/isBalanced.obj: Tree/isBalanced.cpp.obj
 
 .PHONY : Tree/isBalanced.obj
@@ -2992,6 +3191,60 @@ Tree/levelOrder3.s: Tree/levelOrder3.cpp.s
 Tree/levelOrder3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\levelOrder3.dir\build.make CMakeFiles/levelOrder3.dir/Tree/levelOrder3.cpp.s
 .PHONY : Tree/levelOrder3.cpp.s
+
+Tree/maxAncestorDiff.obj: Tree/maxAncestorDiff.cpp.obj
+
+.PHONY : Tree/maxAncestorDiff.obj
+
+# target to build an object file
+Tree/maxAncestorDiff.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxAncestorDiff.dir\build.make CMakeFiles/maxAncestorDiff.dir/Tree/maxAncestorDiff.cpp.obj
+.PHONY : Tree/maxAncestorDiff.cpp.obj
+
+Tree/maxAncestorDiff.i: Tree/maxAncestorDiff.cpp.i
+
+.PHONY : Tree/maxAncestorDiff.i
+
+# target to preprocess a source file
+Tree/maxAncestorDiff.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxAncestorDiff.dir\build.make CMakeFiles/maxAncestorDiff.dir/Tree/maxAncestorDiff.cpp.i
+.PHONY : Tree/maxAncestorDiff.cpp.i
+
+Tree/maxAncestorDiff.s: Tree/maxAncestorDiff.cpp.s
+
+.PHONY : Tree/maxAncestorDiff.s
+
+# target to generate assembly for a file
+Tree/maxAncestorDiff.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxAncestorDiff.dir\build.make CMakeFiles/maxAncestorDiff.dir/Tree/maxAncestorDiff.cpp.s
+.PHONY : Tree/maxAncestorDiff.cpp.s
+
+Tree/maxAncestorDiff2.obj: Tree/maxAncestorDiff2.cpp.obj
+
+.PHONY : Tree/maxAncestorDiff2.obj
+
+# target to build an object file
+Tree/maxAncestorDiff2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxAncestorDiff2.dir\build.make CMakeFiles/maxAncestorDiff2.dir/Tree/maxAncestorDiff2.cpp.obj
+.PHONY : Tree/maxAncestorDiff2.cpp.obj
+
+Tree/maxAncestorDiff2.i: Tree/maxAncestorDiff2.cpp.i
+
+.PHONY : Tree/maxAncestorDiff2.i
+
+# target to preprocess a source file
+Tree/maxAncestorDiff2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxAncestorDiff2.dir\build.make CMakeFiles/maxAncestorDiff2.dir/Tree/maxAncestorDiff2.cpp.i
+.PHONY : Tree/maxAncestorDiff2.cpp.i
+
+Tree/maxAncestorDiff2.s: Tree/maxAncestorDiff2.cpp.s
+
+.PHONY : Tree/maxAncestorDiff2.s
+
+# target to generate assembly for a file
+Tree/maxAncestorDiff2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxAncestorDiff2.dir\build.make CMakeFiles/maxAncestorDiff2.dir/Tree/maxAncestorDiff2.cpp.s
+.PHONY : Tree/maxAncestorDiff2.cpp.s
 
 Tree/minDepth.obj: Tree/minDepth.cpp.obj
 
@@ -3128,6 +3381,33 @@ Tree/verifyPostOrder.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\verifyPostOrder.dir\build.make CMakeFiles/verifyPostOrder.dir/Tree/verifyPostOrder.cpp.s
 .PHONY : Tree/verifyPostOrder.cpp.s
 
+test.obj: test.cpp.obj
+
+.PHONY : test.obj
+
+# target to build an object file
+test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.cpp.obj
+.PHONY : test.cpp.obj
+
+test.i: test.cpp.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.cpp.s
+.PHONY : test.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -3149,6 +3429,7 @@ help:
 	@echo ... HeapSort
 	@echo ... InsertSort
 	@echo ... KMP
+	@echo ... KthLargest
 	@echo ... LevelOrder
 	@echo ... Matrix
 	@echo ... Matrix2
@@ -3183,12 +3464,14 @@ help:
 	@echo ... calloc
 	@echo ... containsDuplicate
 	@echo ... containsDuplicateII
+	@echo ... countNegatives
 	@echo ... deleteRep
 	@echo ... enum
 	@echo ... findMaxLength
 	@echo ... findRepeatNumber
 	@echo ... free
 	@echo ... inOrderTraversal
+	@echo ... increasingBST
 	@echo ... intersection
 	@echo ... isBalanced
 	@echo ... isPowerOfFour
@@ -3196,6 +3479,8 @@ help:
 	@echo ... levelOrder3
 	@echo ... malloc
 	@echo ... malloc2
+	@echo ... maxAncestorDiff
+	@echo ... maxAncestorDiff2
 	@echo ... maxProduct
 	@echo ... minDepth
 	@echo ... pathSum
@@ -3205,11 +3490,13 @@ help:
 	@echo ... recoverFromPreOrder
 	@echo ... removeNthFromEnd
 	@echo ... removeNthFromEnd2
+	@echo ... replaceSpace
 	@echo ... sortArrayByParity
 	@echo ... sortArrayByParityII
 	@echo ... strPointer
 	@echo ... strPointer2
 	@echo ... strlen
+	@echo ... test
 	@echo ... verifyPostOrder
 	@echo ... Array/MaximumProductofTwoElementsinanArray.obj
 	@echo ... Array/MaximumProductofTwoElementsinanArray.i
@@ -3232,6 +3519,9 @@ help:
 	@echo ... Array/ThreeSumCloset.obj
 	@echo ... Array/ThreeSumCloset.i
 	@echo ... Array/ThreeSumCloset.s
+	@echo ... Array/countNegatives.obj
+	@echo ... Array/countNegatives.i
+	@echo ... Array/countNegatives.s
 	@echo ... Array/deleteRep.obj
 	@echo ... Array/deleteRep.i
 	@echo ... Array/deleteRep.s
@@ -3298,6 +3588,9 @@ help:
 	@echo ... C/realloc.obj
 	@echo ... C/realloc.i
 	@echo ... C/realloc.s
+	@echo ... C/replaceSpace.obj
+	@echo ... C/replaceSpace.i
+	@echo ... C/replaceSpace.s
 	@echo ... C/strPointer.obj
 	@echo ... C/strPointer.i
 	@echo ... C/strPointer.s
@@ -3394,6 +3687,9 @@ help:
 	@echo ... Tree/BST.obj
 	@echo ... Tree/BST.i
 	@echo ... Tree/BST.s
+	@echo ... Tree/KthLargest.obj
+	@echo ... Tree/KthLargest.i
+	@echo ... Tree/KthLargest.s
 	@echo ... Tree/LevelOrder.obj
 	@echo ... Tree/LevelOrder.i
 	@echo ... Tree/LevelOrder.s
@@ -3412,6 +3708,9 @@ help:
 	@echo ... Tree/inOrderTraversal.obj
 	@echo ... Tree/inOrderTraversal.i
 	@echo ... Tree/inOrderTraversal.s
+	@echo ... Tree/increasingBST.obj
+	@echo ... Tree/increasingBST.i
+	@echo ... Tree/increasingBST.s
 	@echo ... Tree/isBalanced.obj
 	@echo ... Tree/isBalanced.i
 	@echo ... Tree/isBalanced.s
@@ -3421,6 +3720,12 @@ help:
 	@echo ... Tree/levelOrder3.obj
 	@echo ... Tree/levelOrder3.i
 	@echo ... Tree/levelOrder3.s
+	@echo ... Tree/maxAncestorDiff.obj
+	@echo ... Tree/maxAncestorDiff.i
+	@echo ... Tree/maxAncestorDiff.s
+	@echo ... Tree/maxAncestorDiff2.obj
+	@echo ... Tree/maxAncestorDiff2.i
+	@echo ... Tree/maxAncestorDiff2.s
 	@echo ... Tree/minDepth.obj
 	@echo ... Tree/minDepth.i
 	@echo ... Tree/minDepth.s
@@ -3436,6 +3741,9 @@ help:
 	@echo ... Tree/verifyPostOrder.obj
 	@echo ... Tree/verifyPostOrder.i
 	@echo ... Tree/verifyPostOrder.s
+	@echo ... test.obj
+	@echo ... test.i
+	@echo ... test.s
 .PHONY : help
 
 

@@ -1,0 +1,3 @@
+"D:\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\countNegatives.dir/objects.a
+D:\environment\mingw64\bin\ar.exe cr CMakeFiles\countNegatives.dir/objects.a @CMakeFiles\countNegatives.dir\objects1.rsp
+D:\environment\mingw64\bin\g++.exe  -Wall -fexec-charset=GBK -g -Wl,--whole-archive CMakeFiles\countNegatives.dir/objects.a -Wl,--no-whole-archive -o countNegatives.exe -Wl,--out-implib,libcountNegatives.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\countNegatives.dir\linklibs.rsp
