@@ -133,4 +133,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/countNegatives.dir/DependInfo.cmake"
   "CMakeFiles/KthLargest.dir/DependInfo.cmake"
   "CMakeFiles/increasingBST.dir/DependInfo.cmake"
+  "CMakeFiles/preOrderTraverseNonrecursion.dir/DependInfo.cmake"
   )

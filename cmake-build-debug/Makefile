@@ -1194,6 +1194,19 @@ increasingBST/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\increasingBST.dir\build.make CMakeFiles/increasingBST.dir/build
 .PHONY : increasingBST/fast
 
+#=============================================================================
+# Target rules for targets named preOrderTraverseNonrecursion
+
+# Build rule for target.
+preOrderTraverseNonrecursion: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preOrderTraverseNonrecursion
+.PHONY : preOrderTraverseNonrecursion
+
+# fast build rule for target.
+preOrderTraverseNonrecursion/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\preOrderTraverseNonrecursion.dir\build.make CMakeFiles/preOrderTraverseNonrecursion.dir/build
+.PHONY : preOrderTraverseNonrecursion/fast
+
 Array/MaximumProductofTwoElementsinanArray.obj: Array/MaximumProductofTwoElementsinanArray.cpp.obj
 
 .PHONY : Array/MaximumProductofTwoElementsinanArray.obj
@@ -3327,6 +3340,33 @@ Tree/postOrderTraversal.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\postOrderTraversal.dir\build.make CMakeFiles/postOrderTraversal.dir/Tree/postOrderTraversal.cpp.s
 .PHONY : Tree/postOrderTraversal.cpp.s
 
+Tree/preOrderTraverseNonrecursion.obj: Tree/preOrderTraverseNonrecursion.cpp.obj
+
+.PHONY : Tree/preOrderTraverseNonrecursion.obj
+
+# target to build an object file
+Tree/preOrderTraverseNonrecursion.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\preOrderTraverseNonrecursion.dir\build.make CMakeFiles/preOrderTraverseNonrecursion.dir/Tree/preOrderTraverseNonrecursion.cpp.obj
+.PHONY : Tree/preOrderTraverseNonrecursion.cpp.obj
+
+Tree/preOrderTraverseNonrecursion.i: Tree/preOrderTraverseNonrecursion.cpp.i
+
+.PHONY : Tree/preOrderTraverseNonrecursion.i
+
+# target to preprocess a source file
+Tree/preOrderTraverseNonrecursion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\preOrderTraverseNonrecursion.dir\build.make CMakeFiles/preOrderTraverseNonrecursion.dir/Tree/preOrderTraverseNonrecursion.cpp.i
+.PHONY : Tree/preOrderTraverseNonrecursion.cpp.i
+
+Tree/preOrderTraverseNonrecursion.s: Tree/preOrderTraverseNonrecursion.cpp.s
+
+.PHONY : Tree/preOrderTraverseNonrecursion.s
+
+# target to generate assembly for a file
+Tree/preOrderTraverseNonrecursion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\preOrderTraverseNonrecursion.dir\build.make CMakeFiles/preOrderTraverseNonrecursion.dir/Tree/preOrderTraverseNonrecursion.cpp.s
+.PHONY : Tree/preOrderTraverseNonrecursion.cpp.s
+
 Tree/recoverFromPreOrder.obj: Tree/recoverFromPreOrder.cpp.obj
 
 .PHONY : Tree/recoverFromPreOrder.obj
@@ -3485,6 +3525,7 @@ help:
 	@echo ... minDepth
 	@echo ... pathSum
 	@echo ... postOrderTraversal
+	@echo ... preOrderTraverseNonrecursion
 	@echo ... qsort
 	@echo ... realloc
 	@echo ... recoverFromPreOrder
@@ -3735,6 +3776,9 @@ help:
 	@echo ... Tree/postOrderTraversal.obj
 	@echo ... Tree/postOrderTraversal.i
 	@echo ... Tree/postOrderTraversal.s
+	@echo ... Tree/preOrderTraverseNonrecursion.obj
+	@echo ... Tree/preOrderTraverseNonrecursion.i
+	@echo ... Tree/preOrderTraverseNonrecursion.s
 	@echo ... Tree/recoverFromPreOrder.obj
 	@echo ... Tree/recoverFromPreOrder.i
 	@echo ... Tree/recoverFromPreOrder.s

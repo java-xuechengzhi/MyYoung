@@ -80,5 +80,6 @@ E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/test.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/countNegatives.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/KthLargest.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/increasingBST.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/preOrderTraverseNonrecursion.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/rebuild_cache.dir
