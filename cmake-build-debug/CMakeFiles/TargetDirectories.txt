@@ -12,6 +12,7 @@ E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/QuickSort.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/containsDuplicate.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/SelectSort.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/Matrix3.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/HeapDijkstra2.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/ShellSort.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/BinarySearch.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/PalindromeNumber.dir
@@ -46,6 +47,7 @@ E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/isBalanced.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/malloc2.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/realloc.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/free.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/Kruskal.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/findRepeatNumber.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/minDepth.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/MinHeightTree.dir
@@ -74,6 +76,7 @@ E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/inOrderTraversal.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/recoverFromPreOrder.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/PreOrderTraversal.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/replaceSpace.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/Dijkstra2.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/maxAncestorDiff.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/maxAncestorDiff2.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/test.dir
@@ -81,5 +84,12 @@ E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/countNegatives.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/KthLargest.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/increasingBST.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/preOrderTraverseNonrecursion.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/prime.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/Reference.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/BinaryThreadTree.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/PermutationSelectSort.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/HuffmanTree.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/Dijkstra.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/Prim.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/rebuild_cache.dir

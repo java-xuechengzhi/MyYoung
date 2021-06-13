@@ -31,7 +31,7 @@ void BubbleSort2(int *num, int len) {
 
 int main() {
     int a[10] = {4, 3, 5, 1, 2, 6, 9, 10, 7, 8};
-    BubbleSort(a, 10);
+    BubbleSort2(a, 10);
     for (int i : a) {
         printf("%d ", i);
     }

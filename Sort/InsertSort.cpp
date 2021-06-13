@@ -14,7 +14,6 @@ void insertSort(int *a, int len) {
 }
 
 
-
 int main() {
     int a[10] = {4, 3, 5, 1, 2, 6, 9, 10, 7, 8};
     insertSort(a, 10);

@@ -311,6 +311,19 @@ Matrix3/fast:
 .PHONY : Matrix3/fast
 
 #=============================================================================
+# Target rules for targets named HeapDijkstra2
+
+# Build rule for target.
+HeapDijkstra2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 HeapDijkstra2
+.PHONY : HeapDijkstra2
+
+# fast build rule for target.
+HeapDijkstra2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapDijkstra2.dir\build.make CMakeFiles/HeapDijkstra2.dir/build
+.PHONY : HeapDijkstra2/fast
+
+#=============================================================================
 # Target rules for targets named ShellSort
 
 # Build rule for target.
@@ -753,6 +766,19 @@ free/fast:
 .PHONY : free/fast
 
 #=============================================================================
+# Target rules for targets named Kruskal
+
+# Build rule for target.
+Kruskal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Kruskal
+.PHONY : Kruskal
+
+# fast build rule for target.
+Kruskal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kruskal.dir\build.make CMakeFiles/Kruskal.dir/build
+.PHONY : Kruskal/fast
+
+#=============================================================================
 # Target rules for targets named findRepeatNumber
 
 # Build rule for target.
@@ -1117,6 +1143,19 @@ replaceSpace/fast:
 .PHONY : replaceSpace/fast
 
 #=============================================================================
+# Target rules for targets named Dijkstra2
+
+# Build rule for target.
+Dijkstra2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Dijkstra2
+.PHONY : Dijkstra2
+
+# fast build rule for target.
+Dijkstra2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dijkstra2.dir\build.make CMakeFiles/Dijkstra2.dir/build
+.PHONY : Dijkstra2/fast
+
+#=============================================================================
 # Target rules for targets named maxAncestorDiff
 
 # Build rule for target.
@@ -1206,6 +1245,97 @@ preOrderTraverseNonrecursion: cmake_check_build_system
 preOrderTraverseNonrecursion/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\preOrderTraverseNonrecursion.dir\build.make CMakeFiles/preOrderTraverseNonrecursion.dir/build
 .PHONY : preOrderTraverseNonrecursion/fast
+
+#=============================================================================
+# Target rules for targets named prime
+
+# Build rule for target.
+prime: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 prime
+.PHONY : prime
+
+# fast build rule for target.
+prime/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\prime.dir\build.make CMakeFiles/prime.dir/build
+.PHONY : prime/fast
+
+#=============================================================================
+# Target rules for targets named Reference
+
+# Build rule for target.
+Reference: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Reference
+.PHONY : Reference
+
+# fast build rule for target.
+Reference/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Reference.dir\build.make CMakeFiles/Reference.dir/build
+.PHONY : Reference/fast
+
+#=============================================================================
+# Target rules for targets named BinaryThreadTree
+
+# Build rule for target.
+BinaryThreadTree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BinaryThreadTree
+.PHONY : BinaryThreadTree
+
+# fast build rule for target.
+BinaryThreadTree/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinaryThreadTree.dir\build.make CMakeFiles/BinaryThreadTree.dir/build
+.PHONY : BinaryThreadTree/fast
+
+#=============================================================================
+# Target rules for targets named PermutationSelectSort
+
+# Build rule for target.
+PermutationSelectSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PermutationSelectSort
+.PHONY : PermutationSelectSort
+
+# fast build rule for target.
+PermutationSelectSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PermutationSelectSort.dir\build.make CMakeFiles/PermutationSelectSort.dir/build
+.PHONY : PermutationSelectSort/fast
+
+#=============================================================================
+# Target rules for targets named HuffmanTree
+
+# Build rule for target.
+HuffmanTree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 HuffmanTree
+.PHONY : HuffmanTree
+
+# fast build rule for target.
+HuffmanTree/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HuffmanTree.dir\build.make CMakeFiles/HuffmanTree.dir/build
+.PHONY : HuffmanTree/fast
+
+#=============================================================================
+# Target rules for targets named Dijkstra
+
+# Build rule for target.
+Dijkstra: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Dijkstra
+.PHONY : Dijkstra
+
+# fast build rule for target.
+Dijkstra/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dijkstra.dir\build.make CMakeFiles/Dijkstra.dir/build
+.PHONY : Dijkstra/fast
+
+#=============================================================================
+# Target rules for targets named Prim
+
+# Build rule for target.
+Prim: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Prim
+.PHONY : Prim
+
+# fast build rule for target.
+Prim/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prim.dir\build.make CMakeFiles/Prim.dir/build
+.PHONY : Prim/fast
 
 Array/MaximumProductofTwoElementsinanArray.obj: Array/MaximumProductofTwoElementsinanArray.cpp.obj
 
@@ -1720,6 +1850,33 @@ C/Matrix3.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Matrix3.dir\build.make CMakeFiles/Matrix3.dir/C/Matrix3.c.s
 .PHONY : C/Matrix3.c.s
 
+C/Reference.obj: C/Reference.cpp.obj
+
+.PHONY : C/Reference.obj
+
+# target to build an object file
+C/Reference.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Reference.dir\build.make CMakeFiles/Reference.dir/C/Reference.cpp.obj
+.PHONY : C/Reference.cpp.obj
+
+C/Reference.i: C/Reference.cpp.i
+
+.PHONY : C/Reference.i
+
+# target to preprocess a source file
+C/Reference.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Reference.dir\build.make CMakeFiles/Reference.dir/C/Reference.cpp.i
+.PHONY : C/Reference.cpp.i
+
+C/Reference.s: C/Reference.cpp.s
+
+.PHONY : C/Reference.s
+
+# target to generate assembly for a file
+C/Reference.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Reference.dir\build.make CMakeFiles/Reference.dir/C/Reference.cpp.s
+.PHONY : C/Reference.cpp.s
+
 C/SecondPointer.obj: C/SecondPointer.c.obj
 
 .PHONY : C/SecondPointer.obj
@@ -1962,6 +2119,33 @@ C/malloc2.s: C/malloc2.cpp.s
 C/malloc2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\malloc2.dir\build.make CMakeFiles/malloc2.dir/C/malloc2.cpp.s
 .PHONY : C/malloc2.cpp.s
+
+C/prime.obj: C/prime.cpp.obj
+
+.PHONY : C/prime.obj
+
+# target to build an object file
+C/prime.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\prime.dir\build.make CMakeFiles/prime.dir/C/prime.cpp.obj
+.PHONY : C/prime.cpp.obj
+
+C/prime.i: C/prime.cpp.i
+
+.PHONY : C/prime.i
+
+# target to preprocess a source file
+C/prime.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\prime.dir\build.make CMakeFiles/prime.dir/C/prime.cpp.i
+.PHONY : C/prime.cpp.i
+
+C/prime.s: C/prime.cpp.s
+
+.PHONY : C/prime.s
+
+# target to generate assembly for a file
+C/prime.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\prime.dir\build.make CMakeFiles/prime.dir/C/prime.cpp.s
+.PHONY : C/prime.cpp.s
 
 C/qsort.obj: C/qsort.c.obj
 
@@ -2314,6 +2498,141 @@ List/removeNthFromEnd2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\removeNthFromEnd2.dir\build.make CMakeFiles/removeNthFromEnd2.dir/List/removeNthFromEnd2.cpp.s
 .PHONY : List/removeNthFromEnd2.cpp.s
 
+Map/Dijkstra.obj: Map/Dijkstra.cpp.obj
+
+.PHONY : Map/Dijkstra.obj
+
+# target to build an object file
+Map/Dijkstra.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dijkstra.dir\build.make CMakeFiles/Dijkstra.dir/Map/Dijkstra.cpp.obj
+.PHONY : Map/Dijkstra.cpp.obj
+
+Map/Dijkstra.i: Map/Dijkstra.cpp.i
+
+.PHONY : Map/Dijkstra.i
+
+# target to preprocess a source file
+Map/Dijkstra.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dijkstra.dir\build.make CMakeFiles/Dijkstra.dir/Map/Dijkstra.cpp.i
+.PHONY : Map/Dijkstra.cpp.i
+
+Map/Dijkstra.s: Map/Dijkstra.cpp.s
+
+.PHONY : Map/Dijkstra.s
+
+# target to generate assembly for a file
+Map/Dijkstra.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dijkstra.dir\build.make CMakeFiles/Dijkstra.dir/Map/Dijkstra.cpp.s
+.PHONY : Map/Dijkstra.cpp.s
+
+Map/Dijkstra2.obj: Map/Dijkstra2.cpp.obj
+
+.PHONY : Map/Dijkstra2.obj
+
+# target to build an object file
+Map/Dijkstra2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dijkstra2.dir\build.make CMakeFiles/Dijkstra2.dir/Map/Dijkstra2.cpp.obj
+.PHONY : Map/Dijkstra2.cpp.obj
+
+Map/Dijkstra2.i: Map/Dijkstra2.cpp.i
+
+.PHONY : Map/Dijkstra2.i
+
+# target to preprocess a source file
+Map/Dijkstra2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dijkstra2.dir\build.make CMakeFiles/Dijkstra2.dir/Map/Dijkstra2.cpp.i
+.PHONY : Map/Dijkstra2.cpp.i
+
+Map/Dijkstra2.s: Map/Dijkstra2.cpp.s
+
+.PHONY : Map/Dijkstra2.s
+
+# target to generate assembly for a file
+Map/Dijkstra2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dijkstra2.dir\build.make CMakeFiles/Dijkstra2.dir/Map/Dijkstra2.cpp.s
+.PHONY : Map/Dijkstra2.cpp.s
+
+Map/HeapDijkstra2.obj: Map/HeapDijkstra2.cpp.obj
+
+.PHONY : Map/HeapDijkstra2.obj
+
+# target to build an object file
+Map/HeapDijkstra2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapDijkstra2.dir\build.make CMakeFiles/HeapDijkstra2.dir/Map/HeapDijkstra2.cpp.obj
+.PHONY : Map/HeapDijkstra2.cpp.obj
+
+Map/HeapDijkstra2.i: Map/HeapDijkstra2.cpp.i
+
+.PHONY : Map/HeapDijkstra2.i
+
+# target to preprocess a source file
+Map/HeapDijkstra2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapDijkstra2.dir\build.make CMakeFiles/HeapDijkstra2.dir/Map/HeapDijkstra2.cpp.i
+.PHONY : Map/HeapDijkstra2.cpp.i
+
+Map/HeapDijkstra2.s: Map/HeapDijkstra2.cpp.s
+
+.PHONY : Map/HeapDijkstra2.s
+
+# target to generate assembly for a file
+Map/HeapDijkstra2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapDijkstra2.dir\build.make CMakeFiles/HeapDijkstra2.dir/Map/HeapDijkstra2.cpp.s
+.PHONY : Map/HeapDijkstra2.cpp.s
+
+Map/Kruskal.obj: Map/Kruskal.cpp.obj
+
+.PHONY : Map/Kruskal.obj
+
+# target to build an object file
+Map/Kruskal.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kruskal.dir\build.make CMakeFiles/Kruskal.dir/Map/Kruskal.cpp.obj
+.PHONY : Map/Kruskal.cpp.obj
+
+Map/Kruskal.i: Map/Kruskal.cpp.i
+
+.PHONY : Map/Kruskal.i
+
+# target to preprocess a source file
+Map/Kruskal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kruskal.dir\build.make CMakeFiles/Kruskal.dir/Map/Kruskal.cpp.i
+.PHONY : Map/Kruskal.cpp.i
+
+Map/Kruskal.s: Map/Kruskal.cpp.s
+
+.PHONY : Map/Kruskal.s
+
+# target to generate assembly for a file
+Map/Kruskal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kruskal.dir\build.make CMakeFiles/Kruskal.dir/Map/Kruskal.cpp.s
+.PHONY : Map/Kruskal.cpp.s
+
+Map/Prim.obj: Map/Prim.cpp.obj
+
+.PHONY : Map/Prim.obj
+
+# target to build an object file
+Map/Prim.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prim.dir\build.make CMakeFiles/Prim.dir/Map/Prim.cpp.obj
+.PHONY : Map/Prim.cpp.obj
+
+Map/Prim.i: Map/Prim.cpp.i
+
+.PHONY : Map/Prim.i
+
+# target to preprocess a source file
+Map/Prim.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prim.dir\build.make CMakeFiles/Prim.dir/Map/Prim.cpp.i
+.PHONY : Map/Prim.cpp.i
+
+Map/Prim.s: Map/Prim.cpp.s
+
+.PHONY : Map/Prim.s
+
+# target to generate assembly for a file
+Map/Prim.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prim.dir\build.make CMakeFiles/Prim.dir/Map/Prim.cpp.s
+.PHONY : Map/Prim.cpp.s
+
 Search/BinarySearch.obj: Search/BinarySearch.cpp.obj
 
 .PHONY : Search/BinarySearch.obj
@@ -2556,6 +2875,33 @@ Sort/MergeSort.s: Sort/MergeSort.cpp.s
 Sort/MergeSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MergeSort.dir\build.make CMakeFiles/MergeSort.dir/Sort/MergeSort.cpp.s
 .PHONY : Sort/MergeSort.cpp.s
+
+Sort/PermutationSelectSort.obj: Sort/PermutationSelectSort.cpp.obj
+
+.PHONY : Sort/PermutationSelectSort.obj
+
+# target to build an object file
+Sort/PermutationSelectSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PermutationSelectSort.dir\build.make CMakeFiles/PermutationSelectSort.dir/Sort/PermutationSelectSort.cpp.obj
+.PHONY : Sort/PermutationSelectSort.cpp.obj
+
+Sort/PermutationSelectSort.i: Sort/PermutationSelectSort.cpp.i
+
+.PHONY : Sort/PermutationSelectSort.i
+
+# target to preprocess a source file
+Sort/PermutationSelectSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PermutationSelectSort.dir\build.make CMakeFiles/PermutationSelectSort.dir/Sort/PermutationSelectSort.cpp.i
+.PHONY : Sort/PermutationSelectSort.cpp.i
+
+Sort/PermutationSelectSort.s: Sort/PermutationSelectSort.cpp.s
+
+.PHONY : Sort/PermutationSelectSort.s
+
+# target to generate assembly for a file
+Sort/PermutationSelectSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PermutationSelectSort.dir\build.make CMakeFiles/PermutationSelectSort.dir/Sort/PermutationSelectSort.cpp.s
+.PHONY : Sort/PermutationSelectSort.cpp.s
 
 Sort/QuickSort.obj: Sort/QuickSort.cpp.obj
 
@@ -2907,6 +3253,60 @@ Tree/BST.s: Tree/BST.cpp.s
 Tree/BST.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BST.dir\build.make CMakeFiles/BST.dir/Tree/BST.cpp.s
 .PHONY : Tree/BST.cpp.s
+
+Tree/BinaryThreadTree.obj: Tree/BinaryThreadTree.cpp.obj
+
+.PHONY : Tree/BinaryThreadTree.obj
+
+# target to build an object file
+Tree/BinaryThreadTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinaryThreadTree.dir\build.make CMakeFiles/BinaryThreadTree.dir/Tree/BinaryThreadTree.cpp.obj
+.PHONY : Tree/BinaryThreadTree.cpp.obj
+
+Tree/BinaryThreadTree.i: Tree/BinaryThreadTree.cpp.i
+
+.PHONY : Tree/BinaryThreadTree.i
+
+# target to preprocess a source file
+Tree/BinaryThreadTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinaryThreadTree.dir\build.make CMakeFiles/BinaryThreadTree.dir/Tree/BinaryThreadTree.cpp.i
+.PHONY : Tree/BinaryThreadTree.cpp.i
+
+Tree/BinaryThreadTree.s: Tree/BinaryThreadTree.cpp.s
+
+.PHONY : Tree/BinaryThreadTree.s
+
+# target to generate assembly for a file
+Tree/BinaryThreadTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinaryThreadTree.dir\build.make CMakeFiles/BinaryThreadTree.dir/Tree/BinaryThreadTree.cpp.s
+.PHONY : Tree/BinaryThreadTree.cpp.s
+
+Tree/HuffmanTree.obj: Tree/HuffmanTree.cpp.obj
+
+.PHONY : Tree/HuffmanTree.obj
+
+# target to build an object file
+Tree/HuffmanTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HuffmanTree.dir\build.make CMakeFiles/HuffmanTree.dir/Tree/HuffmanTree.cpp.obj
+.PHONY : Tree/HuffmanTree.cpp.obj
+
+Tree/HuffmanTree.i: Tree/HuffmanTree.cpp.i
+
+.PHONY : Tree/HuffmanTree.i
+
+# target to preprocess a source file
+Tree/HuffmanTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HuffmanTree.dir\build.make CMakeFiles/HuffmanTree.dir/Tree/HuffmanTree.cpp.i
+.PHONY : Tree/HuffmanTree.cpp.i
+
+Tree/HuffmanTree.s: Tree/HuffmanTree.cpp.s
+
+.PHONY : Tree/HuffmanTree.s
+
+# target to generate assembly for a file
+Tree/HuffmanTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HuffmanTree.dir\build.make CMakeFiles/HuffmanTree.dir/Tree/HuffmanTree.cpp.s
+.PHONY : Tree/HuffmanTree.cpp.s
 
 Tree/KthLargest.obj: Tree/KthLargest.cpp.obj
 
@@ -3460,15 +3860,21 @@ help:
 	@echo ... BFS1
 	@echo ... BST
 	@echo ... BinarySearch
+	@echo ... BinaryThreadTree
 	@echo ... BubbleSort
 	@echo ... BucketSort
+	@echo ... Dijkstra
+	@echo ... Dijkstra2
 	@echo ... FrequencySort
 	@echo ... FunctionPointer
 	@echo ... Hash
 	@echo ... Heap
+	@echo ... HeapDijkstra2
 	@echo ... HeapSort
+	@echo ... HuffmanTree
 	@echo ... InsertSort
 	@echo ... KMP
+	@echo ... Kruskal
 	@echo ... KthLargest
 	@echo ... LevelOrder
 	@echo ... Matrix
@@ -3480,10 +3886,13 @@ help:
 	@echo ... MinHeightTree
 	@echo ... PalindromeNumber
 	@echo ... PascalTriangle
+	@echo ... PermutationSelectSort
 	@echo ... PreOrderTraversal
+	@echo ... Prim
 	@echo ... QuickSort
 	@echo ... RadixSort
 	@echo ... RandomizedSet
+	@echo ... Reference
 	@echo ... RelativeSortArray
 	@echo ... RemoveOutermostParentheses
 	@echo ... RotateList
@@ -3526,6 +3935,7 @@ help:
 	@echo ... pathSum
 	@echo ... postOrderTraversal
 	@echo ... preOrderTraverseNonrecursion
+	@echo ... prime
 	@echo ... qsort
 	@echo ... realloc
 	@echo ... recoverFromPreOrder
@@ -3596,6 +4006,9 @@ help:
 	@echo ... C/Matrix3.obj
 	@echo ... C/Matrix3.i
 	@echo ... C/Matrix3.s
+	@echo ... C/Reference.obj
+	@echo ... C/Reference.i
+	@echo ... C/Reference.s
 	@echo ... C/SecondPointer.obj
 	@echo ... C/SecondPointer.i
 	@echo ... C/SecondPointer.s
@@ -3623,6 +4036,9 @@ help:
 	@echo ... C/malloc2.obj
 	@echo ... C/malloc2.i
 	@echo ... C/malloc2.s
+	@echo ... C/prime.obj
+	@echo ... C/prime.i
+	@echo ... C/prime.s
 	@echo ... C/qsort.obj
 	@echo ... C/qsort.i
 	@echo ... C/qsort.s
@@ -3662,6 +4078,21 @@ help:
 	@echo ... List/removeNthFromEnd2.obj
 	@echo ... List/removeNthFromEnd2.i
 	@echo ... List/removeNthFromEnd2.s
+	@echo ... Map/Dijkstra.obj
+	@echo ... Map/Dijkstra.i
+	@echo ... Map/Dijkstra.s
+	@echo ... Map/Dijkstra2.obj
+	@echo ... Map/Dijkstra2.i
+	@echo ... Map/Dijkstra2.s
+	@echo ... Map/HeapDijkstra2.obj
+	@echo ... Map/HeapDijkstra2.i
+	@echo ... Map/HeapDijkstra2.s
+	@echo ... Map/Kruskal.obj
+	@echo ... Map/Kruskal.i
+	@echo ... Map/Kruskal.s
+	@echo ... Map/Prim.obj
+	@echo ... Map/Prim.i
+	@echo ... Map/Prim.s
 	@echo ... Search/BinarySearch.obj
 	@echo ... Search/BinarySearch.i
 	@echo ... Search/BinarySearch.s
@@ -3689,6 +4120,9 @@ help:
 	@echo ... Sort/MergeSort.obj
 	@echo ... Sort/MergeSort.i
 	@echo ... Sort/MergeSort.s
+	@echo ... Sort/PermutationSelectSort.obj
+	@echo ... Sort/PermutationSelectSort.i
+	@echo ... Sort/PermutationSelectSort.s
 	@echo ... Sort/QuickSort.obj
 	@echo ... Sort/QuickSort.i
 	@echo ... Sort/QuickSort.s
@@ -3728,6 +4162,12 @@ help:
 	@echo ... Tree/BST.obj
 	@echo ... Tree/BST.i
 	@echo ... Tree/BST.s
+	@echo ... Tree/BinaryThreadTree.obj
+	@echo ... Tree/BinaryThreadTree.i
+	@echo ... Tree/BinaryThreadTree.s
+	@echo ... Tree/HuffmanTree.obj
+	@echo ... Tree/HuffmanTree.i
+	@echo ... Tree/HuffmanTree.s
 	@echo ... Tree/KthLargest.obj
 	@echo ... Tree/KthLargest.i
 	@echo ... Tree/KthLargest.s

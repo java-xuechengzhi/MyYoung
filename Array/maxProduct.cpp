@@ -18,3 +18,17 @@ int maxProduct(vector<int>& nums) {
     }
     return (max1 - 1) * (max2 - 1);
 }
+
+int maxProduct2(vector<int>& nums) {
+    int len = nums.size();
+    int max1 = 0, max2 = 0;
+    for(int num : nums) {
+        if(num > max1) {
+            max1 = num;
+            max2 = max1;
+        } else if(num > max2) {
+            max2 = num;
+        }
+    }
+    return (max1 - 1) * (max2 - 1);
+}

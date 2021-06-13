@@ -1,0 +1,3 @@
+"D:\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\BinaryThreadTree.dir/objects.a
+D:\environment\mingw64\bin\ar.exe cr CMakeFiles\BinaryThreadTree.dir/objects.a @CMakeFiles\BinaryThreadTree.dir\objects1.rsp
+D:\environment\mingw64\bin\g++.exe  -Wall -fexec-charset=GBK -g -Wl,--whole-archive CMakeFiles\BinaryThreadTree.dir/objects.a -Wl,--no-whole-archive -o BinaryThreadTree.exe -Wl,--out-implib,libBinaryThreadTree.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\BinaryThreadTree.dir\linklibs.rsp

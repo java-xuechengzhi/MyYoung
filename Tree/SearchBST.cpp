@@ -31,20 +31,3 @@ struct TreeNode* searchBST(struct TreeNode* root, int val) {
         }
     }
 }
-
-struct TreeNode* searchBST2(struct TreeNode* root, int val) {
-    if(!root) {
-        return NULL;
-    } else {
-        while(root) {
-            if(val > root->val) {
-                root = root->right;
-            } else if(val < root->val) {
-                root = root->left;
-            } else if(val == root->val) {
-                return root;
-            }
-        }
-    }
-    return NULL;
-}

@@ -32,6 +32,7 @@ int findPosition(int *a, int left, int right) {
 }
 
 
+
 int main() {
     int a[10] = {4, 3, 5, 1, 2, 6, 9, 10, 7, 8};
 

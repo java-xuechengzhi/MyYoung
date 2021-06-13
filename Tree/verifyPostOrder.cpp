@@ -36,7 +36,27 @@ bool verifyPostOrder(vector<int>& postOrder) {
     return dfs(postOrder, 0 , postOrder.size() - 1);
 }
 
+vector<int> res;
 
+bool dfs2(int l, int r) {
+    if(l >= r) {
+        return true;
+    }
+    int root = res[r];
+    int k = l;
+    while(k < r && res[k] < root) k++;
+    for(int i = k; i < r; i++) {
+        if(res[k] < root) {
+            return false;
+        }
+    }
+    return dfs2(l, k - 1) && dfs2(k, r - 1);
+}
+
+bool verify2(vector<int>& postOrder) {
+    res = postOrder;
+    return dfs2(0, postOrder.size() - 1);
+}
 
 
 

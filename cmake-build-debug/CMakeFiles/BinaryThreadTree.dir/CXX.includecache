@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Cpp/KaoYan/Tree/BinaryThreadTree.cpp
+bits/stdc++.h
+E:/Cpp/KaoYan/Tree/bits/stdc++.h
+windows.h
+E:/Cpp/KaoYan/Tree/windows.h
+stdio.h
+-
+windows.h
+-
+
