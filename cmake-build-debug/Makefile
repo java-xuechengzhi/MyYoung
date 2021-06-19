@@ -311,6 +311,19 @@ Matrix3/fast:
 .PHONY : Matrix3/fast
 
 #=============================================================================
+# Target rules for targets named Floyd
+
+# Build rule for target.
+Floyd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Floyd
+.PHONY : Floyd
+
+# fast build rule for target.
+Floyd/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Floyd.dir\build.make CMakeFiles/Floyd.dir/build
+.PHONY : Floyd/fast
+
+#=============================================================================
 # Target rules for targets named HeapDijkstra2
 
 # Build rule for target.
@@ -1336,6 +1349,58 @@ Prim: cmake_check_build_system
 Prim/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prim.dir\build.make CMakeFiles/Prim.dir/build
 .PHONY : Prim/fast
+
+#=============================================================================
+# Target rules for targets named evalRPN
+
+# Build rule for target.
+evalRPN: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 evalRPN
+.PHONY : evalRPN
+
+# fast build rule for target.
+evalRPN/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\evalRPN.dir\build.make CMakeFiles/evalRPN.dir/build
+.PHONY : evalRPN/fast
+
+#=============================================================================
+# Target rules for targets named removeDuplicatesFromString
+
+# Build rule for target.
+removeDuplicatesFromString: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 removeDuplicatesFromString
+.PHONY : removeDuplicatesFromString
+
+# fast build rule for target.
+removeDuplicatesFromString/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\removeDuplicatesFromString.dir\build.make CMakeFiles/removeDuplicatesFromString.dir/build
+.PHONY : removeDuplicatesFromString/fast
+
+#=============================================================================
+# Target rules for targets named InvertTree
+
+# Build rule for target.
+InvertTree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 InvertTree
+.PHONY : InvertTree
+
+# fast build rule for target.
+InvertTree/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InvertTree.dir\build.make CMakeFiles/InvertTree.dir/build
+.PHONY : InvertTree/fast
+
+#=============================================================================
+# Target rules for targets named connect
+
+# Build rule for target.
+connect: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 connect
+.PHONY : connect
+
+# fast build rule for target.
+connect/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\connect.dir\build.make CMakeFiles/connect.dir/build
+.PHONY : connect/fast
 
 Array/MaximumProductofTwoElementsinanArray.obj: Array/MaximumProductofTwoElementsinanArray.cpp.obj
 
@@ -2552,6 +2617,33 @@ Map/Dijkstra2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dijkstra2.dir\build.make CMakeFiles/Dijkstra2.dir/Map/Dijkstra2.cpp.s
 .PHONY : Map/Dijkstra2.cpp.s
 
+Map/Floyd.obj: Map/Floyd.cpp.obj
+
+.PHONY : Map/Floyd.obj
+
+# target to build an object file
+Map/Floyd.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Floyd.dir\build.make CMakeFiles/Floyd.dir/Map/Floyd.cpp.obj
+.PHONY : Map/Floyd.cpp.obj
+
+Map/Floyd.i: Map/Floyd.cpp.i
+
+.PHONY : Map/Floyd.i
+
+# target to preprocess a source file
+Map/Floyd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Floyd.dir\build.make CMakeFiles/Floyd.dir/Map/Floyd.cpp.i
+.PHONY : Map/Floyd.cpp.i
+
+Map/Floyd.s: Map/Floyd.cpp.s
+
+.PHONY : Map/Floyd.s
+
+# target to generate assembly for a file
+Map/Floyd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Floyd.dir\build.make CMakeFiles/Floyd.dir/Map/Floyd.cpp.s
+.PHONY : Map/Floyd.cpp.s
+
 Map/HeapDijkstra2.obj: Map/HeapDijkstra2.cpp.obj
 
 .PHONY : Map/HeapDijkstra2.obj
@@ -3146,6 +3238,60 @@ Stack/RemoveOutermostParentheses.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RemoveOutermostParentheses.dir\build.make CMakeFiles/RemoveOutermostParentheses.dir/Stack/RemoveOutermostParentheses.cpp.s
 .PHONY : Stack/RemoveOutermostParentheses.cpp.s
 
+Stack/evalRPN.obj: Stack/evalRPN.cpp.obj
+
+.PHONY : Stack/evalRPN.obj
+
+# target to build an object file
+Stack/evalRPN.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\evalRPN.dir\build.make CMakeFiles/evalRPN.dir/Stack/evalRPN.cpp.obj
+.PHONY : Stack/evalRPN.cpp.obj
+
+Stack/evalRPN.i: Stack/evalRPN.cpp.i
+
+.PHONY : Stack/evalRPN.i
+
+# target to preprocess a source file
+Stack/evalRPN.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\evalRPN.dir\build.make CMakeFiles/evalRPN.dir/Stack/evalRPN.cpp.i
+.PHONY : Stack/evalRPN.cpp.i
+
+Stack/evalRPN.s: Stack/evalRPN.cpp.s
+
+.PHONY : Stack/evalRPN.s
+
+# target to generate assembly for a file
+Stack/evalRPN.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\evalRPN.dir\build.make CMakeFiles/evalRPN.dir/Stack/evalRPN.cpp.s
+.PHONY : Stack/evalRPN.cpp.s
+
+Stack/removeDuplicatesFromString.obj: Stack/removeDuplicatesFromString.cpp.obj
+
+.PHONY : Stack/removeDuplicatesFromString.obj
+
+# target to build an object file
+Stack/removeDuplicatesFromString.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\removeDuplicatesFromString.dir\build.make CMakeFiles/removeDuplicatesFromString.dir/Stack/removeDuplicatesFromString.cpp.obj
+.PHONY : Stack/removeDuplicatesFromString.cpp.obj
+
+Stack/removeDuplicatesFromString.i: Stack/removeDuplicatesFromString.cpp.i
+
+.PHONY : Stack/removeDuplicatesFromString.i
+
+# target to preprocess a source file
+Stack/removeDuplicatesFromString.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\removeDuplicatesFromString.dir\build.make CMakeFiles/removeDuplicatesFromString.dir/Stack/removeDuplicatesFromString.cpp.i
+.PHONY : Stack/removeDuplicatesFromString.cpp.i
+
+Stack/removeDuplicatesFromString.s: Stack/removeDuplicatesFromString.cpp.s
+
+.PHONY : Stack/removeDuplicatesFromString.s
+
+# target to generate assembly for a file
+Stack/removeDuplicatesFromString.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\removeDuplicatesFromString.dir\build.make CMakeFiles/removeDuplicatesFromString.dir/Stack/removeDuplicatesFromString.cpp.s
+.PHONY : Stack/removeDuplicatesFromString.cpp.s
+
 String/Hash.obj: String/Hash.cpp.obj
 
 .PHONY : String/Hash.obj
@@ -3308,6 +3454,33 @@ Tree/HuffmanTree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HuffmanTree.dir\build.make CMakeFiles/HuffmanTree.dir/Tree/HuffmanTree.cpp.s
 .PHONY : Tree/HuffmanTree.cpp.s
 
+Tree/InvertTree.obj: Tree/InvertTree.cpp.obj
+
+.PHONY : Tree/InvertTree.obj
+
+# target to build an object file
+Tree/InvertTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InvertTree.dir\build.make CMakeFiles/InvertTree.dir/Tree/InvertTree.cpp.obj
+.PHONY : Tree/InvertTree.cpp.obj
+
+Tree/InvertTree.i: Tree/InvertTree.cpp.i
+
+.PHONY : Tree/InvertTree.i
+
+# target to preprocess a source file
+Tree/InvertTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InvertTree.dir\build.make CMakeFiles/InvertTree.dir/Tree/InvertTree.cpp.i
+.PHONY : Tree/InvertTree.cpp.i
+
+Tree/InvertTree.s: Tree/InvertTree.cpp.s
+
+.PHONY : Tree/InvertTree.s
+
+# target to generate assembly for a file
+Tree/InvertTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InvertTree.dir\build.make CMakeFiles/InvertTree.dir/Tree/InvertTree.cpp.s
+.PHONY : Tree/InvertTree.cpp.s
+
 Tree/KthLargest.obj: Tree/KthLargest.cpp.obj
 
 .PHONY : Tree/KthLargest.obj
@@ -3469,6 +3642,33 @@ Tree/SearchBST.s: Tree/SearchBST.cpp.s
 Tree/SearchBST.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchBST.dir\build.make CMakeFiles/SearchBST.dir/Tree/SearchBST.cpp.s
 .PHONY : Tree/SearchBST.cpp.s
+
+Tree/connect.obj: Tree/connect.cpp.obj
+
+.PHONY : Tree/connect.obj
+
+# target to build an object file
+Tree/connect.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\connect.dir\build.make CMakeFiles/connect.dir/Tree/connect.cpp.obj
+.PHONY : Tree/connect.cpp.obj
+
+Tree/connect.i: Tree/connect.cpp.i
+
+.PHONY : Tree/connect.i
+
+# target to preprocess a source file
+Tree/connect.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\connect.dir\build.make CMakeFiles/connect.dir/Tree/connect.cpp.i
+.PHONY : Tree/connect.cpp.i
+
+Tree/connect.s: Tree/connect.cpp.s
+
+.PHONY : Tree/connect.s
+
+# target to generate assembly for a file
+Tree/connect.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\connect.dir\build.make CMakeFiles/connect.dir/Tree/connect.cpp.s
+.PHONY : Tree/connect.cpp.s
 
 Tree/inOrderTraversal.obj: Tree/inOrderTraversal.cpp.obj
 
@@ -3865,6 +4065,7 @@ help:
 	@echo ... BucketSort
 	@echo ... Dijkstra
 	@echo ... Dijkstra2
+	@echo ... Floyd
 	@echo ... FrequencySort
 	@echo ... FunctionPointer
 	@echo ... Hash
@@ -3873,6 +4074,7 @@ help:
 	@echo ... HeapSort
 	@echo ... HuffmanTree
 	@echo ... InsertSort
+	@echo ... InvertTree
 	@echo ... KMP
 	@echo ... Kruskal
 	@echo ... KthLargest
@@ -3911,11 +4113,13 @@ help:
 	@echo ... algorithm
 	@echo ... backtrack
 	@echo ... calloc
+	@echo ... connect
 	@echo ... containsDuplicate
 	@echo ... containsDuplicateII
 	@echo ... countNegatives
 	@echo ... deleteRep
 	@echo ... enum
+	@echo ... evalRPN
 	@echo ... findMaxLength
 	@echo ... findRepeatNumber
 	@echo ... free
@@ -3939,6 +4143,7 @@ help:
 	@echo ... qsort
 	@echo ... realloc
 	@echo ... recoverFromPreOrder
+	@echo ... removeDuplicatesFromString
 	@echo ... removeNthFromEnd
 	@echo ... removeNthFromEnd2
 	@echo ... replaceSpace
@@ -4084,6 +4289,9 @@ help:
 	@echo ... Map/Dijkstra2.obj
 	@echo ... Map/Dijkstra2.i
 	@echo ... Map/Dijkstra2.s
+	@echo ... Map/Floyd.obj
+	@echo ... Map/Floyd.i
+	@echo ... Map/Floyd.s
 	@echo ... Map/HeapDijkstra2.obj
 	@echo ... Map/HeapDijkstra2.i
 	@echo ... Map/HeapDijkstra2.s
@@ -4150,6 +4358,12 @@ help:
 	@echo ... Stack/RemoveOutermostParentheses.obj
 	@echo ... Stack/RemoveOutermostParentheses.i
 	@echo ... Stack/RemoveOutermostParentheses.s
+	@echo ... Stack/evalRPN.obj
+	@echo ... Stack/evalRPN.i
+	@echo ... Stack/evalRPN.s
+	@echo ... Stack/removeDuplicatesFromString.obj
+	@echo ... Stack/removeDuplicatesFromString.i
+	@echo ... Stack/removeDuplicatesFromString.s
 	@echo ... String/Hash.obj
 	@echo ... String/Hash.i
 	@echo ... String/Hash.s
@@ -4168,6 +4382,9 @@ help:
 	@echo ... Tree/HuffmanTree.obj
 	@echo ... Tree/HuffmanTree.i
 	@echo ... Tree/HuffmanTree.s
+	@echo ... Tree/InvertTree.obj
+	@echo ... Tree/InvertTree.i
+	@echo ... Tree/InvertTree.s
 	@echo ... Tree/KthLargest.obj
 	@echo ... Tree/KthLargest.i
 	@echo ... Tree/KthLargest.s
@@ -4186,6 +4403,9 @@ help:
 	@echo ... Tree/SearchBST.obj
 	@echo ... Tree/SearchBST.i
 	@echo ... Tree/SearchBST.s
+	@echo ... Tree/connect.obj
+	@echo ... Tree/connect.i
+	@echo ... Tree/connect.s
 	@echo ... Tree/inOrderTraversal.obj
 	@echo ... Tree/inOrderTraversal.i
 	@echo ... Tree/inOrderTraversal.s

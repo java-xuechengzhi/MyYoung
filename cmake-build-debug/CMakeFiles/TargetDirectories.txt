@@ -12,6 +12,7 @@ E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/QuickSort.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/containsDuplicate.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/SelectSort.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/Matrix3.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/Floyd.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/HeapDijkstra2.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/ShellSort.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/BinarySearch.dir
@@ -91,5 +92,9 @@ E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/PermutationSelectSort.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/HuffmanTree.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/Dijkstra.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/Prim.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/evalRPN.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/removeDuplicatesFromString.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/InvertTree.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/connect.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/rebuild_cache.dir

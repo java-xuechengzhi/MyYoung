@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Cpp/KaoYan/Map/Floyd.cpp
+bits/stdc++.h
+E:/Cpp/KaoYan/Map/bits/stdc++.h
+

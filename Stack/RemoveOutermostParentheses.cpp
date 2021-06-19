@@ -15,6 +15,7 @@ string removeOuterParentheses2(string str) {
     return ans;
 }
 
+
 string removeOuterParentheses(string str) {
     int n = str.size();
     stack<int> s;
