@@ -149,4 +149,9 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/removeDuplicatesFromString.dir/DependInfo.cmake"
   "CMakeFiles/InvertTree.dir/DependInfo.cmake"
   "CMakeFiles/connect.dir/DependInfo.cmake"
+  "CMakeFiles/OddEvenList.dir/DependInfo.cmake"
+  "CMakeFiles/MinCostConnectPoints.dir/DependInfo.cmake"
+  "CMakeFiles/MergeKLists.dir/DependInfo.cmake"
+  "CMakeFiles/longestPalindrome.dir/DependInfo.cmake"
+  "CMakeFiles/swapPairs.dir/DependInfo.cmake"
   )

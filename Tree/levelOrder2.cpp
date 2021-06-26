@@ -58,4 +58,25 @@ public:
         }
         return res;
     }
+
+    vector<vector<int>> levelOrder2(TreeNode* root) {
+        if(!root) return {};
+        vector<vector<int>> res;
+        queue<TreeNode*> que;
+        que.push(root);
+        while(!que.empty()) {
+            int cnt = que.size();
+            vector<int> level;
+            whlie(cnt) {
+                auto node = que.front();
+                if(node->left) que.push(node->left);
+                if(node->right) que.push(node->right);
+                level.push_back(node->val);
+                que.pop();
+                cnt--;
+            }
+            res.push_back(level);
+        }
+        return res;
+    }
 };

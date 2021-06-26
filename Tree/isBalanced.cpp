@@ -21,7 +21,7 @@ int height(struct TreeNode* root) {
 
 bool isBalanced(struct TreeNode* root) {
     if(root == NULL) {
-        return 0;
+        return false;
     } else {
         return fabs(height(root->left) - height(root->right) >= 1) && isBalanced(root->left) && isBalanced(root->right);
     }

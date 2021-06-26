@@ -96,5 +96,10 @@ E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/evalRPN.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/removeDuplicatesFromString.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/InvertTree.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/connect.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/OddEvenList.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/MinCostConnectPoints.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/MergeKLists.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/longestPalindrome.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/swapPairs.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/rebuild_cache.dir

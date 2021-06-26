@@ -43,8 +43,28 @@ int MaxDepth2(struct TreeNode* root) {
     return depth;
 }
 
-
-
+int MaxDepth3(struct TreeNode* root) {
+    if(!root) {
+        return 0;
+    }
+    struct TreeNode** queue = (struct TreeNode**)malloc(sizeof(struct TreeNode*) * 1000);
+    int head = 0, rear = 0;
+    queue[rear++] = root;
+    int depth = 0;
+    while(head < rear) {
+        int curRear = rear;
+        depth++;
+        for(; head < curRear; head++) {
+            if(queue[head]->left) {
+                queue[rear++] = queue[head]->left;
+            }
+            if(queue[head]->right) {
+                queue[rear++] = queue[head]->right;
+            }
+        }
+    }
+    return depth;
+}
 
 
 

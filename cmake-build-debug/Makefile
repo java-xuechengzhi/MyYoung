@@ -1402,6 +1402,71 @@ connect/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\connect.dir\build.make CMakeFiles/connect.dir/build
 .PHONY : connect/fast
 
+#=============================================================================
+# Target rules for targets named OddEvenList
+
+# Build rule for target.
+OddEvenList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 OddEvenList
+.PHONY : OddEvenList
+
+# fast build rule for target.
+OddEvenList/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddEvenList.dir\build.make CMakeFiles/OddEvenList.dir/build
+.PHONY : OddEvenList/fast
+
+#=============================================================================
+# Target rules for targets named MinCostConnectPoints
+
+# Build rule for target.
+MinCostConnectPoints: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MinCostConnectPoints
+.PHONY : MinCostConnectPoints
+
+# fast build rule for target.
+MinCostConnectPoints/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinCostConnectPoints.dir\build.make CMakeFiles/MinCostConnectPoints.dir/build
+.PHONY : MinCostConnectPoints/fast
+
+#=============================================================================
+# Target rules for targets named MergeKLists
+
+# Build rule for target.
+MergeKLists: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MergeKLists
+.PHONY : MergeKLists
+
+# fast build rule for target.
+MergeKLists/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MergeKLists.dir\build.make CMakeFiles/MergeKLists.dir/build
+.PHONY : MergeKLists/fast
+
+#=============================================================================
+# Target rules for targets named longestPalindrome
+
+# Build rule for target.
+longestPalindrome: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 longestPalindrome
+.PHONY : longestPalindrome
+
+# fast build rule for target.
+longestPalindrome/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\longestPalindrome.dir\build.make CMakeFiles/longestPalindrome.dir/build
+.PHONY : longestPalindrome/fast
+
+#=============================================================================
+# Target rules for targets named swapPairs
+
+# Build rule for target.
+swapPairs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 swapPairs
+.PHONY : swapPairs
+
+# fast build rule for target.
+swapPairs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\swapPairs.dir\build.make CMakeFiles/swapPairs.dir/build
+.PHONY : swapPairs/fast
+
 Array/MaximumProductofTwoElementsinanArray.obj: Array/MaximumProductofTwoElementsinanArray.cpp.obj
 
 .PHONY : Array/MaximumProductofTwoElementsinanArray.obj
@@ -2455,6 +2520,60 @@ Hash/containsDuplicateII.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\containsDuplicateII.dir\build.make CMakeFiles/containsDuplicateII.dir/Hash/containsDuplicateII.cpp.s
 .PHONY : Hash/containsDuplicateII.cpp.s
 
+List/MergeKLists.obj: List/MergeKLists.cpp.obj
+
+.PHONY : List/MergeKLists.obj
+
+# target to build an object file
+List/MergeKLists.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MergeKLists.dir\build.make CMakeFiles/MergeKLists.dir/List/MergeKLists.cpp.obj
+.PHONY : List/MergeKLists.cpp.obj
+
+List/MergeKLists.i: List/MergeKLists.cpp.i
+
+.PHONY : List/MergeKLists.i
+
+# target to preprocess a source file
+List/MergeKLists.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MergeKLists.dir\build.make CMakeFiles/MergeKLists.dir/List/MergeKLists.cpp.i
+.PHONY : List/MergeKLists.cpp.i
+
+List/MergeKLists.s: List/MergeKLists.cpp.s
+
+.PHONY : List/MergeKLists.s
+
+# target to generate assembly for a file
+List/MergeKLists.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MergeKLists.dir\build.make CMakeFiles/MergeKLists.dir/List/MergeKLists.cpp.s
+.PHONY : List/MergeKLists.cpp.s
+
+List/OddEvenList.obj: List/OddEvenList.cpp.obj
+
+.PHONY : List/OddEvenList.obj
+
+# target to build an object file
+List/OddEvenList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddEvenList.dir\build.make CMakeFiles/OddEvenList.dir/List/OddEvenList.cpp.obj
+.PHONY : List/OddEvenList.cpp.obj
+
+List/OddEvenList.i: List/OddEvenList.cpp.i
+
+.PHONY : List/OddEvenList.i
+
+# target to preprocess a source file
+List/OddEvenList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddEvenList.dir\build.make CMakeFiles/OddEvenList.dir/List/OddEvenList.cpp.i
+.PHONY : List/OddEvenList.cpp.i
+
+List/OddEvenList.s: List/OddEvenList.cpp.s
+
+.PHONY : List/OddEvenList.s
+
+# target to generate assembly for a file
+List/OddEvenList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddEvenList.dir\build.make CMakeFiles/OddEvenList.dir/List/OddEvenList.cpp.s
+.PHONY : List/OddEvenList.cpp.s
+
 List/RotateList.obj: List/RotateList.cpp.obj
 
 .PHONY : List/RotateList.obj
@@ -2562,6 +2681,33 @@ List/removeNthFromEnd2.s: List/removeNthFromEnd2.cpp.s
 List/removeNthFromEnd2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\removeNthFromEnd2.dir\build.make CMakeFiles/removeNthFromEnd2.dir/List/removeNthFromEnd2.cpp.s
 .PHONY : List/removeNthFromEnd2.cpp.s
+
+List/swapPairs.obj: List/swapPairs.cpp.obj
+
+.PHONY : List/swapPairs.obj
+
+# target to build an object file
+List/swapPairs.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\swapPairs.dir\build.make CMakeFiles/swapPairs.dir/List/swapPairs.cpp.obj
+.PHONY : List/swapPairs.cpp.obj
+
+List/swapPairs.i: List/swapPairs.cpp.i
+
+.PHONY : List/swapPairs.i
+
+# target to preprocess a source file
+List/swapPairs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\swapPairs.dir\build.make CMakeFiles/swapPairs.dir/List/swapPairs.cpp.i
+.PHONY : List/swapPairs.cpp.i
+
+List/swapPairs.s: List/swapPairs.cpp.s
+
+.PHONY : List/swapPairs.s
+
+# target to generate assembly for a file
+List/swapPairs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\swapPairs.dir\build.make CMakeFiles/swapPairs.dir/List/swapPairs.cpp.s
+.PHONY : List/swapPairs.cpp.s
 
 Map/Dijkstra.obj: Map/Dijkstra.cpp.obj
 
@@ -2697,6 +2843,33 @@ Map/Kruskal.s: Map/Kruskal.cpp.s
 Map/Kruskal.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kruskal.dir\build.make CMakeFiles/Kruskal.dir/Map/Kruskal.cpp.s
 .PHONY : Map/Kruskal.cpp.s
+
+Map/MinCostConnectPoints.obj: Map/MinCostConnectPoints.cpp.obj
+
+.PHONY : Map/MinCostConnectPoints.obj
+
+# target to build an object file
+Map/MinCostConnectPoints.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinCostConnectPoints.dir\build.make CMakeFiles/MinCostConnectPoints.dir/Map/MinCostConnectPoints.cpp.obj
+.PHONY : Map/MinCostConnectPoints.cpp.obj
+
+Map/MinCostConnectPoints.i: Map/MinCostConnectPoints.cpp.i
+
+.PHONY : Map/MinCostConnectPoints.i
+
+# target to preprocess a source file
+Map/MinCostConnectPoints.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinCostConnectPoints.dir\build.make CMakeFiles/MinCostConnectPoints.dir/Map/MinCostConnectPoints.cpp.i
+.PHONY : Map/MinCostConnectPoints.cpp.i
+
+Map/MinCostConnectPoints.s: Map/MinCostConnectPoints.cpp.s
+
+.PHONY : Map/MinCostConnectPoints.s
+
+# target to generate assembly for a file
+Map/MinCostConnectPoints.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MinCostConnectPoints.dir\build.make CMakeFiles/MinCostConnectPoints.dir/Map/MinCostConnectPoints.cpp.s
+.PHONY : Map/MinCostConnectPoints.cpp.s
 
 Map/Prim.obj: Map/Prim.cpp.obj
 
@@ -3345,6 +3518,33 @@ String/PalindromeNumber.s: String/PalindromeNumber.cpp.s
 String/PalindromeNumber.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PalindromeNumber.dir\build.make CMakeFiles/PalindromeNumber.dir/String/PalindromeNumber.cpp.s
 .PHONY : String/PalindromeNumber.cpp.s
+
+String/longestPalindrome.obj: String/longestPalindrome.cpp.obj
+
+.PHONY : String/longestPalindrome.obj
+
+# target to build an object file
+String/longestPalindrome.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\longestPalindrome.dir\build.make CMakeFiles/longestPalindrome.dir/String/longestPalindrome.cpp.obj
+.PHONY : String/longestPalindrome.cpp.obj
+
+String/longestPalindrome.i: String/longestPalindrome.cpp.i
+
+.PHONY : String/longestPalindrome.i
+
+# target to preprocess a source file
+String/longestPalindrome.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\longestPalindrome.dir\build.make CMakeFiles/longestPalindrome.dir/String/longestPalindrome.cpp.i
+.PHONY : String/longestPalindrome.cpp.i
+
+String/longestPalindrome.s: String/longestPalindrome.cpp.s
+
+.PHONY : String/longestPalindrome.s
+
+# target to generate assembly for a file
+String/longestPalindrome.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\longestPalindrome.dir\build.make CMakeFiles/longestPalindrome.dir/String/longestPalindrome.cpp.s
+.PHONY : String/longestPalindrome.cpp.s
 
 Tree/AVL.obj: Tree/AVL.cpp.obj
 
@@ -4084,8 +4284,11 @@ help:
 	@echo ... Matrix3
 	@echo ... MaxDepth
 	@echo ... MaximumProductofTwoElementsinanArray
+	@echo ... MergeKLists
 	@echo ... MergeSort
+	@echo ... MinCostConnectPoints
 	@echo ... MinHeightTree
+	@echo ... OddEvenList
 	@echo ... PalindromeNumber
 	@echo ... PascalTriangle
 	@echo ... PermutationSelectSort
@@ -4130,6 +4333,7 @@ help:
 	@echo ... isPowerOfFour
 	@echo ... levelOrder2
 	@echo ... levelOrder3
+	@echo ... longestPalindrome
 	@echo ... malloc
 	@echo ... malloc2
 	@echo ... maxAncestorDiff
@@ -4152,6 +4356,7 @@ help:
 	@echo ... strPointer
 	@echo ... strPointer2
 	@echo ... strlen
+	@echo ... swapPairs
 	@echo ... test
 	@echo ... verifyPostOrder
 	@echo ... Array/MaximumProductofTwoElementsinanArray.obj
@@ -4271,6 +4476,12 @@ help:
 	@echo ... Hash/containsDuplicateII.obj
 	@echo ... Hash/containsDuplicateII.i
 	@echo ... Hash/containsDuplicateII.s
+	@echo ... List/MergeKLists.obj
+	@echo ... List/MergeKLists.i
+	@echo ... List/MergeKLists.s
+	@echo ... List/OddEvenList.obj
+	@echo ... List/OddEvenList.i
+	@echo ... List/OddEvenList.s
 	@echo ... List/RotateList.obj
 	@echo ... List/RotateList.i
 	@echo ... List/RotateList.s
@@ -4283,6 +4494,9 @@ help:
 	@echo ... List/removeNthFromEnd2.obj
 	@echo ... List/removeNthFromEnd2.i
 	@echo ... List/removeNthFromEnd2.s
+	@echo ... List/swapPairs.obj
+	@echo ... List/swapPairs.i
+	@echo ... List/swapPairs.s
 	@echo ... Map/Dijkstra.obj
 	@echo ... Map/Dijkstra.i
 	@echo ... Map/Dijkstra.s
@@ -4298,6 +4512,9 @@ help:
 	@echo ... Map/Kruskal.obj
 	@echo ... Map/Kruskal.i
 	@echo ... Map/Kruskal.s
+	@echo ... Map/MinCostConnectPoints.obj
+	@echo ... Map/MinCostConnectPoints.i
+	@echo ... Map/MinCostConnectPoints.s
 	@echo ... Map/Prim.obj
 	@echo ... Map/Prim.i
 	@echo ... Map/Prim.s
@@ -4370,6 +4587,9 @@ help:
 	@echo ... String/PalindromeNumber.obj
 	@echo ... String/PalindromeNumber.i
 	@echo ... String/PalindromeNumber.s
+	@echo ... String/longestPalindrome.obj
+	@echo ... String/longestPalindrome.i
+	@echo ... String/longestPalindrome.s
 	@echo ... Tree/AVL.obj
 	@echo ... Tree/AVL.i
 	@echo ... Tree/AVL.s

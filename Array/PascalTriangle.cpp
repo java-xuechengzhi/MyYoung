@@ -16,3 +16,8 @@ vector<vector<int>> generate(int numRows) {
     }
     return ret;
 }
+
+int main() {
+    vector<vector<int>> ans;
+    return 0;
+}
