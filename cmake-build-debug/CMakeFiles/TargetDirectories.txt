@@ -101,5 +101,7 @@ E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/MinCostConnectPoints.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/MergeKLists.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/longestPalindrome.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/swapPairs.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/SubArraySum.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/generateParenthesis.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/rebuild_cache.dir

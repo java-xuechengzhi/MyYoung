@@ -154,4 +154,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/MergeKLists.dir/DependInfo.cmake"
   "CMakeFiles/longestPalindrome.dir/DependInfo.cmake"
   "CMakeFiles/swapPairs.dir/DependInfo.cmake"
+  "CMakeFiles/SubArraySum.dir/DependInfo.cmake"
+  "CMakeFiles/generateParenthesis.dir/DependInfo.cmake"
   )

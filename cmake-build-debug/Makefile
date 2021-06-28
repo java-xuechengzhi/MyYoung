@@ -1467,6 +1467,32 @@ swapPairs/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\swapPairs.dir\build.make CMakeFiles/swapPairs.dir/build
 .PHONY : swapPairs/fast
 
+#=============================================================================
+# Target rules for targets named SubArraySum
+
+# Build rule for target.
+SubArraySum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SubArraySum
+.PHONY : SubArraySum
+
+# fast build rule for target.
+SubArraySum/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SubArraySum.dir\build.make CMakeFiles/SubArraySum.dir/build
+.PHONY : SubArraySum/fast
+
+#=============================================================================
+# Target rules for targets named generateParenthesis
+
+# Build rule for target.
+generateParenthesis: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 generateParenthesis
+.PHONY : generateParenthesis
+
+# fast build rule for target.
+generateParenthesis/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\generateParenthesis.dir\build.make CMakeFiles/generateParenthesis.dir/build
+.PHONY : generateParenthesis/fast
+
 Array/MaximumProductofTwoElementsinanArray.obj: Array/MaximumProductofTwoElementsinanArray.cpp.obj
 
 .PHONY : Array/MaximumProductofTwoElementsinanArray.obj
@@ -1574,6 +1600,33 @@ Array/SortColor.s: Array/SortColor.cpp.s
 Array/SortColor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortColor.dir\build.make CMakeFiles/SortColor.dir/Array/SortColor.cpp.s
 .PHONY : Array/SortColor.cpp.s
+
+Array/SubArraySum.obj: Array/SubArraySum.cpp.obj
+
+.PHONY : Array/SubArraySum.obj
+
+# target to build an object file
+Array/SubArraySum.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SubArraySum.dir\build.make CMakeFiles/SubArraySum.dir/Array/SubArraySum.cpp.obj
+.PHONY : Array/SubArraySum.cpp.obj
+
+Array/SubArraySum.i: Array/SubArraySum.cpp.i
+
+.PHONY : Array/SubArraySum.i
+
+# target to preprocess a source file
+Array/SubArraySum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SubArraySum.dir\build.make CMakeFiles/SubArraySum.dir/Array/SubArraySum.cpp.i
+.PHONY : Array/SubArraySum.cpp.i
+
+Array/SubArraySum.s: Array/SubArraySum.cpp.s
+
+.PHONY : Array/SubArraySum.s
+
+# target to generate assembly for a file
+Array/SubArraySum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SubArraySum.dir\build.make CMakeFiles/SubArraySum.dir/Array/SubArraySum.cpp.s
+.PHONY : Array/SubArraySum.cpp.s
 
 Array/SumOfUniqueElements.obj: Array/SumOfUniqueElements.cpp.obj
 
@@ -3438,6 +3491,33 @@ Stack/evalRPN.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\evalRPN.dir\build.make CMakeFiles/evalRPN.dir/Stack/evalRPN.cpp.s
 .PHONY : Stack/evalRPN.cpp.s
 
+Stack/generateParenthesis.obj: Stack/generateParenthesis.cpp.obj
+
+.PHONY : Stack/generateParenthesis.obj
+
+# target to build an object file
+Stack/generateParenthesis.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\generateParenthesis.dir\build.make CMakeFiles/generateParenthesis.dir/Stack/generateParenthesis.cpp.obj
+.PHONY : Stack/generateParenthesis.cpp.obj
+
+Stack/generateParenthesis.i: Stack/generateParenthesis.cpp.i
+
+.PHONY : Stack/generateParenthesis.i
+
+# target to preprocess a source file
+Stack/generateParenthesis.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\generateParenthesis.dir\build.make CMakeFiles/generateParenthesis.dir/Stack/generateParenthesis.cpp.i
+.PHONY : Stack/generateParenthesis.cpp.i
+
+Stack/generateParenthesis.s: Stack/generateParenthesis.cpp.s
+
+.PHONY : Stack/generateParenthesis.s
+
+# target to generate assembly for a file
+Stack/generateParenthesis.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\generateParenthesis.dir\build.make CMakeFiles/generateParenthesis.dir/Stack/generateParenthesis.cpp.s
+.PHONY : Stack/generateParenthesis.cpp.s
+
 Stack/removeDuplicatesFromString.obj: Stack/removeDuplicatesFromString.cpp.obj
 
 .PHONY : Stack/removeDuplicatesFromString.obj
@@ -4310,6 +4390,7 @@ help:
 	@echo ... SortColor
 	@echo ... SortList
 	@echo ... SqSearch
+	@echo ... SubArraySum
 	@echo ... SumOfUniqueElements
 	@echo ... ThreeSum
 	@echo ... ThreeSumCloset
@@ -4326,6 +4407,7 @@ help:
 	@echo ... findMaxLength
 	@echo ... findRepeatNumber
 	@echo ... free
+	@echo ... generateParenthesis
 	@echo ... inOrderTraversal
 	@echo ... increasingBST
 	@echo ... intersection
@@ -4371,6 +4453,9 @@ help:
 	@echo ... Array/SortColor.obj
 	@echo ... Array/SortColor.i
 	@echo ... Array/SortColor.s
+	@echo ... Array/SubArraySum.obj
+	@echo ... Array/SubArraySum.i
+	@echo ... Array/SubArraySum.s
 	@echo ... Array/SumOfUniqueElements.obj
 	@echo ... Array/SumOfUniqueElements.i
 	@echo ... Array/SumOfUniqueElements.s
@@ -4578,6 +4663,9 @@ help:
 	@echo ... Stack/evalRPN.obj
 	@echo ... Stack/evalRPN.i
 	@echo ... Stack/evalRPN.s
+	@echo ... Stack/generateParenthesis.obj
+	@echo ... Stack/generateParenthesis.i
+	@echo ... Stack/generateParenthesis.s
 	@echo ... Stack/removeDuplicatesFromString.obj
 	@echo ... Stack/removeDuplicatesFromString.i
 	@echo ... Stack/removeDuplicatesFromString.s
