@@ -155,6 +155,19 @@ sortArrayByParityII/fast:
 .PHONY : sortArrayByParityII/fast
 
 #=============================================================================
+# Target rules for targets named singleNumber
+
+# Build rule for target.
+singleNumber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 singleNumber
+.PHONY : singleNumber
+
+# fast build rule for target.
+singleNumber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\singleNumber.dir\build.make CMakeFiles/singleNumber.dir/build
+.PHONY : singleNumber/fast
+
+#=============================================================================
 # Target rules for targets named InsertSort
 
 # Build rule for target.
@@ -870,6 +883,19 @@ Heap/fast:
 .PHONY : Heap/fast
 
 #=============================================================================
+# Target rules for targets named buildTree
+
+# Build rule for target.
+buildTree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 buildTree
+.PHONY : buildTree
+
+# fast build rule for target.
+buildTree/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\buildTree.dir\build.make CMakeFiles/buildTree.dir/build
+.PHONY : buildTree/fast
+
+#=============================================================================
 # Target rules for targets named RunningSum
 
 # Build rule for target.
@@ -1493,6 +1519,111 @@ generateParenthesis/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\generateParenthesis.dir\build.make CMakeFiles/generateParenthesis.dir/build
 .PHONY : generateParenthesis/fast
 
+#=============================================================================
+# Target rules for targets named partition
+
+# Build rule for target.
+partition: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 partition
+.PHONY : partition
+
+# fast build rule for target.
+partition/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\partition.dir\build.make CMakeFiles/partition.dir/build
+.PHONY : partition/fast
+
+#=============================================================================
+# Target rules for targets named SearchMatrix
+
+# Build rule for target.
+SearchMatrix: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SearchMatrix
+.PHONY : SearchMatrix
+
+# fast build rule for target.
+SearchMatrix/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchMatrix.dir\build.make CMakeFiles/SearchMatrix.dir/build
+.PHONY : SearchMatrix/fast
+
+#=============================================================================
+# Target rules for targets named singleNumberII
+
+# Build rule for target.
+singleNumberII: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 singleNumberII
+.PHONY : singleNumberII
+
+# fast build rule for target.
+singleNumberII/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\singleNumberII.dir\build.make CMakeFiles/singleNumberII.dir/build
+.PHONY : singleNumberII/fast
+
+#=============================================================================
+# Target rules for targets named LeftMostApperance
+
+# Build rule for target.
+LeftMostApperance: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeftMostApperance
+.PHONY : LeftMostApperance
+
+# fast build rule for target.
+LeftMostApperance/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeftMostApperance.dir\build.make CMakeFiles/LeftMostApperance.dir/build
+.PHONY : LeftMostApperance/fast
+
+#=============================================================================
+# Target rules for targets named getLessIndex
+
+# Build rule for target.
+getLessIndex: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 getLessIndex
+.PHONY : getLessIndex
+
+# fast build rule for target.
+getLessIndex/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\getLessIndex.dir\build.make CMakeFiles/getLessIndex.dir/build
+.PHONY : getLessIndex/fast
+
+#=============================================================================
+# Target rules for targets named QuickPower
+
+# Build rule for target.
+QuickPower: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 QuickPower
+.PHONY : QuickPower
+
+# fast build rule for target.
+QuickPower/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuickPower.dir\build.make CMakeFiles/QuickPower.dir/build
+.PHONY : QuickPower/fast
+
+Array/LeftMostAppearance.obj: Array/LeftMostAppearance.cpp.obj
+
+.PHONY : Array/LeftMostAppearance.obj
+
+# target to build an object file
+Array/LeftMostAppearance.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeftMostApperance.dir\build.make CMakeFiles/LeftMostApperance.dir/Array/LeftMostAppearance.cpp.obj
+.PHONY : Array/LeftMostAppearance.cpp.obj
+
+Array/LeftMostAppearance.i: Array/LeftMostAppearance.cpp.i
+
+.PHONY : Array/LeftMostAppearance.i
+
+# target to preprocess a source file
+Array/LeftMostAppearance.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeftMostApperance.dir\build.make CMakeFiles/LeftMostApperance.dir/Array/LeftMostAppearance.cpp.i
+.PHONY : Array/LeftMostAppearance.cpp.i
+
+Array/LeftMostAppearance.s: Array/LeftMostAppearance.cpp.s
+
+.PHONY : Array/LeftMostAppearance.s
+
+# target to generate assembly for a file
+Array/LeftMostAppearance.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeftMostApperance.dir\build.make CMakeFiles/LeftMostApperance.dir/Array/LeftMostAppearance.cpp.s
+.PHONY : Array/LeftMostAppearance.cpp.s
+
 Array/MaximumProductofTwoElementsinanArray.obj: Array/MaximumProductofTwoElementsinanArray.cpp.obj
 
 .PHONY : Array/MaximumProductofTwoElementsinanArray.obj
@@ -1573,6 +1704,33 @@ Array/RunningSum.s: Array/RunningSum.cpp.s
 Array/RunningSum.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RunningSum.dir\build.make CMakeFiles/RunningSum.dir/Array/RunningSum.cpp.s
 .PHONY : Array/RunningSum.cpp.s
+
+Array/SearchMatrix.obj: Array/SearchMatrix.cpp.obj
+
+.PHONY : Array/SearchMatrix.obj
+
+# target to build an object file
+Array/SearchMatrix.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchMatrix.dir\build.make CMakeFiles/SearchMatrix.dir/Array/SearchMatrix.cpp.obj
+.PHONY : Array/SearchMatrix.cpp.obj
+
+Array/SearchMatrix.i: Array/SearchMatrix.cpp.i
+
+.PHONY : Array/SearchMatrix.i
+
+# target to preprocess a source file
+Array/SearchMatrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchMatrix.dir\build.make CMakeFiles/SearchMatrix.dir/Array/SearchMatrix.cpp.i
+.PHONY : Array/SearchMatrix.cpp.i
+
+Array/SearchMatrix.s: Array/SearchMatrix.cpp.s
+
+.PHONY : Array/SearchMatrix.s
+
+# target to generate assembly for a file
+Array/SearchMatrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchMatrix.dir\build.make CMakeFiles/SearchMatrix.dir/Array/SearchMatrix.cpp.s
+.PHONY : Array/SearchMatrix.cpp.s
 
 Array/SortColor.obj: Array/SortColor.cpp.obj
 
@@ -1817,6 +1975,33 @@ Array/findRepeatNumber.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\findRepeatNumber.dir\build.make CMakeFiles/findRepeatNumber.dir/Array/findRepeatNumber.cpp.s
 .PHONY : Array/findRepeatNumber.cpp.s
 
+Array/getLessIndex.obj: Array/getLessIndex.cpp.obj
+
+.PHONY : Array/getLessIndex.obj
+
+# target to build an object file
+Array/getLessIndex.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\getLessIndex.dir\build.make CMakeFiles/getLessIndex.dir/Array/getLessIndex.cpp.obj
+.PHONY : Array/getLessIndex.cpp.obj
+
+Array/getLessIndex.i: Array/getLessIndex.cpp.i
+
+.PHONY : Array/getLessIndex.i
+
+# target to preprocess a source file
+Array/getLessIndex.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\getLessIndex.dir\build.make CMakeFiles/getLessIndex.dir/Array/getLessIndex.cpp.i
+.PHONY : Array/getLessIndex.cpp.i
+
+Array/getLessIndex.s: Array/getLessIndex.cpp.s
+
+.PHONY : Array/getLessIndex.s
+
+# target to generate assembly for a file
+Array/getLessIndex.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\getLessIndex.dir\build.make CMakeFiles/getLessIndex.dir/Array/getLessIndex.cpp.s
+.PHONY : Array/getLessIndex.cpp.s
+
 Array/intersection.obj: Array/intersection.cpp.obj
 
 .PHONY : Array/intersection.obj
@@ -1870,6 +2055,60 @@ Array/maxProduct.s: Array/maxProduct.cpp.s
 Array/maxProduct.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxProduct.dir\build.make CMakeFiles/maxProduct.dir/Array/maxProduct.cpp.s
 .PHONY : Array/maxProduct.cpp.s
+
+Array/singleNumber.obj: Array/singleNumber.cpp.obj
+
+.PHONY : Array/singleNumber.obj
+
+# target to build an object file
+Array/singleNumber.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\singleNumber.dir\build.make CMakeFiles/singleNumber.dir/Array/singleNumber.cpp.obj
+.PHONY : Array/singleNumber.cpp.obj
+
+Array/singleNumber.i: Array/singleNumber.cpp.i
+
+.PHONY : Array/singleNumber.i
+
+# target to preprocess a source file
+Array/singleNumber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\singleNumber.dir\build.make CMakeFiles/singleNumber.dir/Array/singleNumber.cpp.i
+.PHONY : Array/singleNumber.cpp.i
+
+Array/singleNumber.s: Array/singleNumber.cpp.s
+
+.PHONY : Array/singleNumber.s
+
+# target to generate assembly for a file
+Array/singleNumber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\singleNumber.dir\build.make CMakeFiles/singleNumber.dir/Array/singleNumber.cpp.s
+.PHONY : Array/singleNumber.cpp.s
+
+Array/singleNumberII.obj: Array/singleNumberII.cpp.obj
+
+.PHONY : Array/singleNumberII.obj
+
+# target to build an object file
+Array/singleNumberII.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\singleNumberII.dir\build.make CMakeFiles/singleNumberII.dir/Array/singleNumberII.cpp.obj
+.PHONY : Array/singleNumberII.cpp.obj
+
+Array/singleNumberII.i: Array/singleNumberII.cpp.i
+
+.PHONY : Array/singleNumberII.i
+
+# target to preprocess a source file
+Array/singleNumberII.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\singleNumberII.dir\build.make CMakeFiles/singleNumberII.dir/Array/singleNumberII.cpp.i
+.PHONY : Array/singleNumberII.cpp.i
+
+Array/singleNumberII.s: Array/singleNumberII.cpp.s
+
+.PHONY : Array/singleNumberII.s
+
+# target to generate assembly for a file
+Array/singleNumberII.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\singleNumberII.dir\build.make CMakeFiles/singleNumberII.dir/Array/singleNumberII.cpp.s
+.PHONY : Array/singleNumberII.cpp.s
 
 C/BFS1.obj: C/BFS1.cpp.obj
 
@@ -2032,6 +2271,33 @@ C/Matrix3.s: C/Matrix3.c.s
 C/Matrix3.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Matrix3.dir\build.make CMakeFiles/Matrix3.dir/C/Matrix3.c.s
 .PHONY : C/Matrix3.c.s
+
+C/QuickPower.obj: C/QuickPower.cpp.obj
+
+.PHONY : C/QuickPower.obj
+
+# target to build an object file
+C/QuickPower.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuickPower.dir\build.make CMakeFiles/QuickPower.dir/C/QuickPower.cpp.obj
+.PHONY : C/QuickPower.cpp.obj
+
+C/QuickPower.i: C/QuickPower.cpp.i
+
+.PHONY : C/QuickPower.i
+
+# target to preprocess a source file
+C/QuickPower.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuickPower.dir\build.make CMakeFiles/QuickPower.dir/C/QuickPower.cpp.i
+.PHONY : C/QuickPower.cpp.i
+
+C/QuickPower.s: C/QuickPower.cpp.s
+
+.PHONY : C/QuickPower.s
+
+# target to generate assembly for a file
+C/QuickPower.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuickPower.dir\build.make CMakeFiles/QuickPower.dir/C/QuickPower.cpp.s
+.PHONY : C/QuickPower.cpp.s
 
 C/Reference.obj: C/Reference.cpp.obj
 
@@ -2680,6 +2946,33 @@ List/SortList.s: List/SortList.cpp.s
 List/SortList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortList.dir\build.make CMakeFiles/SortList.dir/List/SortList.cpp.s
 .PHONY : List/SortList.cpp.s
+
+List/partition.obj: List/partition.cpp.obj
+
+.PHONY : List/partition.obj
+
+# target to build an object file
+List/partition.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\partition.dir\build.make CMakeFiles/partition.dir/List/partition.cpp.obj
+.PHONY : List/partition.cpp.obj
+
+List/partition.i: List/partition.cpp.i
+
+.PHONY : List/partition.i
+
+# target to preprocess a source file
+List/partition.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\partition.dir\build.make CMakeFiles/partition.dir/List/partition.cpp.i
+.PHONY : List/partition.cpp.i
+
+List/partition.s: List/partition.cpp.s
+
+.PHONY : List/partition.s
+
+# target to generate assembly for a file
+List/partition.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\partition.dir\build.make CMakeFiles/partition.dir/List/partition.cpp.s
+.PHONY : List/partition.cpp.s
 
 List/removeNthFromEnd.obj: List/removeNthFromEnd.cpp.obj
 
@@ -3923,6 +4216,33 @@ Tree/SearchBST.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchBST.dir\build.make CMakeFiles/SearchBST.dir/Tree/SearchBST.cpp.s
 .PHONY : Tree/SearchBST.cpp.s
 
+Tree/buildTree.obj: Tree/buildTree.cpp.obj
+
+.PHONY : Tree/buildTree.obj
+
+# target to build an object file
+Tree/buildTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\buildTree.dir\build.make CMakeFiles/buildTree.dir/Tree/buildTree.cpp.obj
+.PHONY : Tree/buildTree.cpp.obj
+
+Tree/buildTree.i: Tree/buildTree.cpp.i
+
+.PHONY : Tree/buildTree.i
+
+# target to preprocess a source file
+Tree/buildTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\buildTree.dir\build.make CMakeFiles/buildTree.dir/Tree/buildTree.cpp.i
+.PHONY : Tree/buildTree.cpp.i
+
+Tree/buildTree.s: Tree/buildTree.cpp.s
+
+.PHONY : Tree/buildTree.s
+
+# target to generate assembly for a file
+Tree/buildTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\buildTree.dir\build.make CMakeFiles/buildTree.dir/Tree/buildTree.cpp.s
+.PHONY : Tree/buildTree.cpp.s
+
 Tree/connect.obj: Tree/connect.cpp.obj
 
 .PHONY : Tree/connect.obj
@@ -4358,6 +4678,7 @@ help:
 	@echo ... KMP
 	@echo ... Kruskal
 	@echo ... KthLargest
+	@echo ... LeftMostApperance
 	@echo ... LevelOrder
 	@echo ... Matrix
 	@echo ... Matrix2
@@ -4374,6 +4695,7 @@ help:
 	@echo ... PermutationSelectSort
 	@echo ... PreOrderTraversal
 	@echo ... Prim
+	@echo ... QuickPower
 	@echo ... QuickSort
 	@echo ... RadixSort
 	@echo ... RandomizedSet
@@ -4383,6 +4705,7 @@ help:
 	@echo ... RotateList
 	@echo ... RunningSum
 	@echo ... SearchBST
+	@echo ... SearchMatrix
 	@echo ... SecondPointer
 	@echo ... SelectSort
 	@echo ... ShellSort
@@ -4396,6 +4719,7 @@ help:
 	@echo ... ThreeSumCloset
 	@echo ... algorithm
 	@echo ... backtrack
+	@echo ... buildTree
 	@echo ... calloc
 	@echo ... connect
 	@echo ... containsDuplicate
@@ -4408,6 +4732,7 @@ help:
 	@echo ... findRepeatNumber
 	@echo ... free
 	@echo ... generateParenthesis
+	@echo ... getLessIndex
 	@echo ... inOrderTraversal
 	@echo ... increasingBST
 	@echo ... intersection
@@ -4422,6 +4747,7 @@ help:
 	@echo ... maxAncestorDiff2
 	@echo ... maxProduct
 	@echo ... minDepth
+	@echo ... partition
 	@echo ... pathSum
 	@echo ... postOrderTraversal
 	@echo ... preOrderTraverseNonrecursion
@@ -4433,6 +4759,8 @@ help:
 	@echo ... removeNthFromEnd
 	@echo ... removeNthFromEnd2
 	@echo ... replaceSpace
+	@echo ... singleNumber
+	@echo ... singleNumberII
 	@echo ... sortArrayByParity
 	@echo ... sortArrayByParityII
 	@echo ... strPointer
@@ -4441,6 +4769,9 @@ help:
 	@echo ... swapPairs
 	@echo ... test
 	@echo ... verifyPostOrder
+	@echo ... Array/LeftMostAppearance.obj
+	@echo ... Array/LeftMostAppearance.i
+	@echo ... Array/LeftMostAppearance.s
 	@echo ... Array/MaximumProductofTwoElementsinanArray.obj
 	@echo ... Array/MaximumProductofTwoElementsinanArray.i
 	@echo ... Array/MaximumProductofTwoElementsinanArray.s
@@ -4450,6 +4781,9 @@ help:
 	@echo ... Array/RunningSum.obj
 	@echo ... Array/RunningSum.i
 	@echo ... Array/RunningSum.s
+	@echo ... Array/SearchMatrix.obj
+	@echo ... Array/SearchMatrix.i
+	@echo ... Array/SearchMatrix.s
 	@echo ... Array/SortColor.obj
 	@echo ... Array/SortColor.i
 	@echo ... Array/SortColor.s
@@ -4477,12 +4811,21 @@ help:
 	@echo ... Array/findRepeatNumber.obj
 	@echo ... Array/findRepeatNumber.i
 	@echo ... Array/findRepeatNumber.s
+	@echo ... Array/getLessIndex.obj
+	@echo ... Array/getLessIndex.i
+	@echo ... Array/getLessIndex.s
 	@echo ... Array/intersection.obj
 	@echo ... Array/intersection.i
 	@echo ... Array/intersection.s
 	@echo ... Array/maxProduct.obj
 	@echo ... Array/maxProduct.i
 	@echo ... Array/maxProduct.s
+	@echo ... Array/singleNumber.obj
+	@echo ... Array/singleNumber.i
+	@echo ... Array/singleNumber.s
+	@echo ... Array/singleNumberII.obj
+	@echo ... Array/singleNumberII.i
+	@echo ... Array/singleNumberII.s
 	@echo ... C/BFS1.obj
 	@echo ... C/BFS1.i
 	@echo ... C/BFS1.s
@@ -4501,6 +4844,9 @@ help:
 	@echo ... C/Matrix3.obj
 	@echo ... C/Matrix3.i
 	@echo ... C/Matrix3.s
+	@echo ... C/QuickPower.obj
+	@echo ... C/QuickPower.i
+	@echo ... C/QuickPower.s
 	@echo ... C/Reference.obj
 	@echo ... C/Reference.i
 	@echo ... C/Reference.s
@@ -4573,6 +4919,9 @@ help:
 	@echo ... List/SortList.obj
 	@echo ... List/SortList.i
 	@echo ... List/SortList.s
+	@echo ... List/partition.obj
+	@echo ... List/partition.i
+	@echo ... List/partition.s
 	@echo ... List/removeNthFromEnd.obj
 	@echo ... List/removeNthFromEnd.i
 	@echo ... List/removeNthFromEnd.s
@@ -4711,6 +5060,9 @@ help:
 	@echo ... Tree/SearchBST.obj
 	@echo ... Tree/SearchBST.i
 	@echo ... Tree/SearchBST.s
+	@echo ... Tree/buildTree.obj
+	@echo ... Tree/buildTree.i
+	@echo ... Tree/buildTree.s
 	@echo ... Tree/connect.obj
 	@echo ... Tree/connect.i
 	@echo ... Tree/connect.s

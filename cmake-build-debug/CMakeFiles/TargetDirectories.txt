@@ -1,5 +1,6 @@
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/levelOrder3.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/sortArrayByParityII.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/singleNumber.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/InsertSort.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/HeapSort.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/BucketSort.dir
@@ -55,6 +56,7 @@ E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/MinHeightTree.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/sortArrayByParity.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/MaxDepth.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/Heap.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/buildTree.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/RunningSum.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/RemoveOutermostParentheses.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/removeNthFromEnd.dir
@@ -103,5 +105,11 @@ E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/longestPalindrome.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/swapPairs.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/SubArraySum.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/generateParenthesis.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/partition.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/SearchMatrix.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/singleNumberII.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/LeftMostApperance.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/getLessIndex.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/QuickPower.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/rebuild_cache.dir
