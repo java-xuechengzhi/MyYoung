@@ -32,3 +32,15 @@ struct ListNode* rotateRight(struct ListNode* head, int k) {
     iter->next = NULL;
     return ret;
 }
+
+int main() {
+    struct ListNode* head = (struct ListNode*)malloc(sizeof(struct ListNode));
+    struct ListNode* left = (struct ListNode*)malloc(sizeof(struct ListNode));
+    struct ListNode* right = (struct ListNode*)malloc(sizeof(struct ListNode));
+    left->val = 1; right->val = 2;
+    head->val = 10;
+    head->next = left; left->next = right;
+    struct ListNode* result = (struct ListNode*)malloc(sizeof(struct ListNode));
+    result = rotateRight(head, 1);
+    return 0;
+}

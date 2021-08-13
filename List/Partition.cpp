@@ -11,7 +11,7 @@ struct ListNode {
 
 struct ListNode* partition(struct ListNode* head, int x){
     struct ListNode* small = (struct ListNode*)malloc(sizeof(struct ListNode));
-    struct ListNode* smallHead =small;
+    struct ListNode* smallHead = small;
     struct ListNode* large = (struct ListNode*)malloc(sizeof(struct ListNode));
     struct ListNode* largeHead = large;
     while(head != NULL) {

@@ -37,6 +37,7 @@ E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/isPowerOfFour.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/SumOfUniqueElements.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/ThreeSum.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/SearchBST.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/searchRange.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/FunctionPointer.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/SecondPointer.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/RelativeSortArray.dir
@@ -111,5 +112,8 @@ E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/singleNumberII.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/LeftMostApperance.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/getLessIndex.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/QuickPower.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/IncreasingTriplet.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/productExceptSelf.dir
+E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/majorityElement.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Cpp/KaoYan/cmake-build-debug/CMakeFiles/rebuild_cache.dir

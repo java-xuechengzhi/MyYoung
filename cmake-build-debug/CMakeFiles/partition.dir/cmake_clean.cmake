@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/partition.dir/List/partition.cpp.obj"
+  "CMakeFiles/partition.dir/List/Partition.cpp.obj"
   "libpartition.dll.a"
   "partition.exe"
   "partition.exe.manifest"
